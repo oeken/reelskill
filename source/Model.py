@@ -4,20 +4,19 @@
 This module contains model classes :'Player' 'Team', 'Match'
 """
 
-
 import numpy as np
 from faker import Faker
 
 fake = Faker()
 fake.seed(100)
 
-np.random.seed(100)
+# np.random.seed(100)
 
 MU = 25.0
 SIGMA = MU / 3.0
 
 def sigmoid(x):
-    return 1/(1+np.e ** (-0.15*x));
+    return 1/(1+np.e ** (-0.2*x));
 
 class Player:
     """
@@ -26,6 +25,7 @@ class Player:
     player_count = 101
 
     def __init__(self, mu=MU, sigma=SIGMA, name='Doe', reel_skill=None):
+        self.prior = np.random.rand(5000)*50
         self.mu = mu
         self.sigma = sigma
         self.name = fake.name() if name == 'Doe' else name
@@ -56,6 +56,19 @@ class Team:
 
     def __init__(self, players=[]):
         self.players = players
+        self.prior = players[0].prior
+
+    # def prior(self):
+    #     rv = []
+    #     for p in self.players:
+    #         rv = np.append(rv, p.prior)
+    #     return rv
+
+
+
+
+
+
 
     def addPlayer(self,player):
         self.players.append(player)
@@ -117,7 +130,6 @@ class Match:
                 if not t.isSynthetic(): raise TypeError('Non synthetic team passed without standings')
             self.synthetic = True
             self.standings = Match.simulate(teams)
-            print 'Hello'
         else:
             raise TypeError('Invalid data type passed')
 
@@ -160,6 +172,19 @@ class Match:
     def isSynthetic(self):
         return self.synthetic
 
+    def atomicMatches(self):
+        rv = []
+        p = 1
+        while p < self.teamCount():
+            t1 = self.teamsOrdered()[p-1]
+            t2 = self.teamsOrdered()[p]
+            m = Match({t1:self.standings[t1], t2:self.standings[t2]})
+            m.synthetic = self.synthetic
+            rv.append(m)
+            p += 1
+        return rv
+
+
 
     @staticmethod
     def simulate(teams):
@@ -183,6 +208,22 @@ class Match:
             rv[next_team] = rv[prev_team]+1 if next_wc < prev_wc else rv[prev_team]
         return rv
 
+    @staticmethod
+    def playersInMatches(matches):
+        teams = Match.teamsInMatches(matches)
+        rv = set()
+        for t in teams:
+            for p in t.players:
+                rv.add(p)
+        return list(rv)
+
+    @staticmethod
+    def teamsInMatches(mathes):
+        rv = set()
+        for m in mathes:
+            for t in m.teamsOrdered():
+                rv.add(t)
+        return list(rv)
 
     @staticmethod
     def simulateTwoTeams(t1, t2):
