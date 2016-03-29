@@ -6,6 +6,7 @@ This module contains model classes :'Player' 'Team', 'Match'
 
 import numpy as np
 from faker import Faker
+from scipy import stats as st
 
 fake = Faker()
 fake.seed(100)
@@ -25,7 +26,7 @@ class Player:
     player_count = 101
 
     def __init__(self, mu=MU, sigma=SIGMA, name='Doe', reel_skill=None):
-        self.prior = np.random.rand(5000)*50
+        self.samples = np.random.rand(1000)*50
         self.mu = mu
         self.sigma = sigma
         self.name = fake.name() if name == 'Doe' else name
@@ -56,7 +57,11 @@ class Team:
 
     def __init__(self, players=[]):
         self.players = players
-        self.prior = players[0].prior
+        self.samples = players[0].samples
+
+    def pOfX(self,x):
+        kernel = st.gaussian_kde(self.samples)
+        return kernel.evaluate(x)
 
     # def prior(self):
     #     rv = []
