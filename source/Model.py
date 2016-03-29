@@ -1,18 +1,10 @@
 # -*- coding: utf-8 -*-
-
-"""
-This module contains model classes :'Player' 'Team', 'Match'
-"""
-
 import numpy as np
 from faker import Faker
 from scipy import stats as st
 
 fake = Faker()
 fake.seed(100)
-
-MU = 25.0
-SIGMA = MU / 3.0
 DRAW_MARGIN = 0.1
 
 def sigmoid(x):
@@ -22,13 +14,16 @@ class Player:
     players_all = []
     player_count = 101
 
-    def __init__(self, mu=MU, sigma=SIGMA, name='Doe', reel_skill=None):
-        self.sample_list = np.random.rand(1000)*50
-        self.mu = mu
-        self.sigma = sigma
+    def __init__(self, name='Doe', reel_skill=None):
+        self.sample = 25
+        self.new_sample = 25
+        self.new_sample_list = []
+        self.sample_list = np.random.rand(1000)*50  # initial : uniform dist
+
         self.name = fake.name() if name == 'Doe' else name
         self.reel_skill = reel_skill
         self.id = Player.player_count
+
         self.updateKernel()
         Player.player_count += 1
         Player.players_all.append(self)
@@ -39,14 +34,6 @@ class Player:
     def __repr__(self):
         return self.name+'('+str(self.id)+')'
 
-    def isSynthetic(self):
-        """
-        Synthetic players has a valid reel_skill value.
-
-        :return: True if player is synthetic False otherwise
-        """
-        return self.reel_skill is not None
-
     def updateKernel(self):
         self.kernel = st.gaussian_kde(self.sample_list)
 
@@ -54,12 +41,13 @@ class Player:
         return self.kernel.evaluate(x)
 
 class Team:
-
     teams_all = []
-
-    def __init__(self, players):
-        self.players = players
+    team_count = 101
+    def __init__(self, players=[]):
+        self.id = Team.team_count
+        self.players = list() if players == [] else players
         Team.teams_all.append(self)
+        Team.team_count += 1
 
     def addPlayer(self,player):
         self.players.append(player)
@@ -67,28 +55,11 @@ class Team:
     def size(self):
         return len(self.players)
 
-    def mu(self):
-        mu = 0
-        for p in self.players:
-            mu += p.mu
-        return mu
-
-    def sigma(self):
-        return None
-
     def reel_skill(self):
-        if self.isSynthetic():
-            rs = 0
-            for p in self.players:
-                rs += p.reel_skill
-            return rs
-        else:
-            raise ValueError('Team is not synthetic')
-
-    def isSynthetic(self):
+        rs = 0
         for p in self.players:
-            if not(p.isSynthetic()): return False
-        return True
+            rs += p.reel_skill
+        return rs
 
     def sample(self):
         rv = 0
@@ -113,10 +84,13 @@ class Team:
 
 
 class Versus:
+    versus_all = []
+
     def __init__(self,t1,t2,r):
         self.t1 = t1
         self.t2 = t2
         self.r = r  # -1,0,1
+        Versus.versus_all.append(self)
 
     def prob(self,x):
         rv = sigmoid(x)
@@ -128,35 +102,35 @@ class Versus:
             return DRAW_MARGIN
 
 
-    @staticmethod
-    def produceVs(standings):
-        rv = []
-        for s in standings:
-            teams_ordered = Versus.ordered(s)
-            for i in range(1,len(teams_ordered)):
-                t1 = teams_ordered[i-1]
-                t2 = teams_ordered[i]
-                r = (-1 * (s[t1] - s[t2]))
-                rv.append(Versus(t1,t2,r))
-        return rv
 
-    @staticmethod
-    def findByValue(dict, value):
-        rv = []
-        for key in dict.keys():
-            if dict[key] == value: rv.append(key)
-        return rv
+def produceVs(standings):
+    rv = []
+    for s in standings:
+        teams_ordered = Versus.ordered(s)
+        for i in range(1,len(teams_ordered)):
+            t1 = teams_ordered[i-1]
+            t2 = teams_ordered[i]
+            r = (-1 * (s[t1] - s[t2]))
+            rv.append(Versus(t1,t2,r))
+    return rv
 
-    @staticmethod
-    def ordered(a_dict):
-        rv = []
-        currentRank = 1
-        currentKeys = Versus.findByValue(a_dict,currentRank)
-        while currentKeys != []:
-            rv += currentKeys
-            currentRank += 1
-            currentKeys = Versus.findByValue(a_dict,currentRank)
-        return rv
+
+def keyByValue(a_dict, value):
+    rv = []
+    for key in a_dict.keys():
+        if a_dict[key] == value: rv.append(key)
+    return rv
+
+
+def keysOrdered(a_dict):
+    rv = []
+    current_rank = 1
+    current_keys = Versus.findByValue(a_dict,current_rank)
+    while current_keys != []:
+        rv += current_keys
+        current_rank += 1
+        current_keys = Versus.findByValue(a_dict,current_rank)
+    return rv
 
 
 #
