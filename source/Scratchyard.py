@@ -50,3 +50,32 @@ def generateSyntheticMatchesFull(teams):
 #         matches[i] = [[t1,t2],result]
 #     return matches
 '''
+
+
+
+
+
+
+# class Environment:
+#     instance = None
+#
+#     def __init__(self):
+#
+#         self.players = set()
+#         self.teams = set()
+#         self.results = set()
+#
+#     def newPlayer(self, player):
+#         self.players.add(player)
+#
+#     def newTeam(self, team):
+#         self.teams.add(team)
+#
+#     def newResult(self,result):
+#         self.results.add(result)
+#
+#     def completeResult(self):
+#         rv = None
+#         for r in self.results:
+#             rv = rv.combine(r)
+#         return rv
