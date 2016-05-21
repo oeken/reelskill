@@ -5,10 +5,11 @@ from scipy import stats as st
 
 fake = Faker()
 fake.seed(100)
-DRAW_MARGIN = 0.1
+# DRAW_MARGIN = 0.1
 
 def sigmoid(x):
-    return 1/(1+np.e ** (-0.3*x));
+    # return 1/(1+np.e ** (-0.3*x));
+    return 1/(1+np.e ** (-0.06*x));  # x=50 --> 0.95 prob. of win
 
 class Player:
     players_all = []
@@ -102,7 +103,8 @@ class Versus:
         elif self.r == -1:
             return 1-rv
         else:
-            return DRAW_MARGIN
+            raise ValueError('This should not happen')
+            # return DRAW_MARGIN
 
 
 

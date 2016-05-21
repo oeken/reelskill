@@ -7,12 +7,13 @@ import Model as md
 import MC as mc
 import DataFactory as df
 
-def error(players):
-    rv = [None] * len(players)
-    for i in range(len(players)):
-        rv[i] = players[i].mean() - players[i].reel_skill
 
-    return rv, np.sum(np.array(rv)**2), np.var(np.array(rv))
+def error(players):
+    N = len(players)
+    rv = [None] * N
+    for i in range(len(players)):
+        rv [i] = players[i].mean() - players[i].reel_skill
+    return rv, np.sum(np.array(rv)**2)/N, np.std(np.array(rv))
 
 def sortByReelSkill(players):
     rs = np.zeros([len(players)])
@@ -52,18 +53,22 @@ def printReelSkill(players,sorted=False):
 def printError(players):
     print "ERRORS"
     print "======"
-    err, sse, var = error(players)
-    print "SSE : ", sse
-    print "Variance : ", var
+    err, mse, std = error(players)
+    print "MSE : ", mse
+    print "STD : ", std
     for i in range(len(players)):
         print "Error on",players[i].name,": ", err[i]
     print " "
 
-def plot(players, sample_list=True, reel_skill=True, mean=True):
-    plt.figure()
+def plot_est(players, ax, sample_list=True, reel_skill=True):
+    ax.set_title('Estimated Skill Distribution of Players')
+    ax.set_xlim([0,50])
     colors = ['r','g','b','m','c','y','w']
     for p,col in zip(players,colors):
-        if sample_list: sns.distplot(p.sample_list,color=col)
-        if reel_skill: plt.plot(p.reel_skill,0.001,'o',ms=10,color=col)
-        if mean: plt.plot(p.mean(),0.001,'*',ms=10,color=col)
 
+        if sample_list:
+            sns.kdeplot(np.array(p.sample_list),shade=True,color=col,ax=ax)
+        if reel_skill:
+            ax.axvline(p.reel_skill,color=col,label=p.name,ls='dashed')
+        # if mean: plt.plot(p.mean(),0.001,'*',ms=10,color=col)
+    ax.legend()

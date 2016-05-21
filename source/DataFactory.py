@@ -36,12 +36,16 @@ def generateSyntheticMatchesFull(teams):
             rv.append(simulateTwoTeams(t1,t2))
     return rv
 
+def generateSyntheticMatchesFullTimes(teams, times):
+    m = []
+    for i in range(times):
+        m += generateSyntheticMatchesFull(teams)
+    return m
+
 def generateSyntheticData(player_count, team_size):
-    np.random.seed(123456)
     players = generateSyntheticPlayers(player_count)
     teams = generateSyntheticTeams(players,team_size)
     matches = generateSyntheticMatchesFull(teams)
-    np.random.seed(None)
     return players, teams, matches
 
 def simulateTwoTeams(t1, t2):
@@ -49,9 +53,9 @@ def simulateTwoTeams(t1, t2):
     s2 = t2.reel_skill()
     win1_probability = md.sigmoid(s1-s2)
     u = np.random.rand()
-    if u < md.DRAW_MARGIN:
-        return md.Versus(t1,t2,0)
-    elif u < win1_probability:
+    # if u < md.DRAW_MARGIN:
+    #     return md.Versus(t1,t2,0)
+    if u < win1_probability:
         return md.Versus(t1,t2,1)
     else:
         return md.Versus(t1,t2,-1)
@@ -61,6 +65,12 @@ def teamList(size):
     for i in range(size):
         rv.append(md.Team())
     return rv
+
+
+
+
+
+
 # def simulate(teams):
 #     rv = {}
 #     wincounts = np.zeros(len(teams))

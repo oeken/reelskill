@@ -1,49 +1,67 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
+np.random.seed(123456)
 import matplotlib.pyplot as plt
-import seaborn as sns
 import DataFactory as df
 import Visu as vi
 import MC as mc
+import pdb
+import time
+
 import Model as md
 
+p1 = md.Player(reel_skill=5)
+p2 = md.Player(reel_skill=15)
+p3 = md.Player(reel_skill=25)
+p4 = md.Player(reel_skill=35)
+p5 = md.Player(reel_skill=45)
+p = [p1,p2,p3,p4,p5]
 
-# p1 = md.Player(reel_skill=30)
-# p2 = md.Player(reel_skill=9)
-# p3 = md.Player(reel_skill=12)
+t1 = md.Team([p1])
+t2 = md.Team([p2])
+t3 = md.Team([p3])
+t4 = md.Team([p4])
+t5 = md.Team([p5])
+t = [t1,t2,t3,t4,t5]
 
-# t1 = md.Team([p1])
-# t2 = md.Team([p2,p3])
-# t3 = md.Team([p3])
-# t4 = md.Team([p2])
+m = df.generateSyntheticMatchesFullTimes(t,3)
+
 # results = [{t1:1,t2:2},{t4:1,t3:2},{t4:1,t3:2},{t4:1,t3:2}]
 
-p,t,m = df.generateSyntheticData(10,1)
-# p1 = md.Player(reel_skill= 10)
-# p2 = md.Player(reel_skill= 45)
-# p3 = md.Player(reel_skill= 2)
-# p = [p1,p2,p3]
-#
-# t1 = md.Team([p1])
-# t2 = md.Team([p2])
-# t3 = md.Team([p3])
+# p,t,m = df.generateSyntheticData(8,1)
 
-m = df.generateSyntheticMatchesFull(t)
-m += df.generateSyntheticMatchesFull(t)
-m += df.generateSyntheticMatchesFull(t)
-
-# m += df.generateSyntheticMatchesFull(t)
-# m += df.generateSyntheticMatchesFull(t)
+# m = df.generateSyntheticMatchesFullTimes(t,10)
 
 
+ite = 10000
+agr = 0.5
+
+tic = time.time()
+decisions = mc.mh_mcmc(m, agr, ite)
+toc3 = time.time() - tic
+
+accepted = np.sum(decisions)
+rejected = ite - np.sum(decisions)
+
+
+
+print 'MCMC time: ', int(toc3), ' seconds'
+print 'Accepted: ', accepted, ' -- Rejected: ', rejected
 
 vi.printReelSkill(p,sorted=True)
-mc.mh_mcmc(m,1000)
 vi.printMeans(p,sorted=True)
 vi.printError(p)
-vi.plot(p)
-plt.show(block=False)
+
+fig1 = plt.figure()
+ax = fig1.add_subplot(111)
+vi.plot_est(p,ax)
+
+
+
+fname = '../img/' + time.ctime().replace(' ','_')
+plt.savefig(fname)
+plt.show(block=True)
 
 
 # p = df.generateSyntheticPlayers(4)
@@ -82,5 +100,5 @@ plt.show(block=False)
 # plt.plot(x,p3.prob(x))
 # plt.show()
 
-print 'selam'
+print 'All Done'
 
