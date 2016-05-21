@@ -8,11 +8,11 @@ def mh_mcmc(versus_list, n=1000):
     setupSamples()  # sample, new_sample, new_samples
     for i in range(n):
 
-        print '==='
-        print 'old'
+        # print '==='
+        # print 'old'
         pi_old = calculatePi(versus_list,new=False)
         propose()
-        print 'new'
+        # print 'new'
         pi_new = calculatePi(versus_list,new=True)
         ratio = pi_new / pi_old
         alpha = min(1,ratio)  # alpha(x-->x')
@@ -40,11 +40,11 @@ def calculatePi(versus_list, new):
     rv = 1
     for p in players:
         temp = p.new_sample if new else p.sample
-        print 'p', temp
+        # print 'p', temp
         rv *= p.prob(temp)
     for v in versus_list:
         temp = v.t1.new_sample()-v.t2.new_sample() if new else v.t1.sample()-v.t2.sample()
-        print 'r ', temp
+        # print 'r ', temp
         rv *= v.prob(temp)
     return rv
 

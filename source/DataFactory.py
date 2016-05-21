@@ -37,9 +37,11 @@ def generateSyntheticMatchesFull(teams):
     return rv
 
 def generateSyntheticData(player_count, team_size):
+    np.random.seed(123456)
     players = generateSyntheticPlayers(player_count)
     teams = generateSyntheticTeams(players,team_size)
     matches = generateSyntheticMatchesFull(teams)
+    np.random.seed(None)
     return players, teams, matches
 
 def simulateTwoTeams(t1, t2):

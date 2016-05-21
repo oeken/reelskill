@@ -40,6 +40,9 @@ class Player:
     def prob(self,x):
         return self.kernel.evaluate(x)
 
+    def mean(self):
+        return np.mean(self.sample_list)
+
 class Team:
     teams_all = []
     team_count = 101
