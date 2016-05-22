@@ -286,3 +286,39 @@ def generateSyntheticMatchesFull(teams):
     #     for p in self.players:
     #         if not(p.isSynthetic()): return False
     #     return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# p = df.generateSyntheticPlayers(4)
+# t1 = md.Team(p[0:2])
+# t2 = md.Team(p[2:])
+# t = [t1,t2]
+# print 'T1', t1
+# print 'T2', t2
+# m = []
+# m += df.generateSyntheticMatchesFull(t)
+# m += df.generateSyntheticMatchesFull(t)
+# m += df.generateSyntheticMatchesFull(t)
+# t3 = md.Team([p[0]])
+# t4 = md.Team([p[1]])
+# m.append(df.simulateTwoTeams(t3,t4))
+# m.append(df.simulateTwoTeams(t3,t4))
+# m.append(df.simulateTwoTeams(t3,t4))
+# m.append(df.simulateTwoTeams(t3,t4))
+# m.append(df.simulateTwoTeams(t3,t4))
+# m.append(df.simulateTwoTeams(t3,t4))
+
+# liste = md.Versus.produceVs(results)
+# mc.mh_mcmc(liste,5000)

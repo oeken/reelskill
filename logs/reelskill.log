@@ -1,0 +1,454 @@
+Sun_May_22_11:35:11_2016
+==============================
+Dataset Name          : Tennis
+# of matches          : 491
+# of players          : 182
+# of teams            : 182
+# of iterations       : 100
+Elapsed time(seconds) : 4
+Deviation in proposal : 0.5
+Proposals accepted    : 78.0
+Proposals rejected    : 22.0
+
+Skills
+==============================
+Davydenko - 33.87
+Dzumhur - 32.55
+Gabashvili - 31.28
+Kokkinakis - 30.94
+Lajovic - 30.87
+Evans - 30.66
+Delbonis - 30.49
+Ferrer - 30.15
+Blake - 29.80
+Williams - 29.73
+Robert - 29.67
+Isner - 29.31
+Guez - 29.26
+Janowicz - 29.05
+Berdych - 28.95
+Hanescu - 28.79
+Federer - 28.77
+Darcis - 28.67
+Riba - 28.49
+DeBakker - 28.31
+Robredo - 28.24
+Melzer - 28.16
+Dodig - 28.07
+Kuznetsov - 27.98
+Reid - 27.62
+Tsonga - 27.58
+Dimitrov - 27.14
+Berankis - 27.12
+Djokovic - 27.12
+Ungur - 27.11
+Kukushkin - 27.09
+Haas - 27.07
+Murray - 27.06
+Petzschner - 27.04
+Sousa - 27.01
+Monaco - 26.97
+Knittel - 26.88
+Raonic - 26.87
+Dancevic - 26.85
+BogomolovJr - 26.79
+Paire - 26.76
+Martin - 26.71
+Kohlschreiber - 26.66
+Bellucci - 26.63
+Bolelli - 26.56
+Gojowczyk - 26.54
+Baker - 26.54
+Stakhovsky - 26.51
+Klahn - 26.50
+Smyczek - 26.37
+Troicki - 26.33
+Ward - 26.27
+BautistaAgut - 26.27
+Zhang - 26.23
+Gonzalez - 26.12
+Tursunov - 26.04
+Brown - 26.04
+Seppi - 26.04
+Haase - 25.99
+Gulbis - 25.96
+Johnson - 25.95
+Zopp - 25.91
+Millot - 25.89
+Sijsling - 25.85
+Andreev - 25.83
+Kamke - 25.82
+Hewitt - 25.72
+Nishikori - 25.69
+Vesely - 25.60
+Gasquet - 25.51
+Wu - 25.50
+Donskoy - 25.50
+Rufin - 25.44
+Llodra - 25.42
+Ebden - 25.41
+Mannarino - 25.40
+Kubot - 25.34
+Montanes - 25.31
+HutaGalung - 25.25
+Lopez - 25.23
+Levine - 25.21
+Kudla - 25.21
+Fognini - 25.20
+Przysiezny - 25.16
+Rola - 25.11
+Mathieu - 25.10
+Devvarman - 25.09
+Thiem - 25.08
+Berrer - 25.07
+Serra - 25.07
+Simon - 25.07
+Granollers - 25.04
+Volandri - 25.03
+Agut - 25.02
+Matosevic - 24.90
+Nedovyesov - 24.85
+Lu - 24.84
+Struff - 24.79
+Thompson - 24.76
+Pella - 24.75
+Bogomolov - 24.73
+Reister - 24.67
+Verdasco - 24.67
+Youzhny - 24.66
+Harrison - 24.62
+Russell - 24.59
+Nieminen - 24.56
+Nava - 24.42
+Chardy - 24.42
+Brands - 24.41
+Nadal - 24.40
+Anderson - 24.34
+Beck - 24.32
+RogerVasselin - 24.28
+GarciaLopez - 24.26
+Schepper - 24.24
+Soeda - 24.22
+DeSchepper - 24.21
+Almagro - 24.16
+Berlocq - 24.10
+Muller - 24.05
+Groth - 23.98
+Stepanek - 23.96
+Bakker - 23.95
+Gicquel - 23.94
+GimenoTraver - 23.87
+Mahut - 23.76
+DelPotro - 23.70
+Baghdatis - 23.69
+Querrey - 23.68
+Rochus - 23.65
+Sela - 23.64
+Olivetti - 23.62
+Malisse - 23.60
+Tipsarevic - 23.57
+Sock - 23.53
+Ramos - 23.45
+Becker - 23.31
+Giraldo - 23.25
+Benneteau - 23.14
+Wang - 23.05
+Golubev - 23.01
+Pospisil - 22.99
+Wawrinka - 22.93
+Teixeira - 22.93
+Monfils - 22.89
+Klizan - 22.79
+Silva - 22.72
+Istomin - 22.71
+Mayer - 22.68
+Bedene - 22.62
+Fabbiano - 22.57
+Young - 22.50
+Lorenzi - 22.47
+Reynolds - 22.41
+Hajek - 22.38
+Tomic - 22.34
+Cuevas - 22.33
+Pouille - 22.22
+Alund - 22.19
+CarrenoBusta - 22.11
+Edmund - 22.02
+Cilic - 21.95
+Andujar - 21.82
+Kavcic - 21.69
+DutraSilva - 21.60
+Lacko - 21.51
+Karlovic - 21.50
+Zemlja - 21.48
+Altamirano - 21.45
+Zeballos - 21.41
+Ram - 21.29
+Marchenko - 21.09
+Elias - 21.03
+Odesnik - 20.96
+Dolgopolov - 20.65
+Falla - 20.03
+Rosol - 19.92
+Goffin - 19.90
+Duckworth - 19.84
+HaiderMaurer - 19.63
+Kyrgios - 17.99
+
+
+
+-x--x--x--x--x--x--x--x--x--x--x--x--x--x--x-
+
+
+Sun_May_22_11:35:39_2016
+==============================
+Dataset Name          : Tennis
+# of matches          : 491
+# of players          : 182
+# of teams            : 182
+# of iterations       : 100
+Elapsed time(seconds) : 3
+Deviation in proposal : 0.5
+Proposals accepted    : 78.0
+Proposals rejected    : 22.0
+
+Skills
+==============================
+Davydenko - 33.87
+Dzumhur - 32.55
+Gabashvili - 31.28
+Kokkinakis - 30.94
+Lajovic - 30.87
+Evans - 30.66
+Delbonis - 30.49
+Ferrer - 30.15
+Blake - 29.80
+Williams - 29.73
+Robert - 29.67
+Isner - 29.31
+Guez - 29.26
+Janowicz - 29.05
+Berdych - 28.95
+Hanescu - 28.79
+Federer - 28.77
+Darcis - 28.67
+Riba - 28.49
+DeBakker - 28.31
+Robredo - 28.24
+Melzer - 28.16
+Dodig - 28.07
+Kuznetsov - 27.98
+Reid - 27.62
+Tsonga - 27.58
+Dimitrov - 27.14
+Berankis - 27.12
+Djokovic - 27.12
+Ungur - 27.11
+Kukushkin - 27.09
+Haas - 27.07
+Murray - 27.06
+Petzschner - 27.04
+Sousa - 27.01
+Monaco - 26.97
+Knittel - 26.88
+Raonic - 26.87
+Dancevic - 26.85
+BogomolovJr - 26.79
+Paire - 26.76
+Martin - 26.71
+Kohlschreiber - 26.66
+Bellucci - 26.63
+Bolelli - 26.56
+Gojowczyk - 26.54
+Baker - 26.54
+Stakhovsky - 26.51
+Klahn - 26.50
+Smyczek - 26.37
+Troicki - 26.33
+Ward - 26.27
+BautistaAgut - 26.27
+Zhang - 26.23
+Gonzalez - 26.12
+Tursunov - 26.04
+Brown - 26.04
+Seppi - 26.04
+Haase - 25.99
+Gulbis - 25.96
+Johnson - 25.95
+Zopp - 25.91
+Millot - 25.89
+Sijsling - 25.85
+Andreev - 25.83
+Kamke - 25.82
+Hewitt - 25.72
+Nishikori - 25.69
+Vesely - 25.60
+Gasquet - 25.51
+Wu - 25.50
+Donskoy - 25.50
+Rufin - 25.44
+Llodra - 25.42
+Ebden - 25.41
+Mannarino - 25.40
+Kubot - 25.34
+Montanes - 25.31
+HutaGalung - 25.25
+Lopez - 25.23
+Levine - 25.21
+Kudla - 25.21
+Fognini - 25.20
+Przysiezny - 25.16
+Rola - 25.11
+Mathieu - 25.10
+Devvarman - 25.09
+Thiem - 25.08
+Berrer - 25.07
+Serra - 25.07
+Simon - 25.07
+Granollers - 25.04
+Volandri - 25.03
+Agut - 25.02
+Matosevic - 24.90
+Nedovyesov - 24.85
+Lu - 24.84
+Struff - 24.79
+Thompson - 24.76
+Pella - 24.75
+Bogomolov - 24.73
+Reister - 24.67
+Verdasco - 24.67
+Youzhny - 24.66
+Harrison - 24.62
+Russell - 24.59
+Nieminen - 24.56
+Nava - 24.42
+Chardy - 24.42
+Brands - 24.41
+Nadal - 24.40
+Anderson - 24.34
+Beck - 24.32
+RogerVasselin - 24.28
+GarciaLopez - 24.26
+Schepper - 24.24
+Soeda - 24.22
+DeSchepper - 24.21
+Almagro - 24.16
+Berlocq - 24.10
+Muller - 24.05
+Groth - 23.98
+Stepanek - 23.96
+Bakker - 23.95
+Gicquel - 23.94
+GimenoTraver - 23.87
+Mahut - 23.76
+DelPotro - 23.70
+Baghdatis - 23.69
+Querrey - 23.68
+Rochus - 23.65
+Sela - 23.64
+Olivetti - 23.62
+Malisse - 23.60
+Tipsarevic - 23.57
+Sock - 23.53
+Ramos - 23.45
+Becker - 23.31
+Giraldo - 23.25
+Benneteau - 23.14
+Wang - 23.05
+Golubev - 23.01
+Pospisil - 22.99
+Wawrinka - 22.93
+Teixeira - 22.93
+Monfils - 22.89
+Klizan - 22.79
+Silva - 22.72
+Istomin - 22.71
+Mayer - 22.68
+Bedene - 22.62
+Fabbiano - 22.57
+Young - 22.50
+Lorenzi - 22.47
+Reynolds - 22.41
+Hajek - 22.38
+Tomic - 22.34
+Cuevas - 22.33
+Pouille - 22.22
+Alund - 22.19
+CarrenoBusta - 22.11
+Edmund - 22.02
+Cilic - 21.95
+Andujar - 21.82
+Kavcic - 21.69
+DutraSilva - 21.60
+Lacko - 21.51
+Karlovic - 21.50
+Zemlja - 21.48
+Altamirano - 21.45
+Zeballos - 21.41
+Ram - 21.29
+Marchenko - 21.09
+Elias - 21.03
+Odesnik - 20.96
+Dolgopolov - 20.65
+Falla - 20.03
+Rosol - 19.92
+Goffin - 19.90
+Duckworth - 19.84
+HaiderMaurer - 19.63
+Kyrgios - 17.99
+
+
+
+-x--x--x--x--x--x--x--x--x--x--x--x--x--x--x-
+
+
+Sun_May_22_13:56:17_2016
+==============================
+Dataset Name          : Synthetic
+# of matches          : 30
+# of players          : 5
+# of teams            : 5
+# of iterations       : 100
+Elapsed time(seconds) : 0
+Deviation in proposal : 0.5
+Proposals accepted    : 91.0
+Proposals rejected    : 9.0
+
+Skills
+==============================
+Payton Doyle - 31.55
+Mr. Turner West II - 27.24
+Nannette Kemmer - 24.97
+Horton Russel - 22.56
+Kinsey Block - 21.07
+
+
+
+-x--x--x--x--x--x--x--x--x--x--x--x--x--x--x-
+
+
+Sun_May_22_14:03:51_2016
+==============================
+Dataset Name          : Synthetic
+# of matches          : 30
+# of players          : 5
+# of teams            : 5
+# of iterations       : 100
+Elapsed time(seconds) : 0
+Deviation in proposal : 0.5
+Proposals accepted    : 91.0
+Proposals rejected    : 9.0
+
+Skills
+==============================
+Payton Doyle - 31.55
+Mr. Turner West II - 27.24
+Nannette Kemmer - 24.97
+Horton Russel - 22.56
+Kinsey Block - 21.07
+
+
+
+-x--x--x--x--x--x--x--x--x--x--x--x--x--x--x-
+
+

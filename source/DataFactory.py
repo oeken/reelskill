@@ -45,8 +45,8 @@ def generateSyntheticMatchesFullTimes(teams, times):
 def generateSyntheticData(player_count, team_size):
     players = generateSyntheticPlayers(player_count)
     teams = generateSyntheticTeams(players,team_size)
-    matches = generateSyntheticMatchesFull(teams)
-    return players, teams, matches
+    # matches = generateSyntheticMatchesFull(teams)
+    return players, teams
 
 def simulateTwoTeams(t1, t2):
     s1 = t1.reel_skill()

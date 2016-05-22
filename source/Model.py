@@ -12,8 +12,8 @@ def sigmoid(x):
     return 1/(1+np.e ** (-0.06*x));  # x=50 --> 0.95 prob. of win
 
 class Player:
-    players_all = []
-    player_count = 101
+    pool_player = []
+    count_player = 101
 
     def __init__(self, name='Doe', reel_skill=None):
         self.sample = 25
@@ -23,11 +23,11 @@ class Player:
 
         self.name = fake.name() if name == 'Doe' else name
         self.reel_skill = reel_skill
-        self.id = Player.player_count
+        self.id = Player.count_player
 
         self.updateKernel()
-        Player.player_count += 1
-        Player.players_all.append(self)
+        Player.count_player += 1
+        Player.pool_player.append(self)
 
     def __str__(self):
         return self.name + ', ' + str(self.id)+', '+ str(self.reel_skill) + ', m:' + str(self.mu) + ', s:' + str(self.sigma)
@@ -44,13 +44,19 @@ class Player:
     def mean(self):
         return np.mean(self.sample_list)
 
+    # def __eq__(self, other):
+    #     return isinstance(other, self.__class__) and self.name == other.name
+    #
+    # def __ne__(self, other):
+    #     return not self.__eq__(other)
+
 class Team:
-    teams_all = []
+    pool_team = []
     team_count = 101
     def __init__(self, players=[]):
         self.id = Team.team_count
         self.players = list() if players == [] else players
-        Team.teams_all.append(self)
+        Team.pool_team.append(self)
         Team.team_count += 1
 
     def addPlayer(self,player):
@@ -85,6 +91,9 @@ class Team:
         for p in self.players:
             s += repr(p) + '-'
         return s+'>>'
+
+    # def __eq__(self, other):
+    #     return isinstance(other, self.__class__) and self.players == other.players
 
 
 class Versus:

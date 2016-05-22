@@ -2,11 +2,14 @@
 import numpy as np
 
 
-players = set()
+players = None
+# players = set()
 
-def mh_mcmc(versus_list, agression, n=1000):
+def mh_mcmc(player_list, versus_list, agression, n=1000):
+    global players
+    players = player_list
     decisions = np.zeros([n,1])
-    getPlayers(versus_list)
+    # getPlayers(versus_list)
     setupSamples()  # sample, new_sample, new_samples
     for i in xrange(n):
         if i%50 == 0: print i

@@ -30,35 +30,39 @@ def sortByMean(players):
     return sorted
 
 
-def printMeans(players,sorted=False):
-    print 'MEANS'
-    print '====='
+def printMeans(players,sorted=False, show=True):
+    rv = 'MEANS\n=====\n'
     index_list = sortByMean(players) if sorted else np.arange(len(players))
+    index_list = index_list[::-1]
     counter = 1
     for i in index_list:
-        print counter,". Mean of",players[i].name,": ",players[i].mean()
+        rv += str(counter) + ". Mean of " + players[i].name + ": " + str(players[i].mean()) + '\n'
         counter += 1
-    print " "
+    if show: print rv
+    return rv
 
-def printReelSkill(players,sorted=False):
-    print "REEL SKILLS"
-    print "==========="
+def printReelSkill(players,sorted=False, show=True):
+    rv = 'REEL SKILLS\n===========\n'
     index_list = sortByReelSkill(players) if sorted else np.arange(len(players))
+    index_list = index_list[::-1]
     counter = 1
     for i in index_list:
-        print counter,". ReelSkill of",players[i].name,": ",players[i].reel_skill
+        rv = rv + str(counter) + '. ReelSkill of ' + players[i].name + ': ' + str(players[i].reel_skill) + '\n'
         counter += 1
-    print " "
+    if show: print rv
+    return rv
 
-def printError(players):
-    print "ERRORS"
-    print "======"
+def printError(players, sorted=False, show=True):
+    rv = 'ERRORS\n======\n'
     err, mse, std = error(players)
-    print "MSE : ", mse
-    print "STD : ", std
-    for i in range(len(players)):
-        print "Error on",players[i].name,": ", err[i]
-    print " "
+    rv += 'MSE : ' + str(mse) + '\n' + 'STD : ' + str(std) + '\n'
+
+    index_list = sortByReelSkill(players) if sorted else np.arange(len(players))
+    index_list = index_list[::-1]
+    for i in index_list:
+        rv += "Error on " + players[i].name + ": " + str(err[i]) + '\n'
+    if show: print rv
+    return rv
 
 def plot_est(players, ax, sample_list=True, reel_skill=True):
     ax.set_title('Estimated Skill Distribution of Players')
@@ -70,5 +74,33 @@ def plot_est(players, ax, sample_list=True, reel_skill=True):
             sns.kdeplot(np.array(p.sample_list),shade=True,color=col,ax=ax)
         if reel_skill:
             ax.axvline(p.reel_skill,color=col,label=p.name,ls='dashed')
-        # if mean: plt.plot(p.mean(),0.001,'*',ms=10,color=col)
     ax.legend()
+
+
+def log(fname, time, dname, matches, players, teams, iterations, aggr, elapsed, acc, rej):
+    f= open(fname,mode='a')
+    f.write(time+'\n'+'='*30+'\n')
+    f.write('Dataset Name          : '+dname+'\n')
+    f.write('# of matches          : '+str(len(matches))+'\n')
+    f.write('# of players          : '+str(len(players))+'\n')
+    f.write('# of teams            : '+str(len(teams))+'\n')
+    f.write('# of iterations       : '+str(iterations)+'\n')
+    f.write('Elapsed time(seconds) : '+str(int(elapsed))+'\n')
+    f.write('Deviation in proposal : '+str(aggr)+'\n')
+    f.write('Proposals accepted    : '+str(acc)+'\n')
+    f.write('Proposals rejected    : '+str(rej)+'\n')
+
+    index = sortByMean(players)
+    f.write('\nSkills\n'+'='*30+'\n')
+    for i in range(len(players)):
+        p = players[index[-1-i]]
+
+        f.write(p.name+' - '+'{:.2f}'.format(p.mean())+'\n')
+
+    f.write('\n'*3)
+    f.write('-x-'*15)
+    f.write('\n'*3)
+    f.close()
+
+
+
