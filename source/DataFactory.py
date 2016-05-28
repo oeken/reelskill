@@ -45,20 +45,19 @@ def generateSyntheticMatchesFullTimes(teams, times):
 def generateSyntheticData(player_count, team_size):
     players = generateSyntheticPlayers(player_count)
     teams = generateSyntheticTeams(players,team_size)
-    # matches = generateSyntheticMatchesFull(teams)
     return players, teams
 
 def simulateTwoTeams(t1, t2):
     s1 = t1.reel_skill()
     s2 = t2.reel_skill()
-    win1_probability = md.sigmoid(s1-s2)
+    w,l,d = md.win_lose_draw(s1-s2)
     u = np.random.rand()
-    # if u < md.DRAW_MARGIN:
-    #     return md.Versus(t1,t2,0)
-    if u < win1_probability:
-        return md.Versus(t1,t2,1)
-    else:
+    if u < d:
+        return md.Versus(t1,t2,0)
+    elif u < d+l:
         return md.Versus(t1,t2,-1)
+    elif u < d+l+w:
+        return md.Versus(t1,t2,1)
 
 def teamList(size):
     rv = []

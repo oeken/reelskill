@@ -5,21 +5,55 @@ from scipy import stats as st
 
 fake = Faker()
 fake.seed(100)
-# DRAW_MARGIN = 0.1
+
+draw_factor = 0.33
 
 def sigmoid(x):
-    # return 1/(1+np.e ** (-0.3*x));
-    return 1/(1+np.e ** (-0.06*x));  # x=50 --> 0.95 prob. of win
+    c1 = 0.06
+    return 1 / (1 + np.e ** (-c1 * x));  # x=50 --> 0.95 prob. of win
+
+def expo(x):
+    global draw_factor
+    c1 = draw_factor
+    c2 = 0.05
+    return c1 * np.exp(-1 * c2 * x)
+
+def bi_expo(x, mean=0):
+    x = np.array(x)
+    x = x - mean
+    return expo(np.abs(x))
+
+def multinomial_log(N, logp):
+    log_rand = -np.random.exponential(size=N)
+    logp_cuml = np.logaddexp.accumulate(np.hstack([[-np.inf], logp]))
+    logp_cuml -= logp_cuml[-1]
+    return np.histogram(log_rand, bins=logp_cuml)[0]
+
+
+
+# def sample_expo(s1, s2, mean=0):
+#     global draw_factor
+#     c1 = draw_factor
+#     e = (-1 / c1) * np.log(np.random.rand(s1,s2))
+#     mirror = np.random.binomial(1,0.5,[s1,s2]) * 2 - 1
+#     return e * mirror + mean
+
+def win_lose_draw(x):
+    d = expo(abs(x))
+    w = (1-d) * sigmoid(x)
+    l = (1-d) - w
+    return w,l,d
 
 class Player:
     pool_player = []
     count_player = 101
 
     def __init__(self, name='Doe', reel_skill=None):
-        self.sample = 25
-        self.new_sample = 25
-        self.new_sample_list = []
-        self.sample_list = np.random.rand(1000)*50  # initial : uniform dist
+        self.reset()
+        # self.sample = 25
+        # self.new_sample = 25
+        # self.new_sample_list = []
+        # self.sample_list = np.random.rand(1000)*50  # initial : uniform dist
 
         self.name = fake.name() if name == 'Doe' else name
         self.reel_skill = reel_skill
@@ -28,6 +62,10 @@ class Player:
         self.updateKernel()
         Player.count_player += 1
         Player.pool_player.append(self)
+
+
+        self.ts_mu = 25.0
+        self.ts_sigma = 25.0 / 3
 
     def __str__(self):
         return self.name + ', ' + str(self.id)+', '+ str(self.reel_skill) + ', m:' + str(self.mu) + ', s:' + str(self.sigma)
@@ -43,6 +81,15 @@ class Player:
 
     def mean(self):
         return np.mean(self.sample_list)
+
+    def reset(self, fixed=True):
+        self.sample_list = np.random.rand(1000)*50  # initial : uniform dist
+        self.new_sample_list = []
+
+        self.sample = 25 if fixed else np.random.rand()*50
+        self.new_sample = 25 if fixed else np.random.rand()*50
+
+
 
     # def __eq__(self, other):
     #     return isinstance(other, self.__class__) and self.name == other.name
@@ -83,6 +130,7 @@ class Team:
             rv += p.new_sample
         return rv
 
+
     def __str__(self):
         return repr(self)
 
@@ -105,17 +153,23 @@ class Versus:
         self.r = r  # -1,0,1
         Versus.versus_all.append(self)
 
-    def prob(self,x):
-        rv = sigmoid(x)
+    def prob(self,x):  # x --> pl1 - pl2 (order matters) (always)
+        # rv = sigmoid(x)
+        w,l,d = win_lose_draw(x)
         if self.r == 1:
-            return rv
+            return w
         elif self.r == -1:
-            return 1-rv
+            return l
         else:
-            raise ValueError('This should not happen')
-            # return DRAW_MARGIN
+            return d
+            # raise ValueError('This should not happen')
+            # # return DRAW_MARGIN
 
-
+    def report_of_player(self,player):
+        #(Involved, W/L/D, Team#)
+        if player in self.t1.players: return True, self.r, 1
+        if player in self.t2.players: return True, -1*self.r, 2
+        else: return False, -13, -13
 
 def produceVs(standings):
     rv = []

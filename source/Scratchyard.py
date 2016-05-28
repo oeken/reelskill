@@ -322,3 +322,90 @@ def generateSyntheticMatchesFull(teams):
 
 # liste = md.Versus.produceVs(results)
 # mc.mh_mcmc(liste,5000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class Point:
+#     counter = 101
+#     def __init__(self):
+#         self.id = Point.counter
+#         self.x=5
+#         self.y=5
+#         Point.counter += 1
+#
+# l = []
+# for i in range(5):l.append(Point())
+# l[0].x = 10
+# print "selam"
+
+
+import Model as md
+
+# x = np.arange(0,50)
+# y = md.sigmoid(x)
+# y = y / np.sum(y)
+# hi = np.random.multinomial(10000,y)
+# hi = hi.astype(float)
+# hi = hi / np.sum(hi)
+
+
+
+# samples = md.sample_expo(1000,1)
+# f = plt.figure()
+# ax = f.add_subplot(111)
+# sns.distplot(samples,ax=ax)
+# plt.show()
+
+# print md.bi_expo([-5,0,4,5])
+
+
+# # print md.multinomial_log(10000,np.log([0.4, 0.4, 1.2]))
+# md.draw_factor = 0.99
+# x = np.arange(0,50)
+# y1 = md.sigmoid(x-20)
+# # y2 = md.sigmoid(-x+25)
+# y3 = md.bi_expo(x,mean=10)
+# plt.figure()
+# plt.plot(x,y1)
+# # plt.plot(x,y2)
+# plt.plot(x,y3)
+# plt.plot(x,y1*y3)
+#
+# md.draw_factor = 0.33
+# x = np.arange(0,50)
+# y1 = md.sigmoid(x-20)
+# # y2 = md.sigmoid(-x+25)
+# y3 = md.bi_expo(x,mean=10)
+# plt.figure()
+# plt.plot(x,y1)
+# # plt.plot(x,y2)
+# plt.plot(x,y3)
+# plt.plot(x,3*y1*y3)
+#
+#
+# plt.show(block=True)
+
+# r1 = ts.Rating()  # 1P's skill
+# r2 = ts.Rating()  # 2P's skill
+#
+# new_r1, new_r2 = ts.rate_1vs1(r1, r2)
