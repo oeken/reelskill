@@ -409,3 +409,23 @@ import Model as md
 # r2 = ts.Rating()  # 2P's skill
 #
 # new_r1, new_r2 = ts.rate_1vs1(r1, r2)
+
+
+
+
+
+
+
+
+
+
+
+# message = self.perf_var.message_from(self)
+            # m_pi, m_tau = message.pi, message.tau
+            # new_pi = a * (self.perf_var.value.pi - m_pi)
+            # new_tau = a * (self.perf_var.value.tau - m_tau)
+            #
+            # message = self.skill_var.message_from(self)
+            # m_pi, m_tau = message.pi, message.tau
+            # new_pi = a * (self.skill_var.value.pi - m_pi)
+            # new_tau = a * (self.skill_var.value.tau - m_tau)

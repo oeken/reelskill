@@ -50,10 +50,6 @@ class Player:
 
     def __init__(self, name='Doe', reel_skill=None):
         self.reset()
-        # self.sample = 25
-        # self.new_sample = 25
-        # self.new_sample_list = []
-        # self.sample_list = np.random.rand(1000)*50  # initial : uniform dist
 
         self.name = fake.name() if name == 'Doe' else name
         self.reel_skill = reel_skill
@@ -62,7 +58,6 @@ class Player:
         self.updateKernel()
         Player.count_player += 1
         Player.pool_player.append(self)
-
 
         self.ts_mu = 25.0
         self.ts_sigma = 25.0 / 3

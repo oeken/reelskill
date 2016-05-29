@@ -1,7 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import nodes as n
+import numpy as np
 from scipy.stats import norm
+from enum import Enum
+Kind = Enum('Skill', 'Perf', 'Sum', 'Diff')
+
+
+def draw_margin(draw_probability, size, beta):
+    return norm.ppf((draw_probability + 1) / 2.) * np.sqrt(size) * beta
 
 
 def v_win(x, epsilon):
@@ -26,43 +33,50 @@ def w_draw(x, epsilon):
 
 
 def build_factor_graph(versus):
+    draw_probability = 0.1
+    mu = 25.0
+    sigma = mu / 3
+    beta = sigma / 2
+    dynamic = sigma / 100
+    epsilon = draw_margin(draw_probability,len(versus.t1.players)*2, beta)
+
     wt = versus.t1 if versus.r == 1 or versus.r == 0 else versus.t2
     lt = versus.t2 if versus.r == 1 or versus.r == 0 else versus.t1
-    layer_v_diff = [n.Variable(type=n.VType.Diff)]  ## 2
+    layer_v_diff = [n.Variable(Kind.Diff)]  ## 2
     if versus.r == 0:
-        layer_f_result = [n.ResultFactor(layer_v_diff[0], v_draw, w_draw)]
+        layer_f_result = [n.ResultFactor(layer_v_diff[0], v_draw, w_draw, epsilon)]
     else:
-        layer_f_result = [n.ResultFactor(layer_v_diff[0], v_win, w_win)]  ## 1
+        layer_f_result = [n.ResultFactor(layer_v_diff[0], v_win, w_win, epsilon)]  ## 1
 
-    layer_v_sum = [n.Variable(type=n.VType.Sum), n.Variable(type=n.VType.Sum)]  ## 4
+    layer_v_sum = [n.Variable(Kind.Sum), n.Variable(Kind.Sum)]  ## 4
 
     layer_f_diff = [n.DiffFactor(layer_v_sum[0], layer_v_sum[1], layer_v_diff[0])]  ## 3
 
     layer_v_perf = [[], []]  ## 6
     for pl in wt.players:
-        layer_v_perf[0].append(n.Variable(type=n.VType.Perf))
+        layer_v_perf[0].append(n.Variable(Kind.Perf))
     for pl in lt.players:
-        layer_v_perf[1].append(n.Variable(type=n.VType.Perf))
+        layer_v_perf[1].append(n.Variable(Kind.Perf))
 
     layer_f_sum = [n.SumFactor(layer_v_perf[0],layer_v_sum[0]), n.SumFactor(layer_v_perf[1], layer_v_sum[1])]  ## 5
 
     layer_v_skill = [[], []]  ## 8
     for pl in wt.players:
-        layer_v_skill[0].append(n.Variable(type=n.VType.Skill))
+        layer_v_skill[0].append(n.Variable(Kind.Skill))
     for pl in lt.players:
-        layer_v_skill[1].append(n.Variable(type=n.VType.Skill))
+        layer_v_skill[1].append(n.Variable(Kind.Skill))
 
     layer_f_perf = [[], []]  ## 7
     for i in xrange(len(wt.players)):
-        layer_f_perf[0].append(n.PerfFactor(layer_v_skill[0][i], layer_v_perf[0][i]))
+        layer_f_perf[0].append(n.PerfFactor(layer_v_skill[0][i], layer_v_perf[0][i], beta))
     for i in xrange(len(lt.players)):
-        layer_f_perf[1].append(n.PerfFactor(layer_v_skill[1][i], layer_v_perf[1][i]))
+        layer_f_perf[1].append(n.PerfFactor(layer_v_skill[1][i], layer_v_perf[1][i], beta))
 
     layer_f_skill = [[], []]  ## 9
     for i in xrange(len(wt.players)):
-        layer_f_skill[0].append(n.SkillFactor(wt.players[i].ts_mu, wt.players[i].ts_sigma, layer_v_skill[0][i]))
+        layer_f_skill[0].append(n.SkillFactor(wt.players[i].ts_mu, wt.players[i].ts_sigma, layer_v_skill[0][i], dynamic))
     for i in xrange(len(lt.players)):
-        layer_f_skill[1].append(n.SkillFactor(lt.players[i].ts_mu, lt.players[i].ts_sigma, layer_v_skill[1][i]))
+        layer_f_skill[1].append(n.SkillFactor(lt.players[i].ts_mu, lt.players[i].ts_sigma, layer_v_skill[1][i], dynamic))
 
     return layer_f_skill, layer_v_skill, layer_f_perf, layer_v_perf, layer_f_sum, layer_v_sum, layer_f_diff, layer_v_diff, layer_f_result
 

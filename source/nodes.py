@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-
 import numpy as np
-from enum import Enum
-
-Kind = Enum('Skill', 'Perf', 'Sum', 'Diff')
-epsilon = 0.1  # draw margin
-beta = 25.0 / 3 / 2  # sigma div 2
-dynamic = 25.0 / 3 / 100  # sigma div 100
-
 
 # MESSAGE
 class Gaussian(object):
@@ -67,58 +59,53 @@ class Gaussian(object):
 
 # FACTOR NODES
 class SkillFactor:
-    def __init__(self, mu, sigma, skill_var):
+    def __init__(self, mu, sigma, skill_var, dynamic):
         self.skill_var = skill_var
         self.mu = mu
         self.sigma = sigma
+        self.dynamic = dynamic
 
     def message_down(self):
         new_pi, new_tau = self.calculate_update()
         new_value = Gaussian.with_precision(new_pi, new_tau)
-        self.skill_var.set_value(new_value)
+        self.skill_var.set_value_one(self, new_value)
 
     def calculate_update(self):
-        sigma = np.sqrt(self.sigma ** 2 + dynamic ** 2)
+        sigma = np.sqrt(self.sigma ** 2 + self.dynamic ** 2)
         new_pi = self.skill_var.value.pi + (sigma ** -2)
         new_tau = self.skill_var.value.tau + (self.mu * self.sigma ** -2)
         return new_pi, new_tau
-        # TODO test it and dont forget to add dynamics
-
 
 
 class PerfFactor:
-    def __init__(self, skill_var, perf_var):
+    def __init__(self, skill_var, perf_var, beta):
         self.skill_var = skill_var
         self.perf_var = perf_var
-        self.mu = None
         self.sigma = beta
 
-    def calculate_a(self, dir):
-        if dir == 'up':
-            return (1 + (self.sigma ** 2) * (self.perf_var.value.pi)) ** -1
-        else:
-            return (1 + (self.sigma ** 2) * (self.skill_var.value.pi)) ** -1
+    def calculate_a(self, message):
+        m_pi = message.pi
+        return (1 + (self.sigma ** 2) *  m_pi) ** -1
+        # TODO see if m_pi has correct value
 
-    def calculate_update(self, dir):
-        a = self.calculate_a(dir)
-        if dir == 'up':
-            new_pi = a * self.perf_var.value.pi
-            new_tau = a * self.perf_var.value.tau
-        else:
-            new_pi = a * self.skill_var.value.pi
-            new_tau = a * self.skill_var.value.tau
+    def calculate_update(self, message):
+        a = self.calculate_a(message)
+        new_pi = a * message.pi
+        new_tau = a * message.tau
         return new_pi, new_tau
-        # TODO test it out
+        # TODO see if m_pi m_tau has correct values
 
     def message_up(self):
-        new_pi, new_tau = self.calculate_update('up')
+        m = self.perf_var.message_from(self)
+        new_pi, new_tau = self.calculate_update(self.perf_var.value / m)
         new_value = Gaussian.with_precision(new_pi, new_tau)
-        self.skill_var.set_value(new_value)
+        self.skill_var.set_value_two(self, new_value)
 
     def message_down(self):
-        new_pi, new_tau = self.calculate_update('down')
+        m = self.skill_var.message_from(self)
+        new_pi, new_tau = self.calculate_update(self.skill_var.value / m)
         new_value = Gaussian.with_precision(new_pi, new_tau)
-        self.perf_var.set_value(new_value)
+        self.perf_var.set_value_two(self, new_value)
 
 
 
@@ -130,18 +117,20 @@ class SumFactor:
 
     def get_values(self, indexes):
         N = len(indexes)
-        pis = np.zeros([N,1])
-        taus = np.zeros([N,1])
+        v_pis = np.zeros([N,1])
+        v_taus = np.zeros([N,1])
         for i, index in zip(xrange(N), indexes):
-            pis[i] = self.all_vars[index].value.pi
-            taus[i] = self.all_vars[index].value.tau
-        return pis, taus
+            v = self.all_vars[index].value / self.all_vars[index].message_from(self)
+            v_pis[i], v_taus[i] = v.pi, v.tau
+        return v_pis, v_taus
+    # TODO see if m_pis etc are fetched correctly
 
     def update_helper(self, indexes, coeffs):
-        pis, taus = self.get_values(indexes)
-        new_pi = np.sum(((coeffs ** 2) / pis)) ** -1
-        new_tau = new_pi * np.sum(coeffs * taus / pis)
+        v_pis, v_taus = self.get_values(indexes)
+        new_pi = np.sum(((coeffs ** 2) / v_pis)) ** -1
+        new_tau = new_pi * np.sum(coeffs * v_taus / v_pis)
         return new_pi, new_tau
+    # TODO see if everything (calculation) is fine
 
     def calculate_update(self, target):
             N = len(self.perf_vars)
@@ -154,20 +143,19 @@ class SumFactor:
                 coeffs = np.zeros([N,1]) * -1
                 coeffs[-1] = 1
                 return self.update_helper(indexes, coeffs)
-            # TODO test it out
 
     def message_up(self):
         N = len(self.perf_vars)
         for i in xrange(N):
             new_pi, new_tau = self.calculate_update(i)
             new_value = Gaussian.with_precision(new_pi, new_tau)
-            self.perf_vars[i].set_value(new_value)
+            self.perf_vars[i].set_value_two(self, new_value)
 
     def message_down(self):
         N = len(self.perf_vars)
         new_pi, new_tau = self.calculate_update(N)
         new_value = Gaussian.with_precision(new_pi, new_tau)
-        self.sum_var.set_value(new_value)
+        self.sum_var.set_value_two(self, new_value)
 
 
 
@@ -179,17 +167,17 @@ class DiffFactor:
 
     def get_values(self, indexes):
         N = len(indexes)
-        pis = np.zeros([1,N])
-        taus = np.zeros([1,N])
+        v_pis = np.zeros([1,N])
+        v_taus = np.zeros([1,N])
         for i, index in zip(xrange(N), indexes):
-            pis[0,i] = self.all_vars[index].value.pi
-            taus[0,i] = self.all_vars[index].value.tau
-        return pis, taus
+            v = self.all_vars[index].value / self.all_vars[index].message_from(self)
+            v_pis[0,i] ,v_taus[0,i] = v.pi, v.tau
+        return v_pis, v_taus
 
     def update_helper(self, indexes, coeffs):
-        pis, taus = self.get_values(indexes)
-        new_pi = np.sum(((coeffs ** 2) / pis)) ** -1
-        new_tau = new_pi * np.sum(coeffs * taus / pis)
+        v_pis, v_taus = self.get_values(indexes)
+        new_pi = np.sum(((coeffs ** 2) / v_pis)) ** -1
+        new_tau = new_pi * np.sum(coeffs * v_taus / v_pis)
         return new_pi, new_tau
 
     def calculate_update(self, target):  # 0 is left, 1 is right, 2 is down
@@ -203,7 +191,6 @@ class DiffFactor:
             indexes = np.array([0,1])
             coeffs = np.array([1,-1])
         return self.update_helper(indexes, coeffs)
-        # TODO test it out
 
     def message_up(self, target = None):
         if target is None:
@@ -212,34 +199,36 @@ class DiffFactor:
         else:
             new_pi, new_tau = self.calculate_update(target)
             new_value = Gaussian.with_precision(new_pi, new_tau)
-            self.sum_vars[target].set_value(new_value)
+            self.sum_vars[target].set_value_two(self, new_value)
 
     def message_down(self):
         new_pi, new_tau = self.calculate_update(2)
         new_value = Gaussian.with_precision(new_pi, new_tau)
-        self.diff_var.set_value(new_value)
+        self.diff_var.set_value_two(self, new_value)
 
 
 class ResultFactor:
-    def __init__(self, diff_var, v_fn, w_fn):
+    def __init__(self, diff_var, v_fn, w_fn, epsilon):
         self.diff_var = diff_var
         self.v_fn = v_fn
         self.w_fn = w_fn
+        self.epsilon = epsilon
 
     def calculate_update(self):
-        c = self.diff_var.value.pi
-        d = self.diff_var.value.tau
+        diff = self.diff_var.value / self.diff_var.message_from(self)
+        c,d = diff.pi, diff.tau
         arg1 = d / np.sqrt(c)
-        arg2 = epsilon * np.sqrt(c)
-        new_pi = c * (1 - self.w_fn(arg1, arg2)) ** -1
-        new_tau = (d + np.sqrt(c) * self.v_fn(arg1, arg2)) * (1 - self.w_fn(d / np.sqrt(c), epsilon * np.sqrt(c))) ** -1
+        arg2 = self.epsilon * np.sqrt(c)
+        v_val = self.v_fn(arg1, arg2)
+        w_val = self.w_fn(arg1, arg2)
+        new_pi = c / (1 - w_val)
+        new_tau = (d + np.sqrt(c) * v_val) / (1 - w_val)
         return new_pi, new_tau
-        # TODO test it out, implement v and w functions
 
     def message_up(self):
         new_pi, new_tau = self.calculate_update()
         new_value = Gaussian.with_precision(new_pi, new_tau)
-        self.diff_var.set_value(new_value)
+        self.diff_var.set_value_one(self, new_value)
 
 
 # VARIABLE NODES
@@ -256,9 +245,27 @@ class Variable:
     def __repr__(self):
         return self.__str__()
 
-    def set_value(self, new_value):
+    def message_from(self, factor):
+        try:
+            message = self.messages[factor]
+        except KeyError:
+            self.messages[factor] = Gaussian()
+            message = self.messages[factor]
+        return message
+
+    def set_value(self, value):
         self.old_value = self.value
-        self.value = new_value
+        self.value = value
+
+    def set_value_one(self, factor, message):  # used by skill and result (terminal) factors
+        prev_message = self.message_from(factor)
+        self.messages[factor] = message * prev_message / self.value
+        self.set_value(message)
+
+    def set_value_two(self, factor, message):  # used by non-terminal factors
+        prev_message = self.message_from(factor)
+        self.messages[factor] = message
+        self.set_value(message * self.value / prev_message)  # take out prev message plug in the new message
 
     def change(self):
         t1 = np.abs(self.value.pi - self.old_value.pi)
