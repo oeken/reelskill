@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import numpy as np
-import Model as md
+import model as md
 
 def customRand(l,h):
     return int(np.random.rand()*(h-l+1) + l)
@@ -17,14 +17,26 @@ def generateSyntheticPlayers(count):
     return player_list
 
 def generateSyntheticTeams(players, size):
-    n = len(players)-(len(players)%size)
-    number_of_teams = n / size
-    teams = teamList(number_of_teams)
-    for i in range(n):
-        index = i % number_of_teams
-        current_team = teams[index]
-        current_team.addPlayer(players[i])
+    N = len(players) / size
+    teams = [None] * N
+    players = np.array(players)
+    for i in range(N):
+        sta = i * size
+        end = sta + size
+        teams[i] = md.Team.with_players(players[sta:end])
     return teams
+
+
+    # n = len(players)-(len(players)%size)
+    # number_of_teams = n / size
+    # teams = teamList(number_of_teams)
+    # teams = [None] * number_of_teams
+    # for i in number_of_teams:
+    #     team[i] = md.Team.with_players()
+    #     index = i % number_of_teams
+    #     current_team = teams[index]
+    #     current_team.addPlayer(players[i])
+    # return teams
 
 def generateSyntheticMatchesFull(teams):
     rv = []
@@ -48,8 +60,8 @@ def generateSyntheticData(player_count, team_size):
     return players, teams
 
 def simulateTwoTeams(t1, t2):
-    s1 = t1.reel_skill()
-    s2 = t2.reel_skill()
+    s1 = t1.reel_skill
+    s2 = t2.reel_skill
     w,l,d = md.win_lose_draw(s1-s2)
     u = np.random.rand()
     if u < d:

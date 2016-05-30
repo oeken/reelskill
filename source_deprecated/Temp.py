@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import numpy as np
-import nodes as nd
-import Model as md
-import DataFactory as df
-import builder
-import Reader
+import source.ep as nd
+import source.model as md
+import source.factory as df
+import source.builder
+import source.reader
 
 np.random.seed(12345)
 ### TEST #1
@@ -27,9 +27,9 @@ np.random.seed(12345)
 
 ### TEST #3
 ### =======
-data_training = Reader.read_data('../data/tennis/ausopen.csv','../data/tennis/rg.csv')
+data_training = source.reader.read_data('../data/tennis/ausopen.csv', '../data/tennis/rg.csv')
 # data_test = Reader.read_data('../data/tennis/wimbledon.csv','../data/tennis/usopen.csv')
-p,t,m = Reader.form_objects(data_training)
+p,t,m = source.reader.form_objects(data_training)
 
 
 
@@ -47,8 +47,8 @@ p,t,m = Reader.form_objects(data_training)
 # m = df.generateSyntheticMatchesFullTimes(t,100)
 
 for match in m:
-    fg = builder.build_factor_graph(match)
-    [res1, res2]= builder.execute_order(fg)
+    fg = source.builder.build_factor_graph(match)
+    [res1, res2]= source.builder.execute_order(fg)
     wt = match.t1 if match.r == 1 or match.r == 0 else match.t2
     lt = match.t2 if match.r == 1 or match.r == 0 else match.t1
     for r, pl in zip(res1, wt.players):

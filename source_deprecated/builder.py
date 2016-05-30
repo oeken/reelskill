@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import nodes as n
+import source.ep as n
 import numpy as np
 from scipy.stats import norm
 from enum import Enum

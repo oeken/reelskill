@@ -3,8 +3,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import Model as md
-import MC as mc
+import source.Model as md
+import source.MC as mc
 
 p1 = md.Player(reel_skill=30)
 p2 = md.Player(reel_skill=9)

@@ -3,9 +3,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import Model as md
-import MC as mc
-import DataFactory as df
+import source.model as md
+import source.mc as mc
+import source.factory as df
 
 
 def error(players):

@@ -1,7 +1,43 @@
 # -*- coding: utf-8 -*-
-import numpy as np
+""" This module is used to run ep algorithm on the built factor graph """
 
-# MESSAGE
+import numpy as np
+from scipy.stats import norm
+from enum import Enum
+Kind = Enum('Skill', 'Perf', 'Sum', 'Diff')
+
+draw_probability = 0.1
+mu = 25.0
+sigma = mu / 3
+beta = sigma / 2
+dynamic = sigma / 100
+
+
+def draw_margin(draw_probability, size, beta):
+    return norm.ppf((draw_probability + 1) / 2.) * np.sqrt(size) * beta
+
+
+def v_win(x, epsilon):
+    return norm.pdf(x-epsilon) / norm.cdf(x-epsilon)
+
+
+def v_draw(x, epsilon):
+    nom = norm.pdf(-epsilon-x) - norm.pdf(epsilon - x)
+    denom = norm.cdf(epsilon-x) - norm.cdf(-epsilon-x)
+    return nom / denom
+
+
+def w_win(x, epsilon):
+    return v_win(x, epsilon) * (v_win(x, epsilon) + x - epsilon)
+
+
+def w_draw(x, epsilon):
+    term = v_draw(x, epsilon) ** 2
+    nom = (epsilon - x) * norm.pdf(epsilon - x) + (epsilon + x) * norm.pdf(epsilon + x)
+    denom = norm.cdf(epsilon - x) - norm.cdf(-epsilon - x)
+    return term + nom / denom
+
+
 class Gaussian(object):
     def __init__(self):
         self.pi = 0
@@ -86,14 +122,12 @@ class PerfFactor:
     def calculate_a(self, message):
         m_pi = message.pi
         return (1 + (self.sigma ** 2) *  m_pi) ** -1
-        # TODO see if m_pi has correct value
 
     def calculate_update(self, message):
         a = self.calculate_a(message)
         new_pi = a * message.pi
         new_tau = a * message.tau
         return new_pi, new_tau
-        # TODO see if m_pi m_tau has correct values
 
     def message_up(self):
         m = self.perf_var.message_from(self)
@@ -123,14 +157,14 @@ class SumFactor:
             v = self.all_vars[index].value / self.all_vars[index].message_from(self)
             v_pis[i], v_taus[i] = v.pi, v.tau
         return v_pis, v_taus
-    # TODO see if m_pis etc are fetched correctly
+
 
     def update_helper(self, indexes, coeffs):
         v_pis, v_taus = self.get_values(indexes)
         new_pi = np.sum(((coeffs ** 2) / v_pis)) ** -1
         new_tau = new_pi * np.sum(coeffs * v_taus / v_pis)
         return new_pi, new_tau
-    # TODO see if everything (calculation) is fine
+
 
     def calculate_update(self, target):
             N = len(self.perf_vars)
@@ -273,3 +307,105 @@ class Variable:
         return max(t1, t2)
 
 
+def build_factor_graph(versus):
+    epsilon = draw_margin(draw_probability,len(versus.t1.players)*2, beta)
+
+    wt = versus.t1 if versus.r == 1 or versus.r == 0 else versus.t2
+    lt = versus.t2 if versus.r == 1 or versus.r == 0 else versus.t1
+    layer_v_diff = [Variable(Kind.Diff)]  ## 2
+    if versus.r == 0:
+        layer_f_result = [ResultFactor(layer_v_diff[0], v_draw, w_draw, epsilon)]
+    else:
+        layer_f_result = [ResultFactor(layer_v_diff[0], v_win, w_win, epsilon)]  ## 1
+
+    layer_v_sum = [Variable(Kind.Sum), Variable(Kind.Sum)]  ## 4
+
+    layer_f_diff = [DiffFactor(layer_v_sum[0], layer_v_sum[1], layer_v_diff[0])]  ## 3
+
+    layer_v_perf = [[], []]  ## 6
+    for pl in wt.players:
+        layer_v_perf[0].append(Variable(Kind.Perf))
+    for pl in lt.players:
+        layer_v_perf[1].append(Variable(Kind.Perf))
+
+    layer_f_sum = [SumFactor(layer_v_perf[0],layer_v_sum[0]), SumFactor(layer_v_perf[1], layer_v_sum[1])]  ## 5
+
+    layer_v_skill = [[], []]  ## 8
+    for pl in wt.players:
+        layer_v_skill[0].append(Variable(Kind.Skill))
+    for pl in lt.players:
+        layer_v_skill[1].append(Variable(Kind.Skill))
+
+    layer_f_perf = [[], []]  ## 7
+    for i in xrange(len(wt.players)):
+        layer_f_perf[0].append(PerfFactor(layer_v_skill[0][i], layer_v_perf[0][i], beta))
+    for i in xrange(len(lt.players)):
+        layer_f_perf[1].append(PerfFactor(layer_v_skill[1][i], layer_v_perf[1][i], beta))
+
+    layer_f_skill = [[], []]  ## 9
+    for i in xrange(len(wt.players)):
+        layer_f_skill[0].append(SkillFactor(wt.players[i].ep_mu, wt.players[i].ep_sigma, layer_v_skill[0][i], dynamic))
+    for i in xrange(len(lt.players)):
+        layer_f_skill[1].append(SkillFactor(lt.players[i].ep_mu, lt.players[i].ep_sigma, layer_v_skill[1][i], dynamic))
+
+    return layer_f_skill, layer_v_skill, layer_f_perf, layer_v_perf, layer_f_sum, layer_v_sum, layer_f_diff, layer_v_diff, layer_f_result
+
+
+def execute_order(layer_list):
+    skill_factors = layer_list[0]
+    sfs_merged = skill_factors[0] + skill_factors[1]
+    for sf in sfs_merged:
+        sf.message_down()
+
+    perf_factors = layer_list[2]
+    pfs_merged = perf_factors[0] + perf_factors[1]
+    for pf in pfs_merged:
+        pf.message_down()
+
+    sum_factors = layer_list[4]
+    for sf in sum_factors:
+        sf.message_down()
+
+    diff_factor   = layer_list[6][0]
+    diff_var      = layer_list[7][0]
+    result_factor = layer_list[8][0]
+
+    delta = 10
+    while delta > 0.1:
+        diff_factor.message_down()
+        result_factor.message_up()
+        delta = diff_var.change()
+
+    diff_factor.message_up()
+    for sf in sum_factors:
+        sf.message_up()
+    for pf in pfs_merged:
+        pf.message_up()
+
+    skill_vars = layer_list[1]
+    return skill_vars
+
+
+def run(matches):
+    matches = permute_list(matches)
+    for match in matches:
+        fg = build_factor_graph(match)
+        [res1, res2]= execute_order(fg)
+        wt = match.t1 if match.r == 1 or match.r == 0 else match.t2
+        lt = match.t2 if match.r == 1 or match.r == 0 else match.t1
+        for r, pl in zip(res1, wt.players):
+            pl.ep_mu = r.value.mu
+            pl.ep_sigma = r.value.sigma
+        for r, pl in zip(res2, lt.players):
+            pl.ep_mu = r.value.mu
+            pl.ep_sigma = r.value.sigma
+    return 'EP'
+
+
+def permute_list(list):
+    N = len(list)
+    indexes = np.random.permutation(N)
+    rv = [None] * N
+    for i in xrange(N):
+        rv[i] = list[indexes[i]]
+    return rv
