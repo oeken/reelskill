@@ -26,18 +26,6 @@ def generateSyntheticTeams(players, size):
         teams[i] = md.Team.with_players(players[sta:end])
     return teams
 
-
-    # n = len(players)-(len(players)%size)
-    # number_of_teams = n / size
-    # teams = teamList(number_of_teams)
-    # teams = [None] * number_of_teams
-    # for i in number_of_teams:
-    #     team[i] = md.Team.with_players()
-    #     index = i % number_of_teams
-    #     current_team = teams[index]
-    #     current_team.addPlayer(players[i])
-    # return teams
-
 def generateSyntheticMatchesFull(teams):
     rv = []
     tc = len(teams)
@@ -80,27 +68,5 @@ def teamList(size):
 
 
 
-
-
-# def simulate(teams):
-#     rv = {}
-#     wincounts = np.zeros(len(teams))
-#     for i in range(len(teams)):
-#         for j in range(i+1,len(teams)):
-#             if Match.simulateTwoTeams(teams[i],teams[j]):
-#                 wincounts[i] += 1
-#             else:
-#                 wincounts[j] += 1
-#     raw_standings = np.argsort(wincounts)
-#     raw_standings = np.fliplr([raw_standings])[0] # reverse the array
-#     rv[teams[raw_standings[0]]] = 1 # the winner (rank is 1)
-#     for i in range(1,len(raw_standings)):
-#         prev_wc = wincounts[raw_standings[i-1]] # wincout of previous team
-#         next_wc = wincounts[raw_standings[i]] # wincout of next team
-#         prev_team = teams[raw_standings[i-1]] # previous team (ranked before)
-#         next_team = teams[raw_standings[i]] # previous team (ranked before)
-#         # if next team has less wins then take prev teams rank add 1 and set next team's rank
-#         rv[next_team] = rv[prev_team]+1 if next_wc < prev_wc else rv[prev_team]
-#     return rv
 
 

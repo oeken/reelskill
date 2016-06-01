@@ -410,7 +410,7 @@ We had defined this expression in the first place! (see Section 3.1, Figure \ref
 Factor graphs are bipartite graphs over variables and local factors. Local factor together form the global function over all variables when multiplied with each other. Therefore, factor graphs formalize the independence of local factors, Figure \ref{fg}. Factor graphs are more general than Bayes networks therefore a Bayes network can be re-written as a factor graph when factors are defined as conditional probability distributions. The sum-product algorithm \cite{loeliger2001factor} (a.k.a. belief propagation) defines a procedure to marginalize product of factors (in Bayesian case, it corresponds to marginalization of joint probability distribution). Very roughly, it involves multiplication of factors and integrating out of variables which is intractable most of the time. Therefore in principle it works but in reality it is highly impractical.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.3\columnwidth]{fg}	
+	\includegraphics[width=0.2\columnwidth]{fg}	
 	\caption{An example factor graph. $G(x_1, x_2, x_3, x_4) = A(x_1, x_2) B(x_2, x_3, x_4) C(x_4)$}
 	\label{fg}
 \end{figure}
@@ -420,7 +420,7 @@ EP follows this general approach: Given a factor graph whose marginal (we are in
 A decent procedure to approximate while keeping the error on the marginal distribution minimum is as follows: Start with an empty factor graph. For each factor $f_\alpha$, incorporate it into the current approximating distribution $q$ by multiplication. This yields some new distribution $q^i$ that is not in the approximating family (exponential family), so project it into the set of all approximating distributions using KL divergence. This is known as \textit{Assumed density filtering}. A problem with this approach is that the order used to traverse factors affect how good the approximation of marginal will be.
 
 Expectation propagation fixes this problem by looping through factors many times. Each of the time, old approximation of a factor $f_\alpha$ is removed from the global approximation $q^{i-1}$ instead exact factor is plugged in back by multiplying. Then, the obtained global distribution (that is not in the family we would like it to be in) is projected to the approximating family using KL divergence.
-
+\clearpage
 \begin{algorithm}[H]
 	\textit{Initialize}. Set $q^0$ to uniform
 	\ForEach{factor $f_\alpha$}{
@@ -448,11 +448,11 @@ Expectation propagation fixes this problem by looping through factors many times
 	\caption{Expectation Propagation}
 	\label{ep}
 \end{algorithm}
-\clearpage
+
 
 \section{Results}
 \paragraph{Synthetic Data}
-We first, generated synthetic data in order to test the algorithms in various configurations. Generated synthetic players are assigned a \textit{"reel skill"} value. Teams are formed randomly. The match results are generated according to the model we assumed in Figure \ref{model1}.
+We first, generated synthetic data in order to test the algorithms in various configurations. Generated synthetic players are assigned a \textit{"reel skill"} value. Teams are formed randomly. The match results are generated according to the model we assumed in Figure \ref{model1}. One important thing here to notice is that, we have shown reel skills on the plots concerned with EP algorithm as well as concerned with MCMC algorithms. But recall that EP is not expected to guess the reel skills assigned because the underlying model with EP algorithm is different than we specified for MCMC algorithms to work on. In other words, skill findings of EP algorithm has its own scaling. But this does not mean that EP is expected to guess match results from test data (which is generated according to our custom model, See Figure \ref{model1}) incorrectly, on the contrary, all algorithms are expected to perform well when tested, See Section 7.
 \paragraph{Real-World Data}
 Afterwards, we tested three algorithms on real-world data, namely, tennis data (match results in Grand Slam tournaments of 2012-2013), football data (match results in German, Spanish, Turkish, English primary national leagues), basketball data (match results of Nba 2015-2016 regular season). We fetched all datasets and preprocessed them so that they have the form shown in Table \ref{data_form}.
 
@@ -471,19 +471,33 @@ Afterwards, we tested three algorithms on real-world data, namely, tennis data (
 	\label{data_form}
 \end{table}
 
-Since we have made extensive tests, we include only a small portion of them in this section. For all tests, see \textit{Section 7: All Tests}.
+\section{Conclusion \& Discussion}
+When test results are examined we see that MCMC methods are computationally more expensive than EP algorithm, overall they take more time to complete the specified number of iterations. When the number of training data size is small, we, as expected, observe high uncertainties in the estimated distributions of skills, which is undesirable because it leads to inaccurate predictions. 
+
+For all algorithms we do not observe a very high prediction accuracy but when looked careful one can see that the success criterion of this approach is another measure. We predict a result which has the maximum likelihood among all results but we are confident about our prediction only by the percentage of the likelihood of predicted result. For instance if we estimate probabilities for possible outcomes for a match as (W:0.5, L: 0.3, D:0.2) and we would pick 'W' as our prediction. But this means that if this particular match takes place infinitely many times then we expect player 1 to win on 50\% of those matches. Keeping this in mind, a good measure of for quality of our prediction system would be the quantitative similarity between \textit{percentage of correct guesses} and \textit{mean of confidences for guesses}.
+
+Lastly, MCMC algorithms are expected to find \textit{shifted} reel skills in some particular cases. For instance, if actual/reel skills of players are very close to each other and located nearly on the middle ($\sim$ 25) of the rating interval (0,50) then even though a large dataset and large number of iterations are used in executing algorithm, exact estimation of reel skills cannot be expected because the solution would not be unique. I.e. a new set of reel skills shifted from the original values by a constant term would \textbf{also} yield the current training set we have.
+
+\section{Future Work}
+One aspect of this project to extend is the following idea: Instead of taking match results as \{1,-1,0\} we can take exact match results such as 98-88 (in the case of basketball) and consider the differences between scores. The first problem emerging here is that a hand-crafted model would be undesirable because it would only work for given game domain. For instance, a match result of 5-1 in football indicates a dominating win whereas a match result of 107-102 in basketball does not indicate a dominating win. It would be interesting to design an algorithm which would adjust/adapt a model to capture the scale/dynamics of the game under focus.
+
+% Generate the bibliography.
+\bibliography{refs}
+\bibliographystyle{unsrt}
+
 
 \clearpage
+\section{Tests}
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.7\columnwidth]{out/T8_23/MH/plot/joint_scatter_plot} \\
 	\includegraphics[width=0.7\columnwidth]{out/T8_23/Gibbs/plot/joint_scatter_plot} \\
-	\caption{djsalıd}
+	\caption{First 100 samples from Metropolis-Hastings algorithm (above), and Gibbs Sampler (below)}
 	\label{dmaçsd}
 \end{figure}
 \begin{table}
 	\centering
-	\caption{dsaşdsa}
+	\caption{\textbf{Test 0}: MH. Good Acceptance/Rejection ratio. Space is explored well.}
 	\csvautotabular[respect underscore]{img/out/T8_23/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T8_23/MH/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T8_23/MH/csv/3_skills.csv} \\[5mm]
@@ -494,7 +508,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \end{table}
 \begin{table}
 	\centering
-	\caption{dsadas}
+	\caption{\textbf{Test 0:} Gibbs sampler. Accurate result.}
 	\csvautotabular[respect underscore]{img/out/T8_23/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T8_23/Gibbs/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T8_23/Gibbs/csv/3_skills.csv} \\[5mm]
@@ -505,7 +519,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \end{table}
 \begin{table}
 	\centering
-	\caption{dsadas}
+	\caption{\textbf{Test 0:} EP}
 	\csvautotabular[respect underscore]{img/out/T8_23/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T8_23/EP/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T8_23/EP/csv/3_skills.csv} \\[5mm]
@@ -523,7 +537,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\centering
 	\singlespacing
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
+	\caption{\textbf{Test 1.1}: MH. Large number of matches result in accurate predictions.}
 	\csvautotabular[respect underscore]{img/out/T1_1_Wed/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T1_1_Wed/MH/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T1_1_Wed/MH/csv/3_skills.csv} \\[5mm]
@@ -536,7 +550,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\centering
 	\singlespacing
 	\tabcolsep=0.11cm
-	\caption{dsadas}
+	\caption{\textbf{Test 1.1}}
 	\csvautotabular[respect underscore]{img/out/T1_1_Wed/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T1_1_Wed/Gibbs/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T1_1_Wed/Gibbs/csv/3_skills.csv} \\[5mm]
@@ -549,7 +563,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\centering
 	\singlespacing
 	\tabcolsep=0.11cm
-	\caption{dsadas}
+	\caption{\textbf{Test 1.1}}
 	\csvautotabular[respect underscore]{img/out/T1_1_Wed/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T1_1_Wed/EP/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T1_1_Wed/EP/csv/3_skills.csv} \\[5mm]
@@ -564,7 +578,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \clearpage
 \begin{table}
 	\centering
-	\caption{dsaşdsa}
+	\caption{\textbf{Test 1.2}}
 	\csvautotabular[respect underscore]{img/out/T1_5/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T1_5/MH/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T1_5/MH/csv/3_skills.csv} \\[5mm]
@@ -575,7 +589,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \end{table}
 \begin{table}
 	\centering
-	\caption{dsadas}
+	\caption{\textbf{Test 1.2}}
 	\csvautotabular[respect underscore]{img/out/T1_5/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T1_5/Gibbs/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T1_5/Gibbs/csv/3_skills.csv} \\[5mm]
@@ -586,7 +600,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \end{table}
 \begin{table}
 	\centering
-	\caption{dsadas}
+	\caption{\textbf{Test 1.2}}
 	\csvautotabular[respect underscore]{img/out/T1_5/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T1_5/EP/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T1_5/EP/csv/3_skills.csv} \\[5mm]
@@ -601,8 +615,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \clearpage
 \begin{table}
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 2}}
 	\csvautotabular[respect underscore]{img/out/T2_7_Wed/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T2_7_Wed/MH/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T2_7_Wed/MH/csv/3_skills.csv} \\[5mm]
@@ -613,8 +626,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \end{table}
 \begin{table}
 	\centering
-	\caption{Pivoting, Gibbs shifts beacause its narrow}
-	\label{dlkasd}
+	\caption{\textbf{Test 2}}
 	\csvautotabular[respect underscore]{img/out/T2_7_Wed/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T2_7_Wed/Gibbs/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T2_7_Wed/Gibbs/csv/3_skills.csv} \\[5mm]
@@ -625,6 +637,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \end{table}
 \begin{table}
 	\centering
+	\caption{\textbf{Test 2}}
 	\csvautotabular[respect underscore]{img/out/T2_7/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T2_7/EP/csv/2_reel_skills.csv} %
 	\csvautotabular[respect sharp]{img/out/T2_7/EP/csv/3_skills.csv} \\[5mm]
@@ -632,8 +645,6 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\csvautotabular[respect sharp]{img/out/T2_7/EP/csv/5_correct_incorrect.csv} \\[5mm]	
 	\csvautotabular[respect sharp]{img/out/T2_7/EP/csv/6_errors.csv} \\[5mm]
 	\includegraphics[width=1\columnwidth]{out/T2_7/EP/plot/skill_distribution} \\
-	\caption{dsadas}
-	\label{dlkasd}
 \end{table}
 
 
@@ -642,8 +653,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \clearpage
 \begin{table}
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 3.1}}
 	\csvautotabular[respect underscore]{img/out/T3_9/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T3_9/MH/csv/7_errors.csv} \hspace{3mm}% 
 	\csvautotabular[respect sharp]{img/out/T3_9/MH/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -652,8 +662,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \end{table}
 \begin{table}
 	\centering
-	\caption{Pivoting, Gibbs shifts beacause its narrow}
-	\label{dlkasd}
+	\caption{\textbf{Test 3.1}. As described in Section 5. There is no pivoting reel skills (close to 0 or 50) in this setup. Therefore there are uniques solutions. We observe shifted distributions.}
 	\csvautotabular[respect underscore]{img/out/T3_9/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T3_9/Gibbs/csv/7_errors.csv} \hspace{3mm}% 
 	\csvautotabular[respect sharp]{img/out/T3_9/Gibbs/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -665,24 +674,18 @@ Since we have made extensive tests, we include only a small portion of them in t
 
 \clearpage
 \begin{table}
-\centering
-\caption{dsaşdsa}
-\label{dlkasd}
-\csvautotabular[respect underscore]{img/out/T4_11/MH/csv/1_signature.csv} \\[5mm]
-%	\csvautotabular[respect sharp]{img/out/T3_9/MH/csv/2_reel_skills.csv} %
-%	\csvautotabular[respect sharp]{img/out/T3_9/MH/csv/3_skills.csv} \\[5mm]
-\csvautotabular[respect sharp]{img/out/T4_11/MH/csv/7_errors.csv} \hspace{3mm}% 
-\csvautotabular[respect sharp]{img/out/T4_11/MH/csv/5_correct_incorrect.csv} \\[5mm]	
-\csvautotabular[respect sharp]{img/out/T4_11/MH/csv/6_errors.csv} \\[5mm]
-\includegraphics[width=1\columnwidth]{out/T4_11/MH/plot/skill_distribution}
+	\centering
+	\caption{\textbf{Test 4}}
+	\csvautotabular[respect underscore]{img/out/T4_11/MH/csv/1_signature.csv} \\[5mm]
+	\csvautotabular[respect sharp]{img/out/T4_11/MH/csv/7_errors.csv} \hspace{3mm}% 
+	\csvautotabular[respect sharp]{img/out/T4_11/MH/csv/5_correct_incorrect.csv} \\[5mm]	
+	\csvautotabular[respect sharp]{img/out/T4_11/MH/csv/6_errors.csv} \\[5mm]
+	\includegraphics[width=1\columnwidth]{out/T4_11/MH/plot/skill_distribution}
 \end{table}
 \begin{table}
 	\centering
-	\caption{Pivoting, Gibbs shifts beacause its narrow}
-	\label{dlkasd}
+	\caption{\textbf{Test 4}}
 	\csvautotabular[respect underscore]{img/out/T4_11/Gibbs/csv/1_signature.csv} \\[5mm]
-	%	\csvautotabular[respect sharp]{img/out/T4_11/Gibbs/csv/2_reel_skills.csv} %
-	%	\csvautotabular[respect sharp]{img/out/T4_11/Gibbs/csv/3_skills.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T4_11/Gibbs/csv/7_errors.csv} \hspace{3mm}% 
 	\csvautotabular[respect sharp]{img/out/T4_11/Gibbs/csv/5_correct_incorrect.csv} \\[5mm]	
 	\csvautotabular[respect sharp]{img/out/T4_11/Gibbs/csv/6_errors.csv} \\[5mm]
@@ -695,8 +698,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 5.1}}
 	\csvautotabular[respect underscore]{img/out/T5_13/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T5_13/MH/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T5_13/MH/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -706,8 +708,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 5.1}}
 	\csvautotabular[respect underscore]{img/out/T5_13/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T5_13/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T5_13/Gibbs/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -717,8 +718,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 5.1}}
 	\csvautotabular[respect underscore]{img/out/T5_13/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T5_13/EP/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T5_13/EP/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -733,8 +733,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 5.2}}
 	\csvautotabular[respect underscore]{img/out/T5_15/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T5_15/MH/csv/3_skills_copy.csv} \hspace{3mm} %
 	\raisebox{-.45\height}{\includegraphics[width=0.4\columnwidth]{out/T5_15/MH/plot/actual}}
@@ -743,8 +742,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 5.2}}
 	\csvautotabular[respect underscore]{img/out/T5_15/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T5_15/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\raisebox{-.45\height}{\includegraphics[width=0.4\columnwidth]{out/T5_15/Gibbs/plot/actual}}
@@ -753,8 +751,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 5.2}}
 	\csvautotabular[respect underscore]{img/out/T5_15/EP/csv/1_signature.csv} \\[5mm]	
 	\csvautotabular[respect sharp]{img/out/T5_15/EP/csv/3_skills_copy.csv} \hspace{5mm} % 
 	\raisebox{-.45\height}{\includegraphics[width=0.4\columnwidth]{out/T5_15/EP/plot/actual}}
@@ -769,8 +766,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.1}}
 	\csvautotabular[respect underscore]{img/out/T6_16/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_16/MH/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_16/MH/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -781,8 +777,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 6.1}}
 	\csvautotabular[respect underscore]{img/out/T6_16/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_16/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_16/Gibbs/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -793,8 +788,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.1}}
 	\csvautotabular[respect underscore]{img/out/T6_16/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_16/EP/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_16/EP/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -810,8 +804,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.2}}
 	\csvautotabular[respect underscore]{img/out/T6_17/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_17/MH/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_17/MH/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -822,8 +815,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 6.2}}
 	\csvautotabular[respect underscore]{img/out/T6_17/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_17/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_17/Gibbs/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -834,8 +826,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.2}}
 	\csvautotabular[respect underscore]{img/out/T6_17/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_17/EP/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_17/EP/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -851,8 +842,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.3}}
 	\csvautotabular[respect underscore]{img/out/T6_18/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_18/MH/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_18/MH/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -863,8 +853,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 6.3}}
 	\csvautotabular[respect underscore]{img/out/T6_18/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_18/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_18/Gibbs/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -875,8 +864,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.3}}
 	\csvautotabular[respect underscore]{img/out/T6_18/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_18/EP/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_18/EP/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -892,8 +880,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.4}}
 	\csvautotabular[respect underscore]{img/out/T6_19/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_19/MH/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_19/MH/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -904,8 +891,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 6.4}}
 	\csvautotabular[respect underscore]{img/out/T6_19/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_19/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_19/Gibbs/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -916,8 +902,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.4}}
 	\csvautotabular[respect underscore]{img/out/T6_19/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_19/EP/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T6_19/EP/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -931,8 +916,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.5}}
 	\csvautotabular[respect underscore]{img/out/T6_20/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_20/MH/csv/3_skills_copy.csv} \hspace{3mm} %
 	\raisebox{-.45\height}{\includegraphics[width=0.4\columnwidth]{out/T6_20/MH/plot/actual}}
@@ -941,8 +925,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 6.5}}
 	\csvautotabular[respect underscore]{img/out/T6_20/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T6_20/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\raisebox{-.45\height}{\includegraphics[width=0.4\columnwidth]{out/T6_20/Gibbs/plot/actual}}
@@ -951,8 +934,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 6.5}}
 	\csvautotabular[respect underscore]{img/out/T6_20/EP/csv/1_signature.csv} \\[5mm]	
 	\csvautotabular[respect sharp]{img/out/T6_20/EP/csv/3_skills_copy.csv} \hspace{3mm} % 
 	\raisebox{-.45\height}{\includegraphics[width=0.4\columnwidth]{out/T6_20/EP/plot/actual}}
@@ -967,8 +949,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 7.1}}
 	\csvautotabular[respect underscore]{img/out/T7_21/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T7_21/MH/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T7_21/MH/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -979,8 +960,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 7.1}}
 	\csvautotabular[respect underscore]{img/out/T7_21/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T7_21/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T7_21/Gibbs/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -991,8 +971,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 	\small
 	\centering
 	\tabcolsep=0.11cm
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 7.1}}
 	\csvautotabular[respect underscore]{img/out/T7_21/EP/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T7_21/EP/csv/3_skills_copy.csv} \hspace{3mm} %
 	\csvautotabular[respect sharp]{img/out/T7_21/EP/csv/5_correct_incorrect.csv} \\[5mm]	
@@ -1006,8 +985,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 7.2}}
 	\csvautotabular[respect underscore]{img/out/T7_22/MH/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T7_22/MH/csv/3_skills_copy.csv} \hspace{1mm} %
 	\raisebox{-.45\height}{\includegraphics[width=0.22\columnwidth]{out/T7_22/MH/plot/actual1}} %
@@ -1017,8 +995,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}~
+	\caption{\textbf{Test 7.2}}
 	\csvautotabular[respect underscore]{img/out/T7_22/Gibbs/csv/1_signature.csv} \\[5mm]
 	\csvautotabular[respect sharp]{img/out/T7_22/Gibbs/csv/3_skills_copy.csv} \hspace{3mm} %
 	\raisebox{-.45\height}{\includegraphics[width=0.22\columnwidth]{out/T7_22/Gibbs/plot/actual1}} %
@@ -1028,8 +1005,7 @@ Since we have made extensive tests, we include only a small portion of them in t
 \begin{table}
 	\small
 	\centering
-	\caption{dsaşdsa}
-	\label{dlkasd}
+	\caption{\textbf{Test 7.2}}
 	\csvautotabular[respect underscore]{img/out/T7_22/EP/csv/1_signature.csv} \\[5mm]	
 	\csvautotabular[respect sharp]{img/out/T7_22/EP/csv/3_skills_copy.csv} \hspace{3mm} % 
 	\raisebox{-.45\height}{\includegraphics[width=0.22\columnwidth]{out/T7_22/EP/plot/actual1}} %
@@ -1041,18 +1017,28 @@ Since we have made extensive tests, we include only a small portion of them in t
 
 
 
-\section{Conclusion \& Discussion}
 
 
-\section{Future Work}
 
 
-% Generate the bibliography.
-\bibliography{refs}
-\bibliographystyle{unsrt}
 
-\newpage
-\section{Appendices}
+%\newpage
+%\section{Appendices}
+%\lstinputlisting[breaklines=true, language=Python,basicstyle=\footnotesize,numbers=left,frame=single]{../source/main.py}
+
+%\lstinputlisting[breaklines=true, language=Python,basicstyle=\footnotesize,numbers=left,frame=single]{../source/test.py}
+
+%\lstinputlisting[breaklines=true, language=Python,basicstyle=\footnotesize,numbers=left,frame=single]{../source/reader.py}
+
+%\lstinputlisting[breaklines=true, language=Python,basicstyle=\footnotesize,numbers=left,frame=single]{../source/model.py}
+
+%\lstinputlisting[breaklines=true, language=Python,basicstyle=\footnotesize,numbers=left,frame=single]{../source/mc.py}
+
+%\lstinputlisting[breaklines=true, language=Python,basicstyle=\footnotesize,numbers=left,frame=single]{../source/ep.py}
+
+%\lstinputlisting[breaklines=true, language=Python,basicstyle=\footnotesize,numbers=left,frame=single]{../source/evaluate.py}
+
+%\lstinputlisting[breaklines=true, language=Python,basicstyle=\footnotesize,numbers=left,frame=single]{../source/factory.py}
 
 
 \end{document}

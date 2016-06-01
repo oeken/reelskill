@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.28)  1 JUN 2016 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.28)  2 JUN 2016 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,107 +832,7 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (731.23582pt) is ignored.
 
-(./report.aux
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-
-LaTeX Warning: Label `dlkasd' multiply defined.
-
-)
+(./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
@@ -1020,7 +920,7 @@ LaTeX Info: Redefining \nameref on input line 93.
 \c@lstlisting=\count160
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- <./img/boun.png, id=60, 1027.84pt x 1027.84pt>
+ <./img/boun.png, id=56, 1027.84pt x 1027.84pt>
 File: ./img/boun.png Graphic file (type png)
  <use ./img/boun.png>
 Package pdftex.def Info: ./img/boun.png used on input line 95.
@@ -1056,31 +956,31 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
  [4]
-<./img/factor_graph.png, id=115, 1221.56375pt x 961.5925pt>
+<./img/factor_graph.png, id=110, 1221.56375pt x 961.5925pt>
 File: ./img/factor_graph.png Graphic file (type png)
 
 <use ./img/factor_graph.png>
 Package pdftex.def Info: ./img/factor_graph.png used on input line 156.
 (pdftex.def)             Requested size: 426.79135pt x 335.96083pt.
- <./img/11.png, id=118, 663.47874pt x 395.4775pt>
+ <./img/11.png, id=113, 663.47874pt x 395.4775pt>
 File: ./img/11.png Graphic file (type png)
 
 <use ./img/11.png>
 Package pdftex.def Info: ./img/11.png used on input line 167.
 (pdftex.def)             Requested size: 192.0548pt x 114.47432pt.
- <./img/12.png, id=119, 666.49pt x 397.485pt>
+ <./img/12.png, id=114, 666.49pt x 397.485pt>
 File: ./img/12.png Graphic file (type png)
 
 <use ./img/12.png>
 Package pdftex.def Info: ./img/12.png used on input line 173.
 (pdftex.def)             Requested size: 192.0548pt x 114.53381pt.
- <./img/21.png, id=120, 680.5425pt x 404.51125pt>
+ <./img/21.png, id=115, 680.5425pt x 404.51125pt>
 File: ./img/21.png Graphic file (type png)
 
 <use ./img/21.png>
 Package pdftex.def Info: ./img/21.png used on input line 184.
 (pdftex.def)             Requested size: 192.0548pt x 114.15736pt.
- <./img/22.png, id=121, 670.505pt x 392.46625pt>
+ <./img/22.png, id=116, 670.505pt x 392.46625pt>
 File: ./img/22.png Graphic file (type png)
 
 <use ./img/22.png>
@@ -1094,39 +994,39 @@ Overfull \hbox (16.30698pt too wide) in paragraph at lines 299--300
 r[]; r[]; [] \OT1/cmr/m/n/12 )$ 
  []
 
-<./img/bi_expo.png, id=163, 578.16pt x 433.62pt>
+<./img/bi_expo.png, id=158, 578.16pt x 433.62pt>
 File: ./img/bi_expo.png Graphic file (type png)
  <use ./img/bi_expo.png>
 Package pdftex.def Info: ./img/bi_expo.png used on input line 304.
 (pdftex.def)             Requested size: 298.75264pt x 224.06114pt.
 
-<./img/sigmo.png, id=164, 578.16pt x 433.62pt>
+<./img/sigmo.png, id=159, 578.16pt x 433.62pt>
 File: ./img/sigmo.png Graphic file (type png)
  <use ./img/sigmo.png>
 Package pdftex.def Info: ./img/sigmo.png used on input line 311.
 (pdftex.def)             Requested size: 384.1096pt x 288.0824pt.
 
-<./img/sigmo_2.png, id=165, 578.16pt x 433.62pt>
+<./img/sigmo_2.png, id=160, 578.16pt x 433.62pt>
 File: ./img/sigmo_2.png Graphic file (type png)
  <use ./img/sigmo_2.png>
 Package pdftex.def Info: ./img/sigmo_2.png used on input line 318.
 (pdftex.def)             Requested size: 384.1096pt x 288.0824pt.
 
-<./img/baynet_1.png, id=166, 565.11125pt x 251.94125pt>
+<./img/baynet_1.png, id=161, 565.11125pt x 251.94125pt>
 File: ./img/baynet_1.png Graphic file (type png)
 
 <use ./img/baynet_1.png>
 Package pdftex.def Info: ./img/baynet_1.png used on input line 327.
 (pdftex.def)             Requested size: 298.75264pt x 133.19376pt.
 
-<./img/baynet_2.png, id=169, 565.11125pt x 251.94125pt>
+<./img/baynet_2.png, id=164, 565.11125pt x 251.94125pt>
 File: ./img/baynet_2.png Graphic file (type png)
 
 <use ./img/baynet_2.png>
 Package pdftex.def Info: ./img/baynet_2.png used on input line 334.
 (pdftex.def)             Requested size: 298.75264pt x 133.19376pt.
 
-<./img/baynet_3.png, id=172, 530.98375pt x 251.94125pt>
+<./img/baynet_3.png, id=167, 530.98375pt x 251.94125pt>
 File: ./img/baynet_3.png Graphic file (type png)
 
 <use ./img/baynet_3.png>
@@ -1140,398 +1040,397 @@ LaTeX Warning: Text page 9 contains only floats.
 et_1.png> <./img/baynet_2.png> <./img/baynet_3.png>] [11
 
 ]
-<./img/mh.png, id=204, 1502.61375pt x 833.1125pt>
+<./img/mh.png, id=199, 1502.61375pt x 833.1125pt>
 File: ./img/mh.png Graphic file (type png)
  <use ./img/mh.png>
 Package pdftex.def Info: ./img/mh.png used on input line 375.
 (pdftex.def)             Requested size: 426.79135pt x 236.62595pt.
- [12 <./img/mh.png>] <./img/multinom.png, id=216, 751.80875pt x 680.5425pt>
+ [12 <./img/mh.png>] <./img/multinom.png, id=211, 751.80875pt x 680.5425pt>
 File: ./img/multinom.png Graphic file (type png)
 
 <use ./img/multinom.png>
 Package pdftex.def Info: ./img/multinom.png used on input line 395.
 (pdftex.def)             Requested size: 234.73654pt x 212.48209pt.
- <./img/gibbs.png, id=219, 912.40875pt x 421.575pt>
+ <./img/gibbs.png, id=214, 912.40875pt x 421.575pt>
 File: ./img/gibbs.png Graphic file (type png)
 
 <use ./img/gibbs.png>
 Package pdftex.def Info: ./img/gibbs.png used on input line 402.
 (pdftex.def)             Requested size: 234.73654pt x 108.45544pt.
- <./img/fg.png, id=222, 89.6148pt x 88.1694pt>
+ <./img/fg.png, id=217, 89.6148pt x 88.1694pt>
 File: ./img/fg.png Graphic file (type png)
 
 <use ./img/fg.png>
 Package pdftex.def Info: ./img/fg.png used on input line 413.
-(pdftex.def)             Requested size: 128.0387pt x 125.98036pt.
- [13 <./img/multinom.png> <./img/gibbs.png>]
+(pdftex.def)             Requested size: 85.35696pt x 83.98376pt.
+ [13 <./img/multinom.png> <./img/gibbs.png>] [14 <./img/fg.png>]
 
 LaTeX Warning: Command \^ invalid in math mode on input line 434.
 
 Missing character: There is no î in font cmr12!
-[14 <./img/fg.png>]
 
 LaTeX Warning: Command \^ invalid in math mode on input line 447.
 
 Missing character: There is no î in font cmr12!
-[15] [16
+[15
 
-]
-<./img/out/T8_23/MH/plot/joint_scatter_plot.png, id=258, 867.24pt x 867.24pt>
+] [16] (./report.bbl) [17]
+<./img/out/T8_23/MH/plot/joint_scatter_plot.png, id=260, 867.24pt x 867.24pt>
 File: ./img/out/T8_23/MH/plot/joint_scatter_plot.png Graphic file (type png)
 
 <use ./img/out/T8_23/MH/plot/joint_scatter_plot.png>
 Package pdftex.def Info: ./img/out/T8_23/MH/plot/joint_scatter_plot.png used on
- input line 479.
+ input line 493.
 (pdftex.def)             Requested size: 298.75264pt x 298.7482pt.
 
-<./img/out/T8_23/Gibbs/plot/joint_scatter_plot.png, id=259, 867.24pt x 867.24pt
+<./img/out/T8_23/Gibbs/plot/joint_scatter_plot.png, id=261, 867.24pt x 867.24pt
 >
 File: ./img/out/T8_23/Gibbs/plot/joint_scatter_plot.png Graphic file (type png)
 
  <use ./img/out/T8_23/Gibbs/plot/joint_scatter_plot.png>
 Package pdftex.def Info: ./img/out/T8_23/Gibbs/plot/joint_scatter_plot.png used
- on input line 480.
+ on input line 494.
 (pdftex.def)             Requested size: 298.75264pt x 298.7482pt.
 
-Overfull \hbox (2.91043pt too wide) in paragraph at lines 488--489
+Overfull \hbox (2.91043pt too wide) in paragraph at lines 502--503
  [][][] 
  []
 
 
-Overfull \hbox (40.43575pt too wide) in paragraph at lines 492--492
+Overfull \hbox (40.43575pt too wide) in paragraph at lines 506--506
  [][] 
  []
 
 
-<./img/out/T8_23/MH/plot/skill_distribution.png, id=260, 1300.86pt x 650.43pt>
+<./img/out/T8_23/MH/plot/skill_distribution.png, id=262, 1300.86pt x 650.43pt>
 File: ./img/out/T8_23/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T8_23/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T8_23/MH/plot/skill_distribution.png used on
- input line 493.
+ input line 507.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (2.91043pt too wide) in paragraph at lines 499--500
+Overfull \hbox (2.91043pt too wide) in paragraph at lines 513--514
  [][][] 
  []
 
 
-Overfull \hbox (40.43575pt too wide) in paragraph at lines 503--503
+Overfull \hbox (40.43575pt too wide) in paragraph at lines 517--517
  [][] 
  []
 
 
-<./img/out/T8_23/Gibbs/plot/skill_distribution.png, id=261, 1300.86pt x 650.43p
+<./img/out/T8_23/Gibbs/plot/skill_distribution.png, id=263, 1300.86pt x 650.43p
 t>
 File: ./img/out/T8_23/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T8_23/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T8_23/Gibbs/plot/skill_distribution.png used
- on input line 504.
+ on input line 518.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (2.91043pt too wide) in paragraph at lines 510--511
+Overfull \hbox (2.91043pt too wide) in paragraph at lines 524--525
  [][][] 
  []
 
 
-Overfull \hbox (40.43575pt too wide) in paragraph at lines 514--514
+Overfull \hbox (40.43575pt too wide) in paragraph at lines 528--528
  [][] 
  []
 
 
-<./img/out/T8_23/EP/plot/skill_distribution.png, id=262, 1300.86pt x 650.43pt>
+<./img/out/T8_23/EP/plot/skill_distribution.png, id=264, 1300.86pt x 650.43pt>
 File: ./img/out/T8_23/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T8_23/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T8_23/EP/plot/skill_distribution.png used on
- input line 515.
+ input line 529.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
- [17
+ [18
 
  <./img/out/T8_23/MH/plot/joint_scatter_plot.png> <./img/out/T8_23/Gibbs/plot/j
-oint_scatter_plot.png>] [18 <./img/out/T8_23/MH/plot/skill_distribution.png>] [
-19 <./img/out/T8_23/Gibbs/plot/skill_distribution.png>] [20 <./img/out/T8_23/EP
+oint_scatter_plot.png>] [19 <./img/out/T8_23/MH/plot/skill_distribution.png>] [
+20 <./img/out/T8_23/Gibbs/plot/skill_distribution.png>] [21 <./img/out/T8_23/EP
 /plot/skill_distribution.png>]
-Overfull \hbox (6.18341pt too wide) in paragraph at lines 532--532
+Overfull \hbox (6.18341pt too wide) in paragraph at lines 546--546
  [][] 
  []
 
 
-<./img/out/T1_1_Wed/MH/plot/skill_distribution.png, id=289, 1300.86pt x 650.43p
+<./img/out/T1_1_Wed/MH/plot/skill_distribution.png, id=291, 1300.86pt x 650.43p
 t>
 File: ./img/out/T1_1_Wed/MH/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T1_1_Wed/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T1_1_Wed/MH/plot/skill_distribution.png used
- on input line 533.
+ on input line 547.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 21.0403pt on input line 534.
+LaTeX Warning: Float too large for page by 21.0403pt on input line 548.
 
 
-Overfull \hbox (6.18341pt too wide) in paragraph at lines 545--545
+Overfull \hbox (6.18341pt too wide) in paragraph at lines 559--559
  [][] 
  []
 
 
-<./img/out/T1_1_Wed/Gibbs/plot/skill_distribution.png, id=290, 1300.86pt x 650.
+<./img/out/T1_1_Wed/Gibbs/plot/skill_distribution.png, id=292, 1300.86pt x 650.
 43pt>
 File: ./img/out/T1_1_Wed/Gibbs/plot/skill_distribution.png Graphic file (type p
 ng)
  <use ./img/out/T1_1_Wed/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T1_1_Wed/Gibbs/plot/skill_distribution.png u
-sed on input line 546.
+sed on input line 560.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 21.0403pt on input line 547.
+LaTeX Warning: Float too large for page by 21.0403pt on input line 561.
 
 
-Overfull \hbox (6.18341pt too wide) in paragraph at lines 558--558
+Overfull \hbox (6.18341pt too wide) in paragraph at lines 572--572
  [][] 
  []
 
 
-<./img/out/T1_1_Wed/EP/plot/skill_distribution.png, id=291, 1300.86pt x 650.43p
+<./img/out/T1_1_Wed/EP/plot/skill_distribution.png, id=293, 1300.86pt x 650.43p
 t>
 File: ./img/out/T1_1_Wed/EP/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T1_1_Wed/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T1_1_Wed/EP/plot/skill_distribution.png used
- on input line 559.
+ on input line 573.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 21.0403pt on input line 560.
+LaTeX Warning: Float too large for page by 21.0403pt on input line 574.
 
-[21 <./img/out/T1_1_Wed/MH/plot/skill_distribution.png>] [22 <./img/out/T1_1_We
-d/Gibbs/plot/skill_distribution.png>] [23 <./img/out/T1_1_Wed/EP/plot/skill_dis
+[22 <./img/out/T1_1_Wed/MH/plot/skill_distribution.png>] [23 <./img/out/T1_1_We
+d/Gibbs/plot/skill_distribution.png>] [24 <./img/out/T1_1_Wed/EP/plot/skill_dis
 tribution.png>]
-Overfull \hbox (57.20798pt too wide) in paragraph at lines 569--570
+Overfull \hbox (57.20798pt too wide) in paragraph at lines 583--584
  [][][] 
  []
 
 
-Overfull \hbox (67.58452pt too wide) in paragraph at lines 573--573
+Overfull \hbox (67.58452pt too wide) in paragraph at lines 587--587
  [][] 
  []
 
-<./img/out/T1_5/MH/plot/skill_distribution.png, id=310, 1300.86pt x 650.43pt>
+<./img/out/T1_5/MH/plot/skill_distribution.png, id=312, 1300.86pt x 650.43pt>
 File: ./img/out/T1_5/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T1_5/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T1_5/MH/plot/skill_distribution.png used on 
-input line 574.
+input line 588.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 6.5403pt on input line 575.
+LaTeX Warning: Float too large for page by 6.5403pt on input line 589.
 
 
-Overfull \hbox (57.20798pt too wide) in paragraph at lines 580--581
+Overfull \hbox (57.20798pt too wide) in paragraph at lines 594--595
  [][][] 
  []
 
 
-Overfull \hbox (67.58452pt too wide) in paragraph at lines 584--584
+Overfull \hbox (67.58452pt too wide) in paragraph at lines 598--598
  [][] 
  []
 
 
-<./img/out/T1_5/Gibbs/plot/skill_distribution.png, id=311, 1300.86pt x 650.43pt
+<./img/out/T1_5/Gibbs/plot/skill_distribution.png, id=313, 1300.86pt x 650.43pt
 >
 File: ./img/out/T1_5/Gibbs/plot/skill_distribution.png Graphic file (type png)
  <use ./img/out/T1_5/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T1_5/Gibbs/plot/skill_distribution.png used 
-on input line 585.
+on input line 599.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 6.5403pt on input line 586.
+LaTeX Warning: Float too large for page by 6.5403pt on input line 600.
 
 
-Overfull \hbox (57.20798pt too wide) in paragraph at lines 591--592
+Overfull \hbox (57.20798pt too wide) in paragraph at lines 605--606
  [][][] 
  []
 
 
-Overfull \hbox (67.58452pt too wide) in paragraph at lines 595--595
+Overfull \hbox (67.58452pt too wide) in paragraph at lines 609--609
  [][] 
  []
 
-<./img/out/T1_5/EP/plot/skill_distribution.png, id=312, 1300.86pt x 650.43pt>
+<./img/out/T1_5/EP/plot/skill_distribution.png, id=314, 1300.86pt x 650.43pt>
 File: ./img/out/T1_5/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T1_5/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T1_5/EP/plot/skill_distribution.png used on 
-input line 596.
+input line 610.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 6.5403pt on input line 597.
+LaTeX Warning: Float too large for page by 6.5403pt on input line 611.
 
-[24 <./img/out/T1_5/MH/plot/skill_distribution.png>] [25 <./img/out/T1_5/Gibbs/
-plot/skill_distribution.png>] [26 <./img/out/T1_5/EP/plot/skill_distribution.pn
+[25 <./img/out/T1_5/MH/plot/skill_distribution.png>] [26 <./img/out/T1_5/Gibbs/
+plot/skill_distribution.png>] [27 <./img/out/T1_5/EP/plot/skill_distribution.pn
 g>]
-Overfull \hbox (14.77118pt too wide) in paragraph at lines 607--608
+Overfull \hbox (14.77118pt too wide) in paragraph at lines 620--621
  [][][] 
  []
 
 
-Overfull \hbox (46.36612pt too wide) in paragraph at lines 611--611
+Overfull \hbox (46.36612pt too wide) in paragraph at lines 624--624
  [][] 
  []
 
 
-<./img/out/T2_7_Wed/MH/plot/skill_distribution.png, id=332, 1300.86pt x 650.43p
+<./img/out/T2_7_Wed/MH/plot/skill_distribution.png, id=335, 1300.86pt x 650.43p
 t>
 File: ./img/out/T2_7_Wed/MH/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T2_7_Wed/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T2_7_Wed/MH/plot/skill_distribution.png used
- on input line 612.
+ on input line 625.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 6.5403pt on input line 613.
+LaTeX Warning: Float too large for page by 6.5403pt on input line 626.
 
 
-Overfull \hbox (14.77118pt too wide) in paragraph at lines 619--620
+Overfull \hbox (14.77118pt too wide) in paragraph at lines 631--632
  [][][] 
  []
 
 
-Overfull \hbox (46.36612pt too wide) in paragraph at lines 623--623
+Overfull \hbox (46.36612pt too wide) in paragraph at lines 635--635
  [][] 
  []
 
 
-<./img/out/T2_7_Wed/Gibbs/plot/skill_distribution.png, id=333, 1300.86pt x 650.
+<./img/out/T2_7_Wed/Gibbs/plot/skill_distribution.png, id=336, 1300.86pt x 650.
 43pt>
 File: ./img/out/T2_7_Wed/Gibbs/plot/skill_distribution.png Graphic file (type p
 ng)
  <use ./img/out/T2_7_Wed/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T2_7_Wed/Gibbs/plot/skill_distribution.png u
-sed on input line 624.
-(pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
-
-
-LaTeX Warning: Float too large for page by 6.5403pt on input line 625.
-
-
-Overfull \hbox (46.43561pt too wide) in paragraph at lines 629--630
- [][][] 
- []
-
-
-Overfull \hbox (62.19833pt too wide) in paragraph at lines 633--633
- [][] 
- []
-
-<./img/out/T2_7/EP/plot/skill_distribution.png, id=334, 1300.86pt x 650.43pt>
-File: ./img/out/T2_7/EP/plot/skill_distribution.png Graphic file (type png)
-
-<use ./img/out/T2_7/EP/plot/skill_distribution.png>
-Package pdftex.def Info: ./img/out/T2_7/EP/plot/skill_distribution.png used on 
-input line 634.
+sed on input line 636.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
 LaTeX Warning: Float too large for page by 6.5403pt on input line 637.
 
-[27 <./img/out/T2_7_Wed/MH/plot/skill_distribution.png>] [28 <./img/out/T2_7_We
-d/Gibbs/plot/skill_distribution.png>] [29 <./img/out/T2_7/EP/plot/skill_distrib
-ution.png>]
-Overfull \hbox (34.56204pt too wide) in paragraph at lines 650--650
+
+Overfull \hbox (46.43561pt too wide) in paragraph at lines 642--643
+ [][][] 
+ []
+
+
+Overfull \hbox (62.19833pt too wide) in paragraph at lines 646--646
  [][] 
  []
 
-<./img/out/T3_9/MH/plot/skill_distribution.png, id=354, 1300.86pt x 650.43pt>
-File: ./img/out/T3_9/MH/plot/skill_distribution.png Graphic file (type png)
+<./img/out/T2_7/EP/plot/skill_distribution.png, id=337, 1300.86pt x 650.43pt>
+File: ./img/out/T2_7/EP/plot/skill_distribution.png Graphic file (type png)
 
-<use ./img/out/T3_9/MH/plot/skill_distribution.png>
-Package pdftex.def Info: ./img/out/T3_9/MH/plot/skill_distribution.png used on 
-input line 651.
+<use ./img/out/T2_7/EP/plot/skill_distribution.png>
+Package pdftex.def Info: ./img/out/T2_7/EP/plot/skill_distribution.png used on 
+input line 647.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 48.11389pt on input line 652.
+LaTeX Warning: Float too large for page by 6.5403pt on input line 648.
 
-
+[28 <./img/out/T2_7_Wed/MH/plot/skill_distribution.png>] [29 <./img/out/T2_7_We
+d/Gibbs/plot/skill_distribution.png>] [30 <./img/out/T2_7/EP/plot/skill_distrib
+ution.png>]
 Overfull \hbox (34.56204pt too wide) in paragraph at lines 660--660
  [][] 
  []
 
+<./img/out/T3_9/MH/plot/skill_distribution.png, id=356, 1300.86pt x 650.43pt>
+File: ./img/out/T3_9/MH/plot/skill_distribution.png Graphic file (type png)
 
-<./img/out/T3_9/Gibbs/plot/skill_distribution.png, id=355, 1300.86pt x 650.43pt
->
-File: ./img/out/T3_9/Gibbs/plot/skill_distribution.png Graphic file (type png)
- <use ./img/out/T3_9/Gibbs/plot/skill_distribution.png>
-Package pdftex.def Info: ./img/out/T3_9/Gibbs/plot/skill_distribution.png used 
-on input line 661.
+<use ./img/out/T3_9/MH/plot/skill_distribution.png>
+Package pdftex.def Info: ./img/out/T3_9/MH/plot/skill_distribution.png used on 
+input line 661.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
 LaTeX Warning: Float too large for page by 48.11389pt on input line 662.
 
-[30 <./img/out/T3_9/MH/plot/skill_distribution.png>] [31 <./img/out/T3_9/Gibbs/
-plot/skill_distribution.png>]
-Overfull \hbox (53.15753pt too wide) in paragraph at lines 676--676
+
+Overfull \hbox (34.56204pt too wide) in paragraph at lines 669--669
  [][] 
  []
 
 
-<./img/out/T4_11/MH/plot/skill_distribution.png, id=369, 1300.86pt x 650.43pt>
+<./img/out/T3_9/Gibbs/plot/skill_distribution.png, id=357, 1300.86pt x 650.43pt
+>
+File: ./img/out/T3_9/Gibbs/plot/skill_distribution.png Graphic file (type png)
+ <use ./img/out/T3_9/Gibbs/plot/skill_distribution.png>
+Package pdftex.def Info: ./img/out/T3_9/Gibbs/plot/skill_distribution.png used 
+on input line 670.
+(pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
+
+
+LaTeX Warning: Float too large for page by 77.11389pt on input line 671.
+
+[31 <./img/out/T3_9/MH/plot/skill_distribution.png>] [32 <./img/out/T3_9/Gibbs/
+plot/skill_distribution.png>]
+Overfull \hbox (53.15753pt too wide) in paragraph at lines 682--682
+ [][] 
+ []
+
+
+<./img/out/T4_11/MH/plot/skill_distribution.png, id=371, 1300.86pt x 650.43pt>
 File: ./img/out/T4_11/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T4_11/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T4_11/MH/plot/skill_distribution.png used on
- input line 677.
+ input line 683.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (53.15753pt too wide) in paragraph at lines 688--688
+Overfull \hbox (53.15753pt too wide) in paragraph at lines 691--691
  [][] 
  []
 
 
-<./img/out/T4_11/Gibbs/plot/skill_distribution.png, id=370, 1300.86pt x 650.43p
+<./img/out/T4_11/Gibbs/plot/skill_distribution.png, id=372, 1300.86pt x 650.43p
 t>
 File: ./img/out/T4_11/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T4_11/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T4_11/Gibbs/plot/skill_distribution.png used
- on input line 689.
+ on input line 692.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
- [32 <./img/out/T4_11/MH/plot/skill_distribution.png>] [33 <./img/out/T4_11/Gib
+ [33 <./img/out/T4_11/MH/plot/skill_distribution.png>] [34 <./img/out/T4_11/Gib
 bs/plot/skill_distribution.png>]
-<./img/out/T5_13/MH/plot/skill_distribution.png, id=383, 1300.86pt x 650.43pt>
+<./img/out/T5_13/MH/plot/skill_distribution.png, id=385, 1300.86pt x 650.43pt>
 File: ./img/out/T5_13/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T5_13/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T5_13/MH/plot/skill_distribution.png used on
- input line 704.
+ input line 706.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 705.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 707.
 
 
-<./img/out/T5_13/Gibbs/plot/skill_distribution.png, id=384, 1300.86pt x 650.43p
+<./img/out/T5_13/Gibbs/plot/skill_distribution.png, id=386, 1300.86pt x 650.43p
 t>
 File: ./img/out/T5_13/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T5_13/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T5_13/Gibbs/plot/skill_distribution.png used
- on input line 715.
+ on input line 716.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 716.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 717.
 
 
-<./img/out/T5_13/EP/plot/skill_distribution.png, id=385, 1300.86pt x 650.43pt>
+<./img/out/T5_13/EP/plot/skill_distribution.png, id=387, 1300.86pt x 650.43pt>
 File: ./img/out/T5_13/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T5_13/EP/plot/skill_distribution.png>
@@ -1542,185 +1441,201 @@ Package pdftex.def Info: ./img/out/T5_13/EP/plot/skill_distribution.png used on
 
 LaTeX Warning: Float too large for page by 33.1877pt on input line 727.
 
-[34 <./img/out/T5_13/MH/plot/skill_distribution.png>] [35 <./img/out/T5_13/Gibb
-s/plot/skill_distribution.png>] [36 <./img/out/T5_13/EP/plot/skill_distribution
-.png>] <./img/out/T5_15/MH/plot/actual.png, id=404, 710.655pt x 655.44875pt>
+[35 <./img/out/T5_13/MH/plot/skill_distribution.png>] [36 <./img/out/T5_13/Gibb
+s/plot/skill_distribution.png>] [37 <./img/out/T5_13/EP/plot/skill_distribution
+.png>] <./img/out/T5_15/MH/plot/actual.png, id=407, 710.655pt x 655.44875pt>
 File: ./img/out/T5_15/MH/plot/actual.png Graphic file (type png)
 
 <use ./img/out/T5_15/MH/plot/actual.png>
 Package pdftex.def Info: ./img/out/T5_15/MH/plot/actual.png used on input line 
-740.
+739.
 (pdftex.def)             Requested size: 170.71393pt x 157.45093pt.
 
-<./img/out/T5_15/MH/plot/skill_distribution.png, id=405, 1300.86pt x 650.43pt>
+<./img/out/T5_15/MH/plot/skill_distribution.png, id=408, 1300.86pt x 650.43pt>
 File: ./img/out/T5_15/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T5_15/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T5_15/MH/plot/skill_distribution.png used on
- input line 741.
+ input line 740.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-<./img/out/T5_15/Gibbs/plot/actual.png, id=406, 710.655pt x 655.44875pt>
+<./img/out/T5_15/Gibbs/plot/actual.png, id=409, 710.655pt x 655.44875pt>
 File: ./img/out/T5_15/Gibbs/plot/actual.png Graphic file (type png)
 
 <use ./img/out/T5_15/Gibbs/plot/actual.png>
 Package pdftex.def Info: ./img/out/T5_15/Gibbs/plot/actual.png used on input li
-ne 750.
+ne 748.
 (pdftex.def)             Requested size: 170.71393pt x 157.45093pt.
 
-<./img/out/T5_15/Gibbs/plot/skill_distribution.png, id=407, 1300.86pt x 650.43p
+<./img/out/T5_15/Gibbs/plot/skill_distribution.png, id=410, 1300.86pt x 650.43p
 t>
 File: ./img/out/T5_15/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T5_15/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T5_15/Gibbs/plot/skill_distribution.png used
- on input line 751.
+ on input line 749.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-<./img/out/T5_15/EP/plot/actual.png, id=408, 710.655pt x 655.44875pt>
+<./img/out/T5_15/EP/plot/actual.png, id=411, 710.655pt x 655.44875pt>
 File: ./img/out/T5_15/EP/plot/actual.png Graphic file (type png)
 
 <use ./img/out/T5_15/EP/plot/actual.png>
 Package pdftex.def Info: ./img/out/T5_15/EP/plot/actual.png used on input line 
-760.
+757.
 (pdftex.def)             Requested size: 170.71393pt x 157.45093pt.
 
-<./img/out/T5_15/EP/plot/skill_distribution.png, id=409, 1300.86pt x 650.43pt>
+<./img/out/T5_15/EP/plot/skill_distribution.png, id=412, 1300.86pt x 650.43pt>
 File: ./img/out/T5_15/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T5_15/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T5_15/EP/plot/skill_distribution.png used on
- input line 761.
+ input line 758.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
- [37 <./img/out/T5_15/MH/plot/actual.png> <./img/out/T5_15/MH/plot/skill_distri
-bution.png>] [38 <./img/out/T5_15/Gibbs/plot/actual.png> <./img/out/T5_15/Gibbs
-/plot/skill_distribution.png>] [39 <./img/out/T5_15/EP/plot/actual.png> <./img/
+ [38 <./img/out/T5_15/MH/plot/actual.png> <./img/out/T5_15/MH/plot/skill_distri
+bution.png>] [39 <./img/out/T5_15/Gibbs/plot/actual.png> <./img/out/T5_15/Gibbs
+/plot/skill_distribution.png>] [40 <./img/out/T5_15/EP/plot/actual.png> <./img/
 out/T5_15/EP/plot/skill_distribution.png>]
-<./img/out/T6_16/MH/plot/skill_distribution.png, id=432, 1300.86pt x 650.43pt>
+<./img/out/T6_16/MH/plot/skill_distribution.png, id=434, 1300.86pt x 650.43pt>
 File: ./img/out/T6_16/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_16/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_16/MH/plot/skill_distribution.png used on
- input line 778.
+ input line 774.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (37.31114pt too wide) in paragraph at lines 777--779
+Overfull \hbox (37.31114pt too wide) in paragraph at lines 773--775
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 779.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 775.
 
 
-<./img/out/T6_16/Gibbs/plot/skill_distribution.png, id=433, 1300.86pt x 650.43p
+<./img/out/T6_16/Gibbs/plot/skill_distribution.png, id=435, 1300.86pt x 650.43p
 t>
 File: ./img/out/T6_16/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T6_16/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_16/Gibbs/plot/skill_distribution.png used
- on input line 790.
+ on input line 785.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (37.31114pt too wide) in paragraph at lines 789--791
+Overfull \hbox (37.31114pt too wide) in paragraph at lines 784--786
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 791.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 786.
 
 
-<./img/out/T6_16/EP/plot/skill_distribution.png, id=434, 1300.86pt x 650.43pt>
+<./img/out/T6_16/EP/plot/skill_distribution.png, id=436, 1300.86pt x 650.43pt>
 File: ./img/out/T6_16/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_16/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_16/EP/plot/skill_distribution.png used on
- input line 802.
+ input line 796.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (37.31114pt too wide) in paragraph at lines 801--803
+Overfull \hbox (37.31114pt too wide) in paragraph at lines 795--797
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 803.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 797.
 
-[40 <./img/out/T6_16/MH/plot/skill_distribution.png>] [41 <./img/out/T6_16/Gibb
-s/plot/skill_distribution.png>] [42 <./img/out/T6_16/EP/plot/skill_distribution
+[41 <./img/out/T6_16/MH/plot/skill_distribution.png>] [42 <./img/out/T6_16/Gibb
+s/plot/skill_distribution.png>] [43 <./img/out/T6_16/EP/plot/skill_distribution
 .png>]
-<./img/out/T6_17/MH/plot/skill_distribution.png, id=453, 1300.86pt x 650.43pt>
+<./img/out/T6_17/MH/plot/skill_distribution.png, id=456, 1300.86pt x 650.43pt>
 File: ./img/out/T6_17/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_17/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_17/MH/plot/skill_distribution.png used on
- input line 819.
+ input line 812.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (43.44579pt too wide) in paragraph at lines 818--820
+Overfull \hbox (43.44579pt too wide) in paragraph at lines 811--813
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 820.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 813.
 
 
-<./img/out/T6_17/Gibbs/plot/skill_distribution.png, id=454, 1300.86pt x 650.43p
+<./img/out/T6_17/Gibbs/plot/skill_distribution.png, id=457, 1300.86pt x 650.43p
 t>
 File: ./img/out/T6_17/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T6_17/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_17/Gibbs/plot/skill_distribution.png used
- on input line 831.
+ on input line 823.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (43.44579pt too wide) in paragraph at lines 830--832
+Overfull \hbox (43.44579pt too wide) in paragraph at lines 822--824
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 832.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 824.
 
 
-<./img/out/T6_17/EP/plot/skill_distribution.png, id=455, 1300.86pt x 650.43pt>
+<./img/out/T6_17/EP/plot/skill_distribution.png, id=458, 1300.86pt x 650.43pt>
 File: ./img/out/T6_17/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_17/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_17/EP/plot/skill_distribution.png used on
- input line 843.
+ input line 834.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (43.44579pt too wide) in paragraph at lines 842--844
+Overfull \hbox (43.44579pt too wide) in paragraph at lines 833--835
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 844.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 835.
 
-[43 <./img/out/T6_17/MH/plot/skill_distribution.png>] [44 <./img/out/T6_17/Gibb
-s/plot/skill_distribution.png>] [45 <./img/out/T6_17/EP/plot/skill_distribution
+[44 <./img/out/T6_17/MH/plot/skill_distribution.png>] [45 <./img/out/T6_17/Gibb
+s/plot/skill_distribution.png>] [46 <./img/out/T6_17/EP/plot/skill_distribution
 .png>]
-<./img/out/T6_18/MH/plot/skill_distribution.png, id=475, 1300.86pt x 650.43pt>
+<./img/out/T6_18/MH/plot/skill_distribution.png, id=477, 1300.86pt x 650.43pt>
 File: ./img/out/T6_18/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_18/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_18/MH/plot/skill_distribution.png used on
- input line 860.
+ input line 850.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (70.32384pt too wide) in paragraph at lines 859--861
+Overfull \hbox (70.32384pt too wide) in paragraph at lines 849--851
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 19.5877pt on input line 861.
+LaTeX Warning: Float too large for page by 19.5877pt on input line 851.
 
 
-<./img/out/T6_18/Gibbs/plot/skill_distribution.png, id=476, 1300.86pt x 650.43p
+<./img/out/T6_18/Gibbs/plot/skill_distribution.png, id=478, 1300.86pt x 650.43p
 t>
 File: ./img/out/T6_18/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T6_18/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_18/Gibbs/plot/skill_distribution.png used
- on input line 872.
+ on input line 861.
+(pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
+
+Overfull \hbox (70.32384pt too wide) in paragraph at lines 860--862
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 19.5877pt on input line 862.
+
+
+<./img/out/T6_18/EP/plot/skill_distribution.png, id=479, 1300.86pt x 650.43pt>
+File: ./img/out/T6_18/EP/plot/skill_distribution.png Graphic file (type png)
+
+<use ./img/out/T6_18/EP/plot/skill_distribution.png>
+Package pdftex.def Info: ./img/out/T6_18/EP/plot/skill_distribution.png used on
+ input line 872.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 Overfull \hbox (70.32384pt too wide) in paragraph at lines 871--873
@@ -1730,298 +1645,261 @@ Overfull \hbox (70.32384pt too wide) in paragraph at lines 871--873
 
 LaTeX Warning: Float too large for page by 19.5877pt on input line 873.
 
-
-<./img/out/T6_18/EP/plot/skill_distribution.png, id=477, 1300.86pt x 650.43pt>
-File: ./img/out/T6_18/EP/plot/skill_distribution.png Graphic file (type png)
-
-<use ./img/out/T6_18/EP/plot/skill_distribution.png>
-Package pdftex.def Info: ./img/out/T6_18/EP/plot/skill_distribution.png used on
- input line 884.
-(pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
-
-Overfull \hbox (70.32384pt too wide) in paragraph at lines 883--885
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 19.5877pt on input line 885.
-
-[46 <./img/out/T6_18/MH/plot/skill_distribution.png>] [47 <./img/out/T6_18/Gibb
-s/plot/skill_distribution.png>] [48 <./img/out/T6_18/EP/plot/skill_distribution
+[47 <./img/out/T6_18/MH/plot/skill_distribution.png>] [48 <./img/out/T6_18/Gibb
+s/plot/skill_distribution.png>] [49 <./img/out/T6_18/EP/plot/skill_distribution
 .png>]
-<./img/out/T6_19/MH/plot/skill_distribution.png, id=496, 1300.86pt x 650.43pt>
+<./img/out/T6_19/MH/plot/skill_distribution.png, id=499, 1300.86pt x 650.43pt>
 File: ./img/out/T6_19/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_19/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_19/MH/plot/skill_distribution.png used on
- input line 901.
+ input line 888.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (19.24538pt too wide) in paragraph at lines 900--902
+Overfull \hbox (19.24538pt too wide) in paragraph at lines 887--889
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 902.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 889.
 
 
-<./img/out/T6_19/Gibbs/plot/skill_distribution.png, id=497, 1300.86pt x 650.43p
+<./img/out/T6_19/Gibbs/plot/skill_distribution.png, id=500, 1300.86pt x 650.43p
 t>
 File: ./img/out/T6_19/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T6_19/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_19/Gibbs/plot/skill_distribution.png used
- on input line 913.
+ on input line 899.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (19.24538pt too wide) in paragraph at lines 912--914
+Overfull \hbox (19.24538pt too wide) in paragraph at lines 898--900
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 914.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 900.
 
 
-<./img/out/T6_19/EP/plot/skill_distribution.png, id=498, 1300.86pt x 650.43pt>
+<./img/out/T6_19/EP/plot/skill_distribution.png, id=501, 1300.86pt x 650.43pt>
 File: ./img/out/T6_19/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_19/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_19/EP/plot/skill_distribution.png used on
- input line 925.
+ input line 910.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (19.24538pt too wide) in paragraph at lines 924--926
+Overfull \hbox (19.24538pt too wide) in paragraph at lines 909--911
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 926.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 911.
 
-[49 <./img/out/T6_19/MH/plot/skill_distribution.png>] [50 <./img/out/T6_19/Gibb
-s/plot/skill_distribution.png>] [51 <./img/out/T6_19/EP/plot/skill_distribution
-.png>] <./img/out/T6_20/MH/plot/actual.png, id=518, 646.415pt x 580.1675pt>
+[50 <./img/out/T6_19/MH/plot/skill_distribution.png>] [51 <./img/out/T6_19/Gibb
+s/plot/skill_distribution.png>] [52 <./img/out/T6_19/EP/plot/skill_distribution
+.png>] <./img/out/T6_20/MH/plot/actual.png, id=521, 646.415pt x 580.1675pt>
 File: ./img/out/T6_20/MH/plot/actual.png Graphic file (type png)
 
 <use ./img/out/T6_20/MH/plot/actual.png>
 Package pdftex.def Info: ./img/out/T6_20/MH/plot/actual.png used on input line 
-938.
+922.
 (pdftex.def)             Requested size: 170.71393pt x 153.2125pt.
 
-<./img/out/T6_20/MH/plot/skill_distribution.png, id=519, 1300.86pt x 650.43pt>
+<./img/out/T6_20/MH/plot/skill_distribution.png, id=522, 1300.86pt x 650.43pt>
 File: ./img/out/T6_20/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_20/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_20/MH/plot/skill_distribution.png used on
- input line 939.
+ input line 923.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-<./img/out/T6_20/Gibbs/plot/actual.png, id=520, 646.415pt x 580.1675pt>
+<./img/out/T6_20/Gibbs/plot/actual.png, id=523, 646.415pt x 580.1675pt>
 File: ./img/out/T6_20/Gibbs/plot/actual.png Graphic file (type png)
 
 <use ./img/out/T6_20/Gibbs/plot/actual.png>
 Package pdftex.def Info: ./img/out/T6_20/Gibbs/plot/actual.png used on input li
-ne 948.
+ne 931.
 (pdftex.def)             Requested size: 170.71393pt x 153.2125pt.
 
-<./img/out/T6_20/Gibbs/plot/skill_distribution.png, id=521, 1300.86pt x 650.43p
+<./img/out/T6_20/Gibbs/plot/skill_distribution.png, id=524, 1300.86pt x 650.43p
 t>
 File: ./img/out/T6_20/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T6_20/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_20/Gibbs/plot/skill_distribution.png used
- on input line 949.
+ on input line 932.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-<./img/out/T6_20/EP/plot/actual.png, id=522, 646.415pt x 580.1675pt>
+<./img/out/T6_20/EP/plot/actual.png, id=525, 646.415pt x 580.1675pt>
 File: ./img/out/T6_20/EP/plot/actual.png Graphic file (type png)
 
 <use ./img/out/T6_20/EP/plot/actual.png>
 Package pdftex.def Info: ./img/out/T6_20/EP/plot/actual.png used on input line 
-958.
+940.
 (pdftex.def)             Requested size: 170.71393pt x 153.2125pt.
 
-<./img/out/T6_20/EP/plot/skill_distribution.png, id=523, 1300.86pt x 650.43pt>
+<./img/out/T6_20/EP/plot/skill_distribution.png, id=526, 1300.86pt x 650.43pt>
 File: ./img/out/T6_20/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T6_20/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T6_20/EP/plot/skill_distribution.png used on
- input line 959.
+ input line 941.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
- [52 <./img/out/T6_20/MH/plot/actual.png> <./img/out/T6_20/MH/plot/skill_distri
-bution.png>] [53 <./img/out/T6_20/Gibbs/plot/actual.png> <./img/out/T6_20/Gibbs
-/plot/skill_distribution.png>] [54 <./img/out/T6_20/EP/plot/actual.png> <./img/
+ [53 <./img/out/T6_20/MH/plot/actual.png> <./img/out/T6_20/MH/plot/skill_distri
+bution.png>] [54 <./img/out/T6_20/Gibbs/plot/actual.png> <./img/out/T6_20/Gibbs
+/plot/skill_distribution.png>] [55 <./img/out/T6_20/EP/plot/actual.png> <./img/
 out/T6_20/EP/plot/skill_distribution.png>]
-<./img/out/T7_21/MH/plot/skill_distribution.png, id=546, 1300.86pt x 650.43pt>
+<./img/out/T7_21/MH/plot/skill_distribution.png, id=549, 1300.86pt x 650.43pt>
 File: ./img/out/T7_21/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T7_21/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T7_21/MH/plot/skill_distribution.png used on
- input line 976.
+ input line 957.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (10.91354pt too wide) in paragraph at lines 975--977
+Overfull \hbox (10.91354pt too wide) in paragraph at lines 956--958
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 977.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 958.
 
 
-<./img/out/T7_21/Gibbs/plot/skill_distribution.png, id=547, 1300.86pt x 650.43p
+<./img/out/T7_21/Gibbs/plot/skill_distribution.png, id=550, 1300.86pt x 650.43p
 t>
 File: ./img/out/T7_21/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T7_21/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T7_21/Gibbs/plot/skill_distribution.png used
- on input line 988.
+ on input line 968.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 989.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 969.
 
 
-<./img/out/T7_21/EP/plot/skill_distribution.png, id=548, 1300.86pt x 650.43pt>
+<./img/out/T7_21/EP/plot/skill_distribution.png, id=551, 1300.86pt x 650.43pt>
 File: ./img/out/T7_21/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T7_21/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T7_21/EP/plot/skill_distribution.png used on
- input line 1000.
+ input line 979.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-Overfull \hbox (10.91354pt too wide) in paragraph at lines 999--1001
+Overfull \hbox (10.91354pt too wide) in paragraph at lines 978--980
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 33.1877pt on input line 1001.
+LaTeX Warning: Float too large for page by 33.1877pt on input line 980.
 
-[55 <./img/out/T7_21/MH/plot/skill_distribution.png>] [56 <./img/out/T7_21/Gibb
-s/plot/skill_distribution.png>] [57 <./img/out/T7_21/EP/plot/skill_distribution
-.png>] <./img/out/T7_22/MH/plot/actual1.png, id=568, 251.94125pt x 355.3275pt>
+[56 <./img/out/T7_21/MH/plot/skill_distribution.png>] [57 <./img/out/T7_21/Gibb
+s/plot/skill_distribution.png>] [58 <./img/out/T7_21/EP/plot/skill_distribution
+.png>] <./img/out/T7_22/MH/plot/actual1.png, id=570, 251.94125pt x 355.3275pt>
 File: ./img/out/T7_22/MH/plot/actual1.png Graphic file (type png)
 
 <use ./img/out/T7_22/MH/plot/actual1.png>
 Package pdftex.def Info: ./img/out/T7_22/MH/plot/actual1.png used on input line
- 1013.
+ 991.
 (pdftex.def)             Requested size: 93.8946pt x 132.42336pt.
 
-<./img/out/T7_22/MH/plot/actual2.png, id=569, 251.94125pt x 356.33125pt>
+<./img/out/T7_22/MH/plot/actual2.png, id=571, 251.94125pt x 356.33125pt>
 File: ./img/out/T7_22/MH/plot/actual2.png Graphic file (type png)
 
 <use ./img/out/T7_22/MH/plot/actual2.png>
 Package pdftex.def Info: ./img/out/T7_22/MH/plot/actual2.png used on input line
- 1014.
+ 992.
 (pdftex.def)             Requested size: 93.8946pt x 132.79742pt.
 
-<./img/out/T7_22/MH/plot/skill_distribution.png, id=570, 1300.86pt x 650.43pt>
+<./img/out/T7_22/MH/plot/skill_distribution.png, id=572, 1300.86pt x 650.43pt>
 File: ./img/out/T7_22/MH/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T7_22/MH/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T7_22/MH/plot/skill_distribution.png used on
- input line 1015.
+ input line 993.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-<./img/out/T7_22/Gibbs/plot/actual1.png, id=571, 251.94125pt x 355.3275pt>
+<./img/out/T7_22/Gibbs/plot/actual1.png, id=573, 251.94125pt x 355.3275pt>
 File: ./img/out/T7_22/Gibbs/plot/actual1.png Graphic file (type png)
 
 <use ./img/out/T7_22/Gibbs/plot/actual1.png>
 Package pdftex.def Info: ./img/out/T7_22/Gibbs/plot/actual1.png used on input l
-ine 1024.
+ine 1001.
 (pdftex.def)             Requested size: 93.8946pt x 132.42336pt.
 
-<./img/out/T7_22/Gibbs/plot/actual2.png, id=572, 251.94125pt x 356.33125pt>
+<./img/out/T7_22/Gibbs/plot/actual2.png, id=574, 251.94125pt x 356.33125pt>
 File: ./img/out/T7_22/Gibbs/plot/actual2.png Graphic file (type png)
 
 <use ./img/out/T7_22/Gibbs/plot/actual2.png>
 Package pdftex.def Info: ./img/out/T7_22/Gibbs/plot/actual2.png used on input l
-ine 1025.
+ine 1002.
 (pdftex.def)             Requested size: 93.8946pt x 132.79742pt.
 
-<./img/out/T7_22/Gibbs/plot/skill_distribution.png, id=573, 1300.86pt x 650.43p
+<./img/out/T7_22/Gibbs/plot/skill_distribution.png, id=575, 1300.86pt x 650.43p
 t>
 File: ./img/out/T7_22/Gibbs/plot/skill_distribution.png Graphic file (type png)
 
  <use ./img/out/T7_22/Gibbs/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T7_22/Gibbs/plot/skill_distribution.png used
- on input line 1026.
+ on input line 1003.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
 
-<./img/out/T7_22/EP/plot/actual1.png, id=574, 251.94125pt x 355.3275pt>
+<./img/out/T7_22/EP/plot/actual1.png, id=576, 251.94125pt x 355.3275pt>
 File: ./img/out/T7_22/EP/plot/actual1.png Graphic file (type png)
 
 <use ./img/out/T7_22/EP/plot/actual1.png>
 Package pdftex.def Info: ./img/out/T7_22/EP/plot/actual1.png used on input line
- 1035.
+ 1011.
 (pdftex.def)             Requested size: 93.8946pt x 132.42336pt.
 
-<./img/out/T7_22/EP/plot/actual2.png, id=575, 251.94125pt x 356.33125pt>
+<./img/out/T7_22/EP/plot/actual2.png, id=577, 251.94125pt x 356.33125pt>
 File: ./img/out/T7_22/EP/plot/actual2.png Graphic file (type png)
 
 <use ./img/out/T7_22/EP/plot/actual2.png>
 Package pdftex.def Info: ./img/out/T7_22/EP/plot/actual2.png used on input line
- 1036.
+ 1012.
 (pdftex.def)             Requested size: 93.8946pt x 132.79742pt.
 
-<./img/out/T7_22/EP/plot/skill_distribution.png, id=576, 1300.86pt x 650.43pt>
+<./img/out/T7_22/EP/plot/skill_distribution.png, id=578, 1300.86pt x 650.43pt>
 File: ./img/out/T7_22/EP/plot/skill_distribution.png Graphic file (type png)
 
 <use ./img/out/T7_22/EP/plot/skill_distribution.png>
 Package pdftex.def Info: ./img/out/T7_22/EP/plot/skill_distribution.png used on
- input line 1037.
+ input line 1013.
 (pdftex.def)             Requested size: 426.79135pt x 213.39204pt.
- [58 <./img/out/T7_22/MH/plot/actual1.png> <./img/out/T7_22/MH/plot/actual2.png
-> <./img/out/T7_22/MH/plot/skill_distribution.png>] [59 <./img/out/T7_22/Gibbs/
+ [59 <./img/out/T7_22/MH/plot/actual1.png> <./img/out/T7_22/MH/plot/actual2.png
+> <./img/out/T7_22/MH/plot/skill_distribution.png>] [60 <./img/out/T7_22/Gibbs/
 plot/actual1.png> <./img/out/T7_22/Gibbs/plot/actual2.png> <./img/out/T7_22/Gib
-bs/plot/skill_distribution.png>] [60 <./img/out/T7_22/EP/plot/actual1.png> <./i
+bs/plot/skill_distribution.png>] [61 <./img/out/T7_22/EP/plot/actual1.png> <./i
 mg/out/T7_22/EP/plot/actual2.png> <./img/out/T7_22/EP/plot/skill_distribution.p
-ng>] (./report.bbl)
-[61
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1059.
- [62]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1059.
+ng>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1044.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1044.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1059.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1059.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1044.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1044.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 6613DBB3F4E4EB84F43820A7454849A6;798.
+(rerunfilecheck)             Checksum: 400FAEC809F8C64F7938A21AD0EF41CF;748.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1059.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1044.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12651 strings out of 494501
- 207709 string characters out of 6167030
- 431275 words of memory out of 5000000
- 15444 multiletter control sequences out of 15000+600000
+ 12647 strings out of 494501
+ 207674 string characters out of 6167030
+ 431272 words of memory out of 5000000
+ 15442 multiletter control sequences out of 15000+600000
  18905 words of font info for 50 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 40i,14n,46p,888b,3112s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,14n,46p,974b,3112s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015basic/texmf-dist/fonts/enc/dvips/cm-sup
 er/cm-super-t1.enc}</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmex10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/pub
@@ -2048,10 +1926,10 @@ b></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/cm-super/sfrm1200
 rm2074.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/cm-super
 /sfti1095.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/cm-su
 per/sfti1200.pfb>
-Output written on report.pdf (62 pages, 9003769 bytes).
+Output written on report.pdf (61 pages, 9006510 bytes).
 PDF statistics:
- 722 PDF objects out of 1000 (max. 8388607)
- 484 compressed objects within 5 object streams
- 156 named destinations out of 1000 (max. 500000)
- 478 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 714 PDF objects out of 1000 (max. 8388607)
+ 477 compressed objects within 5 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 470 words of extra memory for PDF output out of 10000 (max. 10000000)
 
