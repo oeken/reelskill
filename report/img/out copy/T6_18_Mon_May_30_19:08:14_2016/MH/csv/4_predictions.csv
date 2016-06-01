@@ -1,0 +1,154 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Akhisar Belediyespor,Konyaspor,-1,0.49,0.29,0.21,1,0
+2,Galatasaray,Sivasspor,1,0.52,0.28,0.20,1,1
+3,Kasimpasa,Gaziantepspor,-1,0.39,0.33,0.29,1,0
+4,Kayserispor,Osmanlispor,1,0.36,0.33,0.31,1,1
+5,Antalyaspor,Buyuksehyr,-1,0.33,0.38,0.30,-1,1
+6,Bursaspor,Trabzonspor,1,0.21,0.67,0.13,-1,0
+7,Rizespor,Genclerbirligi,-1,0.62,0.24,0.15,1,0
+8,Eskisehirspor,Fenerbahce,-1,0.10,0.84,0.06,-1,1
+9,Konyaspor,Kayserispor,1,0.36,0.33,0.31,1,1
+10,Mersin Idman Yurdu,Akhisar Belediyespor,0,0.17,0.73,0.10,-1,0
+11,Osmanlispor,Galatasaray,1,0.30,0.48,0.22,-1,0
+12,Fenerbahce,Rizespor,1,0.56,0.26,0.18,1,1
+13,Gaziantepspor,Bursaspor,-1,0.67,0.20,0.12,1,0
+14,Genclerbirligi,Antalyaspor,1,0.25,0.59,0.16,-1,0
+15,Sivasspor,Eskisehirspor,-1,0.62,0.24,0.15,1,0
+16,Buyuksehyr,Kasimpasa,0,0.32,0.43,0.26,-1,0
+17,Antalyaspor,Fenerbahce,1,0.25,0.59,0.16,-1,0
+18,Osmanlispor,Sivasspor,1,0.38,0.33,0.29,1,1
+19,Bursaspor,Buyuksehyr,0,0.22,0.64,0.14,-1,0
+20,Galatasaray,Konyaspor,0,0.43,0.32,0.26,1,0
+21,Kayserispor,Mersin Idman Yurdu,-1,0.59,0.25,0.16,1,0
+22,Akhisar Belediyespor,Trabzonspor,1,0.43,0.32,0.26,1,1
+23,Besiktas,Gaziantepspor,1,0.56,0.26,0.18,1,1
+24,Rizespor,Eskisehirspor,0,0.71,0.18,0.11,1,0
+25,Kasimpasa,Genclerbirligi,-1,0.70,0.19,0.11,1,0
+26,Fenerbahce,Kasimpasa,1,0.46,0.30,0.23,1,1
+27,Genclerbirligi,Bursaspor,1,0.36,0.33,0.31,1,1
+28,Konyaspor,Osmanlispor,0,0.38,0.33,0.29,1,0
+29,Mersin Idman Yurdu,Galatasaray,1,0.20,0.69,0.12,-1,0
+30,Buyuksehyr,Besiktas,0,0.25,0.59,0.16,-1,0
+31,Eskisehirspor,Antalyaspor,1,0.20,0.69,0.12,-1,0
+32,Gaziantepspor,Akhisar Belediyespor,-1,0.32,0.42,0.26,-1,1
+33,Sivasspor,Rizespor,1,0.31,0.46,0.24,-1,0
+34,Trabzonspor,Kayserispor,1,0.43,0.32,0.26,1,1
+35,Besiktas,Mersin Idman Yurdu,1,0.82,0.12,0.07,1,1
+36,Konyaspor,Sivasspor,1,0.43,0.32,0.26,1,1
+37,Antalyaspor,Rizespor,1,0.33,0.37,0.30,-1,0
+38,Bursaspor,Fenerbahce,0,0.13,0.79,0.07,-1,0
+39,Kasimpasa,Eskisehirspor,1,0.78,0.14,0.08,1,1
+40,Akhisar Belediyespor,Buyuksehyr,0,0.46,0.31,0.24,1,0
+41,Galatasaray,Trabzonspor,1,0.36,0.33,0.31,1,1
+42,Kayserispor,Gaziantepspor,0,0.31,0.44,0.25,-1,0
+43,Osmanlispor,Mersin Idman Yurdu,1,0.57,0.26,0.17,1,1
+44,Besiktas,Genclerbirligi,1,0.81,0.12,0.07,1,1
+45,Buyuksehyr,Kayserispor,1,0.40,0.32,0.28,1,1
+46,Eskisehirspor,Bursaspor,-1,0.31,0.43,0.25,-1,1
+47,Mersin Idman Yurdu,Konyaspor,-1,0.24,0.61,0.15,-1,1
+48,Rizespor,Kasimpasa,1,0.31,0.44,0.25,-1,0
+49,Trabzonspor,Osmanlispor,-1,0.45,0.31,0.24,1,0
+50,Gaziantepspor,Galatasaray,1,0.33,0.35,0.32,-1,0
+51,Genclerbirligi,Akhisar Belediyespor,1,0.18,0.72,0.10,-1,0
+52,Sivasspor,Antalyaspor,0,0.32,0.43,0.26,-1,0
+53,Fenerbahce,Besiktas,1,0.33,0.39,0.29,-1,0
+54,Mersin Idman Yurdu,Sivasspor,1,0.28,0.53,0.19,-1,0
+55,Bursaspor,Rizespor,1,0.23,0.64,0.14,-1,0
+56,Kayserispor,Genclerbirligi,-1,0.57,0.26,0.17,1,0
+57,Osmanlispor,Gaziantepspor,0,0.31,0.46,0.23,-1,0
+58,Akhisar Belediyespor,Fenerbahce,-1,0.31,0.43,0.25,-1,1
+59,Galatasaray,Buyuksehyr,0,0.39,0.33,0.29,1,0
+60,Kasimpasa,Antalyaspor,1,0.47,0.30,0.23,1,1
+61,Konyaspor,Trabzonspor,1,0.32,0.40,0.27,-1,0
+62,Besiktas,Eskisehirspor,1,0.86,0.09,0.05,1,1
+63,Trabzonspor,Mersin Idman Yurdu,1,0.67,0.21,0.12,1,1
+64,Buyuksehyr,Osmanlispor,-1,0.42,0.32,0.26,1,0
+65,Gaziantepspor,Konyaspor,-1,0.41,0.32,0.27,1,0
+66,Rizespor,Besiktas,-1,0.24,0.60,0.15,-1,1
+67,Eskisehirspor,Akhisar Belediyespor,0,0.13,0.79,0.07,-1,0
+68,Fenerbahce,Kayserispor,1,0.61,0.24,0.15,1,1
+69,Genclerbirligi,Galatasaray,0,0.21,0.67,0.12,-1,0
+70,Antalyaspor,Bursaspor,1,0.61,0.24,0.15,1,1
+71,Sivasspor,Kasimpasa,1,0.27,0.55,0.18,-1,0
+72,Trabzonspor,Besiktas,-1,0.26,0.57,0.17,-1,1
+73,Akhisar Belediyespor,Rizespor,0,0.47,0.30,0.23,1,0
+74,Kayserispor,Eskisehirspor,0,0.67,0.21,0.12,1,0
+75,Besiktas,Antalyaspor,1,0.63,0.23,0.14,1,1
+76,Osmanlispor,Genclerbirligi,1,0.55,0.27,0.18,1,1
+77,Trabzonspor,Sivasspor,1,0.49,0.29,0.21,1,1
+78,Bursaspor,Kasimpasa,1,0.18,0.71,0.11,-1,0
+79,Konyaspor,Buyuksehyr,0,0.33,0.37,0.30,-1,0
+80,Mersin Idman Yurdu,Gaziantepspor,0,0.20,0.67,0.12,-1,0
+81,Eskisehirspor,Galatasaray,1,0.16,0.75,0.09,-1,0
+82,Gaziantepspor,Trabzonspor,-1,0.34,0.33,0.32,1,0
+83,Genclerbirligi,Konyaspor,-1,0.25,0.59,0.16,-1,1
+84,Antalyaspor,Akhisar Belediyespor,0,0.29,0.50,0.21,-1,0
+85,Buyuksehyr,Mersin Idman Yurdu,1,0.64,0.22,0.14,1,1
+86,Fenerbahce,Osmanlispor,0,0.63,0.23,0.14,1,0
+87,Sivasspor,Bursaspor,-1,0.53,0.28,0.19,1,0
+88,Kasimpasa,Besiktas,1,0.29,0.51,0.20,-1,0
+89,Rizespor,Kayserispor,0,0.39,0.33,0.29,1,0
+90,Gaziantepspor,Sivasspor,-1,0.50,0.29,0.21,1,0
+91,Galatasaray,Rizespor,0,0.40,0.32,0.28,1,0
+92,Kayserispor,Antalyaspor,0,0.33,0.36,0.31,-1,0
+93,Osmanlispor,Eskisehirspor,0,0.65,0.22,0.13,1,0
+94,Konyaspor,Fenerbahce,1,0.25,0.58,0.16,-1,0
+95,Mersin Idman Yurdu,Genclerbirligi,-1,0.33,0.36,0.31,-1,1
+96,Trabzonspor,Buyuksehyr,0,0.36,0.33,0.30,1,0
+97,Akhisar Belediyespor,Kasimpasa,-1,0.37,0.33,0.30,1,0
+98,Besiktas,Bursaspor,1,0.82,0.12,0.07,1,1
+99,Galatasaray,Fenerbahce,0,0.29,0.50,0.21,-1,0
+100,Antalyaspor,Galatasaray,1,0.32,0.43,0.26,-1,0
+101,Eskisehirspor,Konyaspor,-1,0.19,0.69,0.11,-1,1
+102,Rizespor,Osmanlispor,-1,0.41,0.32,0.27,1,0
+103,Sivasspor,Besiktas,-1,0.19,0.70,0.11,-1,1
+104,Bursaspor,Akhisar Belediyespor,-1,0.17,0.73,0.10,-1,1
+105,Buyuksehyr,Gaziantepspor,1,0.33,0.37,0.30,-1,0
+106,Fenerbahce,Mersin Idman Yurdu,1,0.79,0.13,0.07,1,1
+107,Kasimpasa,Kayserispor,-1,0.49,0.29,0.22,1,0
+108,Genclerbirligi,Trabzonspor,1,0.22,0.65,0.13,-1,0
+109,Kayserispor,Bursaspor,1,0.59,0.25,0.16,1,1
+110,Akhisar Belediyespor,Besiktas,0,0.30,0.48,0.22,-1,0
+111,Buyuksehyr,Sivasspor,0,0.47,0.30,0.23,1,0
+112,Osmanlispor,Antalyaspor,1,0.33,0.38,0.29,-1,0
+113,Galatasaray,Kasimpasa,1,0.33,0.37,0.30,-1,0
+114,Konyaspor,Rizespor,1,0.33,0.36,0.31,-1,0
+115,Mersin Idman Yurdu,Eskisehirspor,-1,0.43,0.31,0.25,1,0
+116,Trabzonspor,Fenerbahce,-1,0.28,0.52,0.20,-1,1
+117,Gaziantepspor,Genclerbirligi,-1,0.66,0.21,0.13,1,0
+118,Bursaspor,Galatasaray,0,0.20,0.68,0.12,-1,0
+119,Rizespor,Mersin Idman Yurdu,1,0.64,0.23,0.14,1,1
+120,Besiktas,Kayserispor,1,0.65,0.22,0.13,1,1
+121,Eskisehirspor,Trabzonspor,1,0.17,0.74,0.10,-1,0
+122,Genclerbirligi,Buyuksehyr,0,0.23,0.62,0.14,-1,0
+123,Antalyaspor,Konyaspor,1,0.33,0.34,0.33,-1,0
+124,Fenerbahce,Gaziantepspor,1,0.51,0.28,0.20,1,1
+125,Sivasspor,Akhisar Belediyespor,0,0.25,0.58,0.17,-1,0
+126,Kasimpasa,Osmanlispor,0,0.51,0.29,0.20,1,0
+127,Gaziantepspor,Eskisehirspor,0,0.74,0.16,0.09,1,0
+128,Osmanlispor,Bursaspor,0,0.57,0.26,0.17,1,0
+129,Sivasspor,Genclerbirligi,1,0.51,0.29,0.21,1,1
+130,Akhisar Belediyespor,Kayserispor,0,0.52,0.28,0.20,1,0
+131,Galatasaray,Besiktas,-1,0.27,0.55,0.18,-1,1
+132,Mersin Idman Yurdu,Antalyaspor,-1,0.24,0.61,0.15,-1,1
+133,Trabzonspor,Rizespor,1,0.37,0.33,0.30,1,1
+134,Buyuksehyr,Fenerbahce,1,0.27,0.55,0.18,-1,0
+135,Konyaspor,Kasimpasa,1,0.30,0.46,0.23,-1,0
+136,Antalyaspor,Trabzonspor,1,0.32,0.41,0.27,-1,0
+137,Bursaspor,Konyaspor,0,0.24,0.61,0.15,-1,0
+138,Eskisehirspor,Buyuksehyr,-1,0.18,0.72,0.10,-1,1
+139,Kayserispor,Sivasspor,0,0.40,0.32,0.27,1,0
+140,Rizespor,Gaziantepspor,1,0.33,0.38,0.29,-1,0
+141,Akhisar Belediyespor,Galatasaray,-1,0.40,0.32,0.27,1,0
+142,Besiktas,Osmanlispor,1,0.67,0.21,0.13,1,1
+143,Fenerbahce,Genclerbirligi,1,0.78,0.14,0.08,1,1
+144,Kasimpasa,Mersin Idman Yurdu,1,0.71,0.18,0.11,1,1
+145,Buyuksehyr,Rizespor,1,0.34,0.33,0.32,1,1
+146,Konyaspor,Besiktas,1,0.23,0.63,0.14,-1,0
+147,Mersin Idman Yurdu,Bursaspor,-1,0.33,0.34,0.33,-1,1
+148,Galatasaray,Kayserispor,1,0.45,0.31,0.24,1,1
+149,Gaziantepspor,Antalyaspor,1,0.41,0.32,0.27,1,1
+150,Genclerbirligi,Eskisehirspor,1,0.46,0.31,0.24,1,1
+151,Osmanlispor,Akhisar Belediyespor,1,0.27,0.54,0.19,-1,0
+152,Sivasspor,Fenerbahce,0,0.21,0.66,0.13,-1,0
+153,Trabzonspor,Kasimpasa,-1,0.32,0.40,0.28,-1,1

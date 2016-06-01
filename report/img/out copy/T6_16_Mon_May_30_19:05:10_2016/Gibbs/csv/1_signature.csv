@@ -1,0 +1,11 @@
+Date,T6_1_Mon_May_30_19:05:10_2016
+Algorithm,Gibbs
+Dataset,Football
+Number of matches,190
+Number of players,20
+Number of teams,20
+Number of iterations,4000
+Elapsed time,75
+Variance of proposal,None
+Proposals accepted,None
+Proposals rejected,None

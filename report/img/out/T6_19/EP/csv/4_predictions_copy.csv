@@ -1,0 +1,11 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Sevilla,Malaga,1,0.48,0.42,0.10,1,1
+2,Sociedad,La Coruna,0,0.37,0.53,0.10,-1,0
+3,Villarreal,Betis,0,0.80,0.10,0.10,1,0
+4,Barcelona,Ath Bilbao,1,0.83,0.07,0.10,1,1
+5,Getafe,Espanol,1,0.52,0.38,0.10,1,1
+6,Las Palmas,Ath Madrid,-1,0.13,0.77,0.10,-1,1
+7,Real Madrid,Sp Gijon,1,0.92,-0.02,0.10,1,1
+8,Valencia,Vallecano,0,0.76,0.14,0.10,1,0
+9,Eibar,Granada,1,0.71,0.19,0.10,1,1
+10,Sp Gijon,Sociedad,1,0.33,0.57,0.10,-1,0

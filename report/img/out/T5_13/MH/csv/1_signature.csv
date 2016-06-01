@@ -1,0 +1,11 @@
+Date,T5_13_Mon_May_30_18:48:57_2016
+Algorithm,MH
+Dataset,Tennis
+Number of matches,251
+Number of players,182
+Number of teams,182
+Number of iterations,5000
+Elapsed time,27
+Variance of proposal,1.0
+Proposals accepted,3735.0
+Proposals rejected,1265.0

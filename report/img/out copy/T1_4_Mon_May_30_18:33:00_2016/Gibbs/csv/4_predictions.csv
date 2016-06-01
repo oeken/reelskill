@@ -1,0 +1,101 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Dr. Fleming Kshlerin,Roberta Toy,-1,0.29,0.71,0.00,-1,1
+2,Dr. Fleming Kshlerin,Demetria Stamm,1,0.20,0.80,0.00,-1,0
+3,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+4,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+5,Roberta Toy,Demetria Stamm,-1,0.39,0.61,0.00,-1,1
+6,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+7,Roberta Toy,Dr. Camron Padberg PhD,-1,0.23,0.77,0.00,-1,1
+8,Demetria Stamm,Mireya Runolfsson PhD,-1,0.37,0.63,0.00,-1,1
+9,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+10,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,1,0.44,0.56,0.00,-1,0
+11,Dr. Fleming Kshlerin,Roberta Toy,1,0.29,0.71,0.00,-1,0
+12,Dr. Fleming Kshlerin,Demetria Stamm,-1,0.20,0.80,0.00,-1,1
+13,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+14,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+15,Roberta Toy,Demetria Stamm,1,0.39,0.61,0.00,-1,0
+16,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+17,Roberta Toy,Dr. Camron Padberg PhD,-1,0.23,0.77,0.00,-1,1
+18,Demetria Stamm,Mireya Runolfsson PhD,-1,0.37,0.63,0.00,-1,1
+19,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+20,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,-1,0.44,0.56,0.00,-1,1
+21,Dr. Fleming Kshlerin,Roberta Toy,-1,0.29,0.71,0.00,-1,1
+22,Dr. Fleming Kshlerin,Demetria Stamm,-1,0.20,0.80,0.00,-1,1
+23,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+24,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+25,Roberta Toy,Demetria Stamm,-1,0.39,0.61,0.00,-1,1
+26,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+27,Roberta Toy,Dr. Camron Padberg PhD,1,0.23,0.77,0.00,-1,0
+28,Demetria Stamm,Mireya Runolfsson PhD,-1,0.37,0.63,0.00,-1,1
+29,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+30,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,-1,0.44,0.56,0.00,-1,1
+31,Dr. Fleming Kshlerin,Roberta Toy,-1,0.29,0.71,0.00,-1,1
+32,Dr. Fleming Kshlerin,Demetria Stamm,-1,0.20,0.80,0.00,-1,1
+33,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+34,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+35,Roberta Toy,Demetria Stamm,1,0.39,0.61,0.00,-1,0
+36,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+37,Roberta Toy,Dr. Camron Padberg PhD,-1,0.23,0.77,0.00,-1,1
+38,Demetria Stamm,Mireya Runolfsson PhD,1,0.37,0.63,0.00,-1,0
+39,Demetria Stamm,Dr. Camron Padberg PhD,1,0.32,0.68,0.00,-1,0
+40,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,-1,0.44,0.56,0.00,-1,1
+41,Dr. Fleming Kshlerin,Roberta Toy,-1,0.29,0.71,0.00,-1,1
+42,Dr. Fleming Kshlerin,Demetria Stamm,-1,0.20,0.80,0.00,-1,1
+43,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,1,0.13,0.87,0.00,-1,0
+44,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+45,Roberta Toy,Demetria Stamm,1,0.39,0.61,0.00,-1,0
+46,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+47,Roberta Toy,Dr. Camron Padberg PhD,-1,0.23,0.77,0.00,-1,1
+48,Demetria Stamm,Mireya Runolfsson PhD,1,0.37,0.63,0.00,-1,0
+49,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+50,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,-1,0.44,0.56,0.00,-1,1
+51,Dr. Fleming Kshlerin,Roberta Toy,-1,0.29,0.71,0.00,-1,1
+52,Dr. Fleming Kshlerin,Demetria Stamm,-1,0.20,0.80,0.00,-1,1
+53,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+54,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+55,Roberta Toy,Demetria Stamm,-1,0.39,0.61,0.00,-1,1
+56,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+57,Roberta Toy,Dr. Camron Padberg PhD,-1,0.23,0.77,0.00,-1,1
+58,Demetria Stamm,Mireya Runolfsson PhD,-1,0.37,0.63,0.00,-1,1
+59,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+60,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,-1,0.44,0.56,0.00,-1,1
+61,Dr. Fleming Kshlerin,Roberta Toy,-1,0.29,0.71,0.00,-1,1
+62,Dr. Fleming Kshlerin,Demetria Stamm,-1,0.20,0.80,0.00,-1,1
+63,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+64,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+65,Roberta Toy,Demetria Stamm,-1,0.39,0.61,0.00,-1,1
+66,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+67,Roberta Toy,Dr. Camron Padberg PhD,-1,0.23,0.77,0.00,-1,1
+68,Demetria Stamm,Mireya Runolfsson PhD,-1,0.37,0.63,0.00,-1,1
+69,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+70,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,-1,0.44,0.56,0.00,-1,1
+71,Dr. Fleming Kshlerin,Roberta Toy,-1,0.29,0.71,0.00,-1,1
+72,Dr. Fleming Kshlerin,Demetria Stamm,-1,0.20,0.80,0.00,-1,1
+73,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+74,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+75,Roberta Toy,Demetria Stamm,1,0.39,0.61,0.00,-1,0
+76,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+77,Roberta Toy,Dr. Camron Padberg PhD,-1,0.23,0.77,0.00,-1,1
+78,Demetria Stamm,Mireya Runolfsson PhD,1,0.37,0.63,0.00,-1,0
+79,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+80,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,-1,0.44,0.56,0.00,-1,1
+81,Dr. Fleming Kshlerin,Roberta Toy,-1,0.29,0.71,0.00,-1,1
+82,Dr. Fleming Kshlerin,Demetria Stamm,-1,0.20,0.80,0.00,-1,1
+83,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+84,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,-1,0.10,0.90,0.00,-1,1
+85,Roberta Toy,Demetria Stamm,-1,0.39,0.61,0.00,-1,1
+86,Roberta Toy,Mireya Runolfsson PhD,-1,0.27,0.73,0.00,-1,1
+87,Roberta Toy,Dr. Camron Padberg PhD,-1,0.23,0.77,0.00,-1,1
+88,Demetria Stamm,Mireya Runolfsson PhD,-1,0.37,0.63,0.00,-1,1
+89,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+90,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,1,0.44,0.56,0.00,-1,0
+91,Dr. Fleming Kshlerin,Roberta Toy,1,0.29,0.71,0.00,-1,0
+92,Dr. Fleming Kshlerin,Demetria Stamm,1,0.20,0.80,0.00,-1,0
+93,Dr. Fleming Kshlerin,Mireya Runolfsson PhD,-1,0.13,0.87,0.00,-1,1
+94,Dr. Fleming Kshlerin,Dr. Camron Padberg PhD,1,0.10,0.90,0.00,-1,0
+95,Roberta Toy,Demetria Stamm,-1,0.39,0.61,0.00,-1,1
+96,Roberta Toy,Mireya Runolfsson PhD,1,0.27,0.73,0.00,-1,0
+97,Roberta Toy,Dr. Camron Padberg PhD,1,0.23,0.77,0.00,-1,0
+98,Demetria Stamm,Mireya Runolfsson PhD,1,0.37,0.63,0.00,-1,0
+99,Demetria Stamm,Dr. Camron Padberg PhD,-1,0.32,0.68,0.00,-1,1
+100,Mireya Runolfsson PhD,Dr. Camron Padberg PhD,-1,0.44,0.56,0.00,-1,1

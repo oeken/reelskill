@@ -1,0 +1,11 @@
+Date,T7_6_Mon_May_30_19:19:36_2016
+Algorithm,MH
+Dataset,Basketball
+Number of matches,615
+Number of players,30
+Number of teams,30
+Number of iterations,5000
+Elapsed time,67
+Variance of proposal,1.0
+Proposals accepted,3040.0
+Proposals rejected,1960.0

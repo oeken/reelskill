@@ -1,0 +1,11 @@
+Date,T6_3_Mon_May_30_19:08:14_2016
+Algorithm,MH
+Dataset,Football
+Number of matches,153
+Number of players,18
+Number of teams,18
+Number of iterations,5000
+Elapsed time,16
+Variance of proposal,1.0
+Proposals accepted,3763.0
+Proposals rejected,1237.0

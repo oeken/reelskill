@@ -154,29 +154,48 @@ def test7(num, i):
 
         execute_algorithms(test_time, p_train, t_train, m_train, None, 'Basketball')
 
+def test8(num, draw_factor, num_of_matches):
+    test_time = time.ctime().replace(' ','_')
+    test_time = 'T8_' + str(num) + '_' + test_time
 
+    # players
+    p1 = mo.Player(reel_skill=10)
+    p2 = mo.Player(reel_skill=40)
+    p_train = [p1,p2]
+
+    # teams
+    t1 = mo.Team([p1])
+    t2 = mo.Team([p2])
+    t_train = [t1,t2]
+
+    # matches
+    mo.draw_factor = draw_factor
+    m_train = fa.generateSyntheticMatchesFullTimes(t_train, num_of_matches)
+    m_test = fa.generateSyntheticMatchesFullTimes(t_train, num_of_matches)
+
+    execute_algorithms(test_time, p_train, t_train, m_train, m_test, 'Synthetic')
 
 
 
 def execute_algorithms(test_time, p_train, t_train, m_train, m_test, dataname):
-    # MH
-    ite = 5000
-    aggr = 1.0
-    tic = time.time()
-    algo, decisions = mc.mh_mcmc(p_train, m_train, aggr, ite)
-    toc = time.time() - tic
-    out = ev.Output(test_time, m_train, algo, dataname, toc,  ite=ite, aggr=aggr, decisions=decisions, m_test=m_test)
-    out.trigger_csv()
-    out.trigger_plots()
-
-    # Gibbs
-    ite = 4000
-    tic = time.time()
-    algo = mc.gibbs_mcmc(p_train, m_train, ite)
-    toc = time.time() - tic
-    out = ev.Output(test_time, m_train, algo, dataname, toc , ite=ite, m_test=m_test)
-    out.trigger_csv()
-    out.trigger_plots()
+    # # MH
+    # ite = 8000
+    # aggr = 0.7
+    # tic = time.time()
+    # algo, decisions = mc.mh_mcmc(p_train, m_train, aggr, ite)
+    # toc = time.time() - tic
+    # out = ev.Output(test_time, m_train, algo, dataname, toc,  ite=ite, aggr=aggr, decisions=decisions, m_test=m_test)
+    # out.trigger_csv()
+    # out.trigger_plots()
+    #
+    # # Gibbs
+    # ite = 4000
+    # tic = time.time()
+    # algo = mc.gibbs_mcmc(p_train, m_train, ite)
+    # toc = time.time() - tic
+    # out = ev.Output(test_time, m_train, algo, dataname, toc , ite=ite, m_test=m_test)
+    # out.trigger_csv()
+    # out.trigger_plots()
 
     # # EP
     tic = time.time()

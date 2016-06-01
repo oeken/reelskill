@@ -197,7 +197,7 @@ class Output:
     def skill_distributions_plot(self):
         f = plt.figure(figsize=(18.0, 9.0))
         ax = f.add_subplot(111)
-        ax.set_xlim([0,50])
+        # if self.algo != 'EP': ax.set_xlim([0,50])
         ax.set_title(self.algo)
         ax.set_xlabel('Skill')
         ax.set_ylabel('Probability')
@@ -222,15 +222,15 @@ class Output:
         burnin = 10
         for p, col in zip(sorted_players,colors):
             if self.algo == 'EP':
-                x = np.arange(0,50,0.2)
+                x = np.arange(40,70,0.5)
                 y = mlab.normpdf(x, p.ep_mu, p.ep_sigma)
                 ax.plot(x,y,color=col,label='%d. %s (%.2f)'%(rank(p), p.name, p.ep_mu))
                 ax.fill_between(x, 0, y, facecolor=col, alpha=0.1)
             else:
                 sns.kdeplot(np.array(p.mc_sample_list)[burnin:],shade=True,color=col,ax=ax,label='%d. %s (%.2f)'%(rank(p), p.name, p.mc_mu))
 
-            if self.reel_skills is not None:
-                ax.axvline(p.reel_skill,color=col,ls='dashed')
+            # if self.reel_skills is not None:
+                # ax.axvline(p.reel_skill,color=col,ls='dashed')
         ax.legend()
 
         if not os.path.exists(self.plot_path):
@@ -254,7 +254,7 @@ class Output:
             g.plot_joint(plt.scatter, c="w", s=30, linewidth=0.5, marker=".", color='k')
             g.ax_joint.collections[0].set_alpha(0)
             g.ax_joint.set_ylim([0,50])
-            g.ax_joint.set_xlim([0,50])
+            # g.ax_joint.set_xlim([0,50])
             g.set_axis_labels(p1.name, p2.name)
             plt.plot(d1[:100],d2[:100],'-',color='r',alpha=0.6)
 

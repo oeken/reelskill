@@ -1,0 +1,1051 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Horton Russel,Nannette Kemmer,-1,0.89,0.01,0.10,1,0
+2,Horton Russel,Kinsey Block,-1,0.67,0.23,0.10,1,0
+3,Horton Russel,Mr. Turner West II,1,0.75,0.15,0.10,1,1
+4,Horton Russel,Payton Doyle,1,0.60,0.30,0.10,1,1
+5,Horton Russel,Clovis Hegmann,-1,0.73,0.17,0.10,1,0
+6,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+7,Horton Russel,Miss Sybilla Schumm MD,1,0.58,0.32,0.10,1,1
+8,Horton Russel,Breanna Abshire,1,0.75,0.15,0.10,1,1
+9,Horton Russel,Pierre Mann I,1,0.69,0.21,0.10,1,1
+10,Horton Russel,Dr. Dayna Kilback,1,0.64,0.26,0.10,1,1
+11,Horton Russel,Sydni Cassin,-1,0.69,0.21,0.10,1,0
+12,Horton Russel,Victoria Monahan,-1,0.71,0.19,0.10,1,0
+13,Horton Russel,Pamelia Labadie,-1,0.64,0.26,0.10,1,0
+14,Horton Russel,Kolton Leffler,1,0.64,0.26,0.10,1,1
+15,Nannette Kemmer,Kinsey Block,-1,0.22,0.68,0.10,-1,1
+16,Nannette Kemmer,Mr. Turner West II,1,0.30,0.60,0.10,-1,0
+17,Nannette Kemmer,Payton Doyle,-1,0.17,0.73,0.10,-1,1
+18,Nannette Kemmer,Clovis Hegmann,-1,0.27,0.63,0.10,-1,1
+19,Nannette Kemmer,Vernell Ebert,1,0.57,0.33,0.10,1,1
+20,Nannette Kemmer,Miss Sybilla Schumm MD,1,0.15,0.75,0.10,-1,0
+21,Nannette Kemmer,Breanna Abshire,1,0.29,0.61,0.10,-1,0
+22,Nannette Kemmer,Pierre Mann I,-1,0.24,0.66,0.10,-1,1
+23,Nannette Kemmer,Dr. Dayna Kilback,1,0.19,0.71,0.10,-1,0
+24,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+25,Nannette Kemmer,Victoria Monahan,-1,0.25,0.65,0.10,-1,1
+26,Nannette Kemmer,Pamelia Labadie,-1,0.19,0.71,0.10,-1,1
+27,Nannette Kemmer,Kolton Leffler,-1,0.19,0.71,0.10,-1,1
+28,Kinsey Block,Mr. Turner West II,1,0.60,0.30,0.10,1,1
+29,Kinsey Block,Payton Doyle,1,0.42,0.48,0.10,-1,0
+30,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+31,Kinsey Block,Vernell Ebert,-1,0.83,0.07,0.10,1,0
+32,Kinsey Block,Miss Sybilla Schumm MD,1,0.40,0.50,0.10,-1,0
+33,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+34,Kinsey Block,Pierre Mann I,-1,0.52,0.38,0.10,1,0
+35,Kinsey Block,Dr. Dayna Kilback,1,0.46,0.44,0.10,1,1
+36,Kinsey Block,Sydni Cassin,-1,0.51,0.39,0.10,1,0
+37,Kinsey Block,Victoria Monahan,1,0.54,0.36,0.10,1,1
+38,Kinsey Block,Pamelia Labadie,1,0.46,0.44,0.10,1,1
+39,Kinsey Block,Kolton Leffler,1,0.46,0.44,0.10,1,1
+40,Mr. Turner West II,Payton Doyle,-1,0.33,0.57,0.10,-1,1
+41,Mr. Turner West II,Clovis Hegmann,-1,0.47,0.43,0.10,1,0
+42,Mr. Turner West II,Vernell Ebert,1,0.76,0.14,0.10,1,1
+43,Mr. Turner West II,Miss Sybilla Schumm MD,-1,0.31,0.59,0.10,-1,1
+44,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+45,Mr. Turner West II,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+46,Mr. Turner West II,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+47,Mr. Turner West II,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+48,Mr. Turner West II,Victoria Monahan,1,0.44,0.46,0.10,-1,0
+49,Mr. Turner West II,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+50,Mr. Turner West II,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+51,Payton Doyle,Clovis Hegmann,1,0.64,0.26,0.10,1,1
+52,Payton Doyle,Vernell Ebert,-1,0.87,0.03,0.10,1,0
+53,Payton Doyle,Miss Sybilla Schumm MD,-1,0.48,0.42,0.10,1,0
+54,Payton Doyle,Breanna Abshire,1,0.66,0.24,0.10,1,1
+55,Payton Doyle,Pierre Mann I,1,0.60,0.30,0.10,1,1
+56,Payton Doyle,Dr. Dayna Kilback,1,0.54,0.36,0.10,1,1
+57,Payton Doyle,Sydni Cassin,-1,0.59,0.31,0.10,1,0
+58,Payton Doyle,Victoria Monahan,-1,0.62,0.28,0.10,1,0
+59,Payton Doyle,Pamelia Labadie,1,0.54,0.36,0.10,1,1
+60,Payton Doyle,Kolton Leffler,1,0.54,0.36,0.10,1,1
+61,Clovis Hegmann,Vernell Ebert,-1,0.79,0.11,0.10,1,0
+62,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.34,0.56,0.10,-1,1
+63,Clovis Hegmann,Breanna Abshire,-1,0.53,0.37,0.10,1,0
+64,Clovis Hegmann,Pierre Mann I,-1,0.46,0.44,0.10,1,0
+65,Clovis Hegmann,Dr. Dayna Kilback,-1,0.40,0.50,0.10,-1,1
+66,Clovis Hegmann,Sydni Cassin,-1,0.45,0.45,0.10,1,0
+67,Clovis Hegmann,Victoria Monahan,-1,0.48,0.42,0.10,1,0
+68,Clovis Hegmann,Pamelia Labadie,-1,0.40,0.50,0.10,-1,1
+69,Clovis Hegmann,Kolton Leffler,1,0.40,0.50,0.10,-1,0
+70,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.11,0.79,0.10,-1,1
+71,Vernell Ebert,Breanna Abshire,-1,0.23,0.67,0.10,-1,1
+72,Vernell Ebert,Pierre Mann I,-1,0.18,0.72,0.10,-1,1
+73,Vernell Ebert,Dr. Dayna Kilback,1,0.15,0.75,0.10,-1,0
+74,Vernell Ebert,Sydni Cassin,-1,0.18,0.72,0.10,-1,1
+75,Vernell Ebert,Victoria Monahan,-1,0.20,0.70,0.10,-1,1
+76,Vernell Ebert,Pamelia Labadie,-1,0.15,0.75,0.10,-1,1
+77,Vernell Ebert,Kolton Leffler,1,0.15,0.75,0.10,-1,0
+78,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.68,0.22,0.10,1,0
+79,Miss Sybilla Schumm MD,Pierre Mann I,1,0.62,0.28,0.10,1,1
+80,Miss Sybilla Schumm MD,Dr. Dayna Kilback,1,0.56,0.34,0.10,1,1
+81,Miss Sybilla Schumm MD,Sydni Cassin,-1,0.61,0.29,0.10,1,0
+82,Miss Sybilla Schumm MD,Victoria Monahan,1,0.64,0.26,0.10,1,1
+83,Miss Sybilla Schumm MD,Pamelia Labadie,1,0.56,0.34,0.10,1,1
+84,Miss Sybilla Schumm MD,Kolton Leffler,1,0.56,0.34,0.10,1,1
+85,Breanna Abshire,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+86,Breanna Abshire,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+87,Breanna Abshire,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+88,Breanna Abshire,Victoria Monahan,1,0.45,0.45,0.10,-1,0
+89,Breanna Abshire,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+90,Breanna Abshire,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+91,Pierre Mann I,Dr. Dayna Kilback,-1,0.44,0.46,0.10,-1,1
+92,Pierre Mann I,Sydni Cassin,-1,0.49,0.41,0.10,1,0
+93,Pierre Mann I,Victoria Monahan,-1,0.52,0.38,0.10,1,0
+94,Pierre Mann I,Pamelia Labadie,-1,0.44,0.46,0.10,-1,1
+95,Pierre Mann I,Kolton Leffler,-1,0.44,0.46,0.10,-1,1
+96,Dr. Dayna Kilback,Sydni Cassin,-1,0.55,0.35,0.10,1,0
+97,Dr. Dayna Kilback,Victoria Monahan,1,0.58,0.32,0.10,1,1
+98,Dr. Dayna Kilback,Pamelia Labadie,-1,0.50,0.40,0.10,1,0
+99,Dr. Dayna Kilback,Kolton Leffler,1,0.50,0.40,0.10,1,1
+100,Sydni Cassin,Victoria Monahan,-1,0.53,0.37,0.10,1,0
+101,Sydni Cassin,Pamelia Labadie,1,0.45,0.45,0.10,-1,0
+102,Sydni Cassin,Kolton Leffler,1,0.45,0.45,0.10,-1,0
+103,Victoria Monahan,Pamelia Labadie,-1,0.42,0.48,0.10,-1,1
+104,Victoria Monahan,Kolton Leffler,1,0.42,0.48,0.10,-1,0
+105,Pamelia Labadie,Kolton Leffler,1,0.50,0.40,0.10,1,1
+106,Horton Russel,Nannette Kemmer,-1,0.89,0.01,0.10,1,0
+107,Horton Russel,Kinsey Block,-1,0.67,0.23,0.10,1,0
+108,Horton Russel,Mr. Turner West II,-1,0.75,0.15,0.10,1,0
+109,Horton Russel,Payton Doyle,-1,0.60,0.30,0.10,1,0
+110,Horton Russel,Clovis Hegmann,1,0.73,0.17,0.10,1,1
+111,Horton Russel,Vernell Ebert,-1,0.92,-0.02,0.10,1,0
+112,Horton Russel,Miss Sybilla Schumm MD,-1,0.58,0.32,0.10,1,0
+113,Horton Russel,Breanna Abshire,1,0.75,0.15,0.10,1,1
+114,Horton Russel,Pierre Mann I,1,0.69,0.21,0.10,1,1
+115,Horton Russel,Dr. Dayna Kilback,-1,0.64,0.26,0.10,1,0
+116,Horton Russel,Sydni Cassin,-1,0.69,0.21,0.10,1,0
+117,Horton Russel,Victoria Monahan,1,0.71,0.19,0.10,1,1
+118,Horton Russel,Pamelia Labadie,1,0.64,0.26,0.10,1,1
+119,Horton Russel,Kolton Leffler,-1,0.64,0.26,0.10,1,0
+120,Nannette Kemmer,Kinsey Block,1,0.22,0.68,0.10,-1,0
+121,Nannette Kemmer,Mr. Turner West II,1,0.30,0.60,0.10,-1,0
+122,Nannette Kemmer,Payton Doyle,-1,0.17,0.73,0.10,-1,1
+123,Nannette Kemmer,Clovis Hegmann,1,0.27,0.63,0.10,-1,0
+124,Nannette Kemmer,Vernell Ebert,1,0.57,0.33,0.10,1,1
+125,Nannette Kemmer,Miss Sybilla Schumm MD,-1,0.15,0.75,0.10,-1,1
+126,Nannette Kemmer,Breanna Abshire,-1,0.29,0.61,0.10,-1,1
+127,Nannette Kemmer,Pierre Mann I,-1,0.24,0.66,0.10,-1,1
+128,Nannette Kemmer,Dr. Dayna Kilback,-1,0.19,0.71,0.10,-1,1
+129,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+130,Nannette Kemmer,Victoria Monahan,-1,0.25,0.65,0.10,-1,1
+131,Nannette Kemmer,Pamelia Labadie,-1,0.19,0.71,0.10,-1,1
+132,Nannette Kemmer,Kolton Leffler,-1,0.19,0.71,0.10,-1,1
+133,Kinsey Block,Mr. Turner West II,-1,0.60,0.30,0.10,1,0
+134,Kinsey Block,Payton Doyle,-1,0.42,0.48,0.10,-1,1
+135,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+136,Kinsey Block,Vernell Ebert,-1,0.83,0.07,0.10,1,0
+137,Kinsey Block,Miss Sybilla Schumm MD,-1,0.40,0.50,0.10,-1,1
+138,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+139,Kinsey Block,Pierre Mann I,-1,0.52,0.38,0.10,1,0
+140,Kinsey Block,Dr. Dayna Kilback,1,0.46,0.44,0.10,1,1
+141,Kinsey Block,Sydni Cassin,-1,0.51,0.39,0.10,1,0
+142,Kinsey Block,Victoria Monahan,-1,0.54,0.36,0.10,1,0
+143,Kinsey Block,Pamelia Labadie,-1,0.46,0.44,0.10,1,0
+144,Kinsey Block,Kolton Leffler,1,0.46,0.44,0.10,1,1
+145,Mr. Turner West II,Payton Doyle,1,0.33,0.57,0.10,-1,0
+146,Mr. Turner West II,Clovis Hegmann,1,0.47,0.43,0.10,1,1
+147,Mr. Turner West II,Vernell Ebert,1,0.76,0.14,0.10,1,1
+148,Mr. Turner West II,Miss Sybilla Schumm MD,-1,0.31,0.59,0.10,-1,1
+149,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+150,Mr. Turner West II,Pierre Mann I,1,0.43,0.47,0.10,-1,0
+151,Mr. Turner West II,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+152,Mr. Turner West II,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+153,Mr. Turner West II,Victoria Monahan,1,0.44,0.46,0.10,-1,0
+154,Mr. Turner West II,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+155,Mr. Turner West II,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+156,Payton Doyle,Clovis Hegmann,-1,0.64,0.26,0.10,1,0
+157,Payton Doyle,Vernell Ebert,-1,0.87,0.03,0.10,1,0
+158,Payton Doyle,Miss Sybilla Schumm MD,-1,0.48,0.42,0.10,1,0
+159,Payton Doyle,Breanna Abshire,1,0.66,0.24,0.10,1,1
+160,Payton Doyle,Pierre Mann I,-1,0.60,0.30,0.10,1,0
+161,Payton Doyle,Dr. Dayna Kilback,-1,0.54,0.36,0.10,1,0
+162,Payton Doyle,Sydni Cassin,-1,0.59,0.31,0.10,1,0
+163,Payton Doyle,Victoria Monahan,-1,0.62,0.28,0.10,1,0
+164,Payton Doyle,Pamelia Labadie,-1,0.54,0.36,0.10,1,0
+165,Payton Doyle,Kolton Leffler,-1,0.54,0.36,0.10,1,0
+166,Clovis Hegmann,Vernell Ebert,-1,0.79,0.11,0.10,1,0
+167,Clovis Hegmann,Miss Sybilla Schumm MD,1,0.34,0.56,0.10,-1,0
+168,Clovis Hegmann,Breanna Abshire,-1,0.53,0.37,0.10,1,0
+169,Clovis Hegmann,Pierre Mann I,1,0.46,0.44,0.10,1,1
+170,Clovis Hegmann,Dr. Dayna Kilback,1,0.40,0.50,0.10,-1,0
+171,Clovis Hegmann,Sydni Cassin,-1,0.45,0.45,0.10,1,0
+172,Clovis Hegmann,Victoria Monahan,1,0.48,0.42,0.10,1,1
+173,Clovis Hegmann,Pamelia Labadie,-1,0.40,0.50,0.10,-1,1
+174,Clovis Hegmann,Kolton Leffler,1,0.40,0.50,0.10,-1,0
+175,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.11,0.79,0.10,-1,1
+176,Vernell Ebert,Breanna Abshire,1,0.23,0.67,0.10,-1,0
+177,Vernell Ebert,Pierre Mann I,1,0.18,0.72,0.10,-1,0
+178,Vernell Ebert,Dr. Dayna Kilback,-1,0.15,0.75,0.10,-1,1
+179,Vernell Ebert,Sydni Cassin,-1,0.18,0.72,0.10,-1,1
+180,Vernell Ebert,Victoria Monahan,1,0.20,0.70,0.10,-1,0
+181,Vernell Ebert,Pamelia Labadie,-1,0.15,0.75,0.10,-1,1
+182,Vernell Ebert,Kolton Leffler,1,0.15,0.75,0.10,-1,0
+183,Miss Sybilla Schumm MD,Breanna Abshire,1,0.68,0.22,0.10,1,1
+184,Miss Sybilla Schumm MD,Pierre Mann I,-1,0.62,0.28,0.10,1,0
+185,Miss Sybilla Schumm MD,Dr. Dayna Kilback,1,0.56,0.34,0.10,1,1
+186,Miss Sybilla Schumm MD,Sydni Cassin,-1,0.61,0.29,0.10,1,0
+187,Miss Sybilla Schumm MD,Victoria Monahan,1,0.64,0.26,0.10,1,1
+188,Miss Sybilla Schumm MD,Pamelia Labadie,1,0.56,0.34,0.10,1,1
+189,Miss Sybilla Schumm MD,Kolton Leffler,1,0.56,0.34,0.10,1,1
+190,Breanna Abshire,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+191,Breanna Abshire,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+192,Breanna Abshire,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+193,Breanna Abshire,Victoria Monahan,-1,0.45,0.45,0.10,-1,1
+194,Breanna Abshire,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+195,Breanna Abshire,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+196,Pierre Mann I,Dr. Dayna Kilback,1,0.44,0.46,0.10,-1,0
+197,Pierre Mann I,Sydni Cassin,-1,0.49,0.41,0.10,1,0
+198,Pierre Mann I,Victoria Monahan,-1,0.52,0.38,0.10,1,0
+199,Pierre Mann I,Pamelia Labadie,-1,0.44,0.46,0.10,-1,1
+200,Pierre Mann I,Kolton Leffler,-1,0.44,0.46,0.10,-1,1
+201,Dr. Dayna Kilback,Sydni Cassin,-1,0.55,0.35,0.10,1,0
+202,Dr. Dayna Kilback,Victoria Monahan,1,0.58,0.32,0.10,1,1
+203,Dr. Dayna Kilback,Pamelia Labadie,-1,0.50,0.40,0.10,1,0
+204,Dr. Dayna Kilback,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+205,Sydni Cassin,Victoria Monahan,1,0.53,0.37,0.10,1,1
+206,Sydni Cassin,Pamelia Labadie,-1,0.45,0.45,0.10,-1,1
+207,Sydni Cassin,Kolton Leffler,1,0.45,0.45,0.10,-1,0
+208,Victoria Monahan,Pamelia Labadie,1,0.42,0.48,0.10,-1,0
+209,Victoria Monahan,Kolton Leffler,1,0.42,0.48,0.10,-1,0
+210,Pamelia Labadie,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+211,Horton Russel,Nannette Kemmer,1,0.89,0.01,0.10,1,1
+212,Horton Russel,Kinsey Block,1,0.67,0.23,0.10,1,1
+213,Horton Russel,Mr. Turner West II,-1,0.75,0.15,0.10,1,0
+214,Horton Russel,Payton Doyle,1,0.60,0.30,0.10,1,1
+215,Horton Russel,Clovis Hegmann,-1,0.73,0.17,0.10,1,0
+216,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+217,Horton Russel,Miss Sybilla Schumm MD,-1,0.58,0.32,0.10,1,0
+218,Horton Russel,Breanna Abshire,1,0.75,0.15,0.10,1,1
+219,Horton Russel,Pierre Mann I,1,0.69,0.21,0.10,1,1
+220,Horton Russel,Dr. Dayna Kilback,-1,0.64,0.26,0.10,1,0
+221,Horton Russel,Sydni Cassin,1,0.69,0.21,0.10,1,1
+222,Horton Russel,Victoria Monahan,1,0.71,0.19,0.10,1,1
+223,Horton Russel,Pamelia Labadie,-1,0.64,0.26,0.10,1,0
+224,Horton Russel,Kolton Leffler,1,0.64,0.26,0.10,1,1
+225,Nannette Kemmer,Kinsey Block,-1,0.22,0.68,0.10,-1,1
+226,Nannette Kemmer,Mr. Turner West II,-1,0.30,0.60,0.10,-1,1
+227,Nannette Kemmer,Payton Doyle,-1,0.17,0.73,0.10,-1,1
+228,Nannette Kemmer,Clovis Hegmann,-1,0.27,0.63,0.10,-1,1
+229,Nannette Kemmer,Vernell Ebert,1,0.57,0.33,0.10,1,1
+230,Nannette Kemmer,Miss Sybilla Schumm MD,1,0.15,0.75,0.10,-1,0
+231,Nannette Kemmer,Breanna Abshire,1,0.29,0.61,0.10,-1,0
+232,Nannette Kemmer,Pierre Mann I,1,0.24,0.66,0.10,-1,0
+233,Nannette Kemmer,Dr. Dayna Kilback,-1,0.19,0.71,0.10,-1,1
+234,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+235,Nannette Kemmer,Victoria Monahan,-1,0.25,0.65,0.10,-1,1
+236,Nannette Kemmer,Pamelia Labadie,1,0.19,0.71,0.10,-1,0
+237,Nannette Kemmer,Kolton Leffler,-1,0.19,0.71,0.10,-1,1
+238,Kinsey Block,Mr. Turner West II,-1,0.60,0.30,0.10,1,0
+239,Kinsey Block,Payton Doyle,-1,0.42,0.48,0.10,-1,1
+240,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+241,Kinsey Block,Vernell Ebert,-1,0.83,0.07,0.10,1,0
+242,Kinsey Block,Miss Sybilla Schumm MD,-1,0.40,0.50,0.10,-1,1
+243,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+244,Kinsey Block,Pierre Mann I,1,0.52,0.38,0.10,1,1
+245,Kinsey Block,Dr. Dayna Kilback,1,0.46,0.44,0.10,1,1
+246,Kinsey Block,Sydni Cassin,1,0.51,0.39,0.10,1,1
+247,Kinsey Block,Victoria Monahan,-1,0.54,0.36,0.10,1,0
+248,Kinsey Block,Pamelia Labadie,1,0.46,0.44,0.10,1,1
+249,Kinsey Block,Kolton Leffler,-1,0.46,0.44,0.10,1,0
+250,Mr. Turner West II,Payton Doyle,1,0.33,0.57,0.10,-1,0
+251,Mr. Turner West II,Clovis Hegmann,1,0.47,0.43,0.10,1,1
+252,Mr. Turner West II,Vernell Ebert,1,0.76,0.14,0.10,1,1
+253,Mr. Turner West II,Miss Sybilla Schumm MD,1,0.31,0.59,0.10,-1,0
+254,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+255,Mr. Turner West II,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+256,Mr. Turner West II,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+257,Mr. Turner West II,Sydni Cassin,1,0.42,0.48,0.10,-1,0
+258,Mr. Turner West II,Victoria Monahan,-1,0.44,0.46,0.10,-1,1
+259,Mr. Turner West II,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+260,Mr. Turner West II,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+261,Payton Doyle,Clovis Hegmann,-1,0.64,0.26,0.10,1,0
+262,Payton Doyle,Vernell Ebert,1,0.87,0.03,0.10,1,1
+263,Payton Doyle,Miss Sybilla Schumm MD,1,0.48,0.42,0.10,1,1
+264,Payton Doyle,Breanna Abshire,-1,0.66,0.24,0.10,1,0
+265,Payton Doyle,Pierre Mann I,1,0.60,0.30,0.10,1,1
+266,Payton Doyle,Dr. Dayna Kilback,-1,0.54,0.36,0.10,1,0
+267,Payton Doyle,Sydni Cassin,1,0.59,0.31,0.10,1,1
+268,Payton Doyle,Victoria Monahan,-1,0.62,0.28,0.10,1,0
+269,Payton Doyle,Pamelia Labadie,-1,0.54,0.36,0.10,1,0
+270,Payton Doyle,Kolton Leffler,-1,0.54,0.36,0.10,1,0
+271,Clovis Hegmann,Vernell Ebert,-1,0.79,0.11,0.10,1,0
+272,Clovis Hegmann,Miss Sybilla Schumm MD,1,0.34,0.56,0.10,-1,0
+273,Clovis Hegmann,Breanna Abshire,1,0.53,0.37,0.10,1,1
+274,Clovis Hegmann,Pierre Mann I,-1,0.46,0.44,0.10,1,0
+275,Clovis Hegmann,Dr. Dayna Kilback,-1,0.40,0.50,0.10,-1,1
+276,Clovis Hegmann,Sydni Cassin,-1,0.45,0.45,0.10,1,0
+277,Clovis Hegmann,Victoria Monahan,1,0.48,0.42,0.10,1,1
+278,Clovis Hegmann,Pamelia Labadie,-1,0.40,0.50,0.10,-1,1
+279,Clovis Hegmann,Kolton Leffler,-1,0.40,0.50,0.10,-1,1
+280,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.11,0.79,0.10,-1,1
+281,Vernell Ebert,Breanna Abshire,-1,0.23,0.67,0.10,-1,1
+282,Vernell Ebert,Pierre Mann I,-1,0.18,0.72,0.10,-1,1
+283,Vernell Ebert,Dr. Dayna Kilback,1,0.15,0.75,0.10,-1,0
+284,Vernell Ebert,Sydni Cassin,-1,0.18,0.72,0.10,-1,1
+285,Vernell Ebert,Victoria Monahan,-1,0.20,0.70,0.10,-1,1
+286,Vernell Ebert,Pamelia Labadie,-1,0.15,0.75,0.10,-1,1
+287,Vernell Ebert,Kolton Leffler,-1,0.15,0.75,0.10,-1,1
+288,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.68,0.22,0.10,1,0
+289,Miss Sybilla Schumm MD,Pierre Mann I,1,0.62,0.28,0.10,1,1
+290,Miss Sybilla Schumm MD,Dr. Dayna Kilback,-1,0.56,0.34,0.10,1,0
+291,Miss Sybilla Schumm MD,Sydni Cassin,1,0.61,0.29,0.10,1,1
+292,Miss Sybilla Schumm MD,Victoria Monahan,-1,0.64,0.26,0.10,1,0
+293,Miss Sybilla Schumm MD,Pamelia Labadie,1,0.56,0.34,0.10,1,1
+294,Miss Sybilla Schumm MD,Kolton Leffler,1,0.56,0.34,0.10,1,1
+295,Breanna Abshire,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+296,Breanna Abshire,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+297,Breanna Abshire,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+298,Breanna Abshire,Victoria Monahan,-1,0.45,0.45,0.10,-1,1
+299,Breanna Abshire,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+300,Breanna Abshire,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+301,Pierre Mann I,Dr. Dayna Kilback,1,0.44,0.46,0.10,-1,0
+302,Pierre Mann I,Sydni Cassin,-1,0.49,0.41,0.10,1,0
+303,Pierre Mann I,Victoria Monahan,-1,0.52,0.38,0.10,1,0
+304,Pierre Mann I,Pamelia Labadie,1,0.44,0.46,0.10,-1,0
+305,Pierre Mann I,Kolton Leffler,-1,0.44,0.46,0.10,-1,1
+306,Dr. Dayna Kilback,Sydni Cassin,-1,0.55,0.35,0.10,1,0
+307,Dr. Dayna Kilback,Victoria Monahan,-1,0.58,0.32,0.10,1,0
+308,Dr. Dayna Kilback,Pamelia Labadie,-1,0.50,0.40,0.10,1,0
+309,Dr. Dayna Kilback,Kolton Leffler,1,0.50,0.40,0.10,1,1
+310,Sydni Cassin,Victoria Monahan,1,0.53,0.37,0.10,1,1
+311,Sydni Cassin,Pamelia Labadie,-1,0.45,0.45,0.10,-1,1
+312,Sydni Cassin,Kolton Leffler,1,0.45,0.45,0.10,-1,0
+313,Victoria Monahan,Pamelia Labadie,-1,0.42,0.48,0.10,-1,1
+314,Victoria Monahan,Kolton Leffler,-1,0.42,0.48,0.10,-1,1
+315,Pamelia Labadie,Kolton Leffler,1,0.50,0.40,0.10,1,1
+316,Horton Russel,Nannette Kemmer,1,0.89,0.01,0.10,1,1
+317,Horton Russel,Kinsey Block,-1,0.67,0.23,0.10,1,0
+318,Horton Russel,Mr. Turner West II,-1,0.75,0.15,0.10,1,0
+319,Horton Russel,Payton Doyle,1,0.60,0.30,0.10,1,1
+320,Horton Russel,Clovis Hegmann,1,0.73,0.17,0.10,1,1
+321,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+322,Horton Russel,Miss Sybilla Schumm MD,1,0.58,0.32,0.10,1,1
+323,Horton Russel,Breanna Abshire,1,0.75,0.15,0.10,1,1
+324,Horton Russel,Pierre Mann I,-1,0.69,0.21,0.10,1,0
+325,Horton Russel,Dr. Dayna Kilback,1,0.64,0.26,0.10,1,1
+326,Horton Russel,Sydni Cassin,-1,0.69,0.21,0.10,1,0
+327,Horton Russel,Victoria Monahan,1,0.71,0.19,0.10,1,1
+328,Horton Russel,Pamelia Labadie,-1,0.64,0.26,0.10,1,0
+329,Horton Russel,Kolton Leffler,1,0.64,0.26,0.10,1,1
+330,Nannette Kemmer,Kinsey Block,1,0.22,0.68,0.10,-1,0
+331,Nannette Kemmer,Mr. Turner West II,-1,0.30,0.60,0.10,-1,1
+332,Nannette Kemmer,Payton Doyle,-1,0.17,0.73,0.10,-1,1
+333,Nannette Kemmer,Clovis Hegmann,-1,0.27,0.63,0.10,-1,1
+334,Nannette Kemmer,Vernell Ebert,1,0.57,0.33,0.10,1,1
+335,Nannette Kemmer,Miss Sybilla Schumm MD,-1,0.15,0.75,0.10,-1,1
+336,Nannette Kemmer,Breanna Abshire,-1,0.29,0.61,0.10,-1,1
+337,Nannette Kemmer,Pierre Mann I,1,0.24,0.66,0.10,-1,0
+338,Nannette Kemmer,Dr. Dayna Kilback,-1,0.19,0.71,0.10,-1,1
+339,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+340,Nannette Kemmer,Victoria Monahan,1,0.25,0.65,0.10,-1,0
+341,Nannette Kemmer,Pamelia Labadie,-1,0.19,0.71,0.10,-1,1
+342,Nannette Kemmer,Kolton Leffler,-1,0.19,0.71,0.10,-1,1
+343,Kinsey Block,Mr. Turner West II,-1,0.60,0.30,0.10,1,0
+344,Kinsey Block,Payton Doyle,1,0.42,0.48,0.10,-1,0
+345,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+346,Kinsey Block,Vernell Ebert,1,0.83,0.07,0.10,1,1
+347,Kinsey Block,Miss Sybilla Schumm MD,1,0.40,0.50,0.10,-1,0
+348,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+349,Kinsey Block,Pierre Mann I,1,0.52,0.38,0.10,1,1
+350,Kinsey Block,Dr. Dayna Kilback,1,0.46,0.44,0.10,1,1
+351,Kinsey Block,Sydni Cassin,-1,0.51,0.39,0.10,1,0
+352,Kinsey Block,Victoria Monahan,-1,0.54,0.36,0.10,1,0
+353,Kinsey Block,Pamelia Labadie,1,0.46,0.44,0.10,1,1
+354,Kinsey Block,Kolton Leffler,-1,0.46,0.44,0.10,1,0
+355,Mr. Turner West II,Payton Doyle,-1,0.33,0.57,0.10,-1,1
+356,Mr. Turner West II,Clovis Hegmann,-1,0.47,0.43,0.10,1,0
+357,Mr. Turner West II,Vernell Ebert,1,0.76,0.14,0.10,1,1
+358,Mr. Turner West II,Miss Sybilla Schumm MD,-1,0.31,0.59,0.10,-1,1
+359,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+360,Mr. Turner West II,Pierre Mann I,1,0.43,0.47,0.10,-1,0
+361,Mr. Turner West II,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+362,Mr. Turner West II,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+363,Mr. Turner West II,Victoria Monahan,-1,0.44,0.46,0.10,-1,1
+364,Mr. Turner West II,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+365,Mr. Turner West II,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+366,Payton Doyle,Clovis Hegmann,-1,0.64,0.26,0.10,1,0
+367,Payton Doyle,Vernell Ebert,-1,0.87,0.03,0.10,1,0
+368,Payton Doyle,Miss Sybilla Schumm MD,-1,0.48,0.42,0.10,1,0
+369,Payton Doyle,Breanna Abshire,-1,0.66,0.24,0.10,1,0
+370,Payton Doyle,Pierre Mann I,-1,0.60,0.30,0.10,1,0
+371,Payton Doyle,Dr. Dayna Kilback,-1,0.54,0.36,0.10,1,0
+372,Payton Doyle,Sydni Cassin,-1,0.59,0.31,0.10,1,0
+373,Payton Doyle,Victoria Monahan,-1,0.62,0.28,0.10,1,0
+374,Payton Doyle,Pamelia Labadie,-1,0.54,0.36,0.10,1,0
+375,Payton Doyle,Kolton Leffler,1,0.54,0.36,0.10,1,1
+376,Clovis Hegmann,Vernell Ebert,1,0.79,0.11,0.10,1,1
+377,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.34,0.56,0.10,-1,1
+378,Clovis Hegmann,Breanna Abshire,1,0.53,0.37,0.10,1,1
+379,Clovis Hegmann,Pierre Mann I,1,0.46,0.44,0.10,1,1
+380,Clovis Hegmann,Dr. Dayna Kilback,1,0.40,0.50,0.10,-1,0
+381,Clovis Hegmann,Sydni Cassin,1,0.45,0.45,0.10,1,1
+382,Clovis Hegmann,Victoria Monahan,-1,0.48,0.42,0.10,1,0
+383,Clovis Hegmann,Pamelia Labadie,-1,0.40,0.50,0.10,-1,1
+384,Clovis Hegmann,Kolton Leffler,1,0.40,0.50,0.10,-1,0
+385,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.11,0.79,0.10,-1,1
+386,Vernell Ebert,Breanna Abshire,-1,0.23,0.67,0.10,-1,1
+387,Vernell Ebert,Pierre Mann I,-1,0.18,0.72,0.10,-1,1
+388,Vernell Ebert,Dr. Dayna Kilback,-1,0.15,0.75,0.10,-1,1
+389,Vernell Ebert,Sydni Cassin,1,0.18,0.72,0.10,-1,0
+390,Vernell Ebert,Victoria Monahan,-1,0.20,0.70,0.10,-1,1
+391,Vernell Ebert,Pamelia Labadie,1,0.15,0.75,0.10,-1,0
+392,Vernell Ebert,Kolton Leffler,-1,0.15,0.75,0.10,-1,1
+393,Miss Sybilla Schumm MD,Breanna Abshire,1,0.68,0.22,0.10,1,1
+394,Miss Sybilla Schumm MD,Pierre Mann I,1,0.62,0.28,0.10,1,1
+395,Miss Sybilla Schumm MD,Dr. Dayna Kilback,1,0.56,0.34,0.10,1,1
+396,Miss Sybilla Schumm MD,Sydni Cassin,-1,0.61,0.29,0.10,1,0
+397,Miss Sybilla Schumm MD,Victoria Monahan,1,0.64,0.26,0.10,1,1
+398,Miss Sybilla Schumm MD,Pamelia Labadie,-1,0.56,0.34,0.10,1,0
+399,Miss Sybilla Schumm MD,Kolton Leffler,-1,0.56,0.34,0.10,1,0
+400,Breanna Abshire,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+401,Breanna Abshire,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+402,Breanna Abshire,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+403,Breanna Abshire,Victoria Monahan,1,0.45,0.45,0.10,-1,0
+404,Breanna Abshire,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+405,Breanna Abshire,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+406,Pierre Mann I,Dr. Dayna Kilback,-1,0.44,0.46,0.10,-1,1
+407,Pierre Mann I,Sydni Cassin,1,0.49,0.41,0.10,1,1
+408,Pierre Mann I,Victoria Monahan,-1,0.52,0.38,0.10,1,0
+409,Pierre Mann I,Pamelia Labadie,-1,0.44,0.46,0.10,-1,1
+410,Pierre Mann I,Kolton Leffler,-1,0.44,0.46,0.10,-1,1
+411,Dr. Dayna Kilback,Sydni Cassin,1,0.55,0.35,0.10,1,1
+412,Dr. Dayna Kilback,Victoria Monahan,1,0.58,0.32,0.10,1,1
+413,Dr. Dayna Kilback,Pamelia Labadie,-1,0.50,0.40,0.10,1,0
+414,Dr. Dayna Kilback,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+415,Sydni Cassin,Victoria Monahan,-1,0.53,0.37,0.10,1,0
+416,Sydni Cassin,Pamelia Labadie,-1,0.45,0.45,0.10,-1,1
+417,Sydni Cassin,Kolton Leffler,1,0.45,0.45,0.10,-1,0
+418,Victoria Monahan,Pamelia Labadie,-1,0.42,0.48,0.10,-1,1
+419,Victoria Monahan,Kolton Leffler,-1,0.42,0.48,0.10,-1,1
+420,Pamelia Labadie,Kolton Leffler,1,0.50,0.40,0.10,1,1
+421,Horton Russel,Nannette Kemmer,1,0.89,0.01,0.10,1,1
+422,Horton Russel,Kinsey Block,1,0.67,0.23,0.10,1,1
+423,Horton Russel,Mr. Turner West II,1,0.75,0.15,0.10,1,1
+424,Horton Russel,Payton Doyle,-1,0.60,0.30,0.10,1,0
+425,Horton Russel,Clovis Hegmann,1,0.73,0.17,0.10,1,1
+426,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+427,Horton Russel,Miss Sybilla Schumm MD,-1,0.58,0.32,0.10,1,0
+428,Horton Russel,Breanna Abshire,1,0.75,0.15,0.10,1,1
+429,Horton Russel,Pierre Mann I,1,0.69,0.21,0.10,1,1
+430,Horton Russel,Dr. Dayna Kilback,-1,0.64,0.26,0.10,1,0
+431,Horton Russel,Sydni Cassin,-1,0.69,0.21,0.10,1,0
+432,Horton Russel,Victoria Monahan,-1,0.71,0.19,0.10,1,0
+433,Horton Russel,Pamelia Labadie,-1,0.64,0.26,0.10,1,0
+434,Horton Russel,Kolton Leffler,1,0.64,0.26,0.10,1,1
+435,Nannette Kemmer,Kinsey Block,1,0.22,0.68,0.10,-1,0
+436,Nannette Kemmer,Mr. Turner West II,-1,0.30,0.60,0.10,-1,1
+437,Nannette Kemmer,Payton Doyle,-1,0.17,0.73,0.10,-1,1
+438,Nannette Kemmer,Clovis Hegmann,1,0.27,0.63,0.10,-1,0
+439,Nannette Kemmer,Vernell Ebert,-1,0.57,0.33,0.10,1,0
+440,Nannette Kemmer,Miss Sybilla Schumm MD,-1,0.15,0.75,0.10,-1,1
+441,Nannette Kemmer,Breanna Abshire,-1,0.29,0.61,0.10,-1,1
+442,Nannette Kemmer,Pierre Mann I,1,0.24,0.66,0.10,-1,0
+443,Nannette Kemmer,Dr. Dayna Kilback,1,0.19,0.71,0.10,-1,0
+444,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+445,Nannette Kemmer,Victoria Monahan,1,0.25,0.65,0.10,-1,0
+446,Nannette Kemmer,Pamelia Labadie,-1,0.19,0.71,0.10,-1,1
+447,Nannette Kemmer,Kolton Leffler,1,0.19,0.71,0.10,-1,0
+448,Kinsey Block,Mr. Turner West II,-1,0.60,0.30,0.10,1,0
+449,Kinsey Block,Payton Doyle,1,0.42,0.48,0.10,-1,0
+450,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+451,Kinsey Block,Vernell Ebert,-1,0.83,0.07,0.10,1,0
+452,Kinsey Block,Miss Sybilla Schumm MD,1,0.40,0.50,0.10,-1,0
+453,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+454,Kinsey Block,Pierre Mann I,-1,0.52,0.38,0.10,1,0
+455,Kinsey Block,Dr. Dayna Kilback,1,0.46,0.44,0.10,1,1
+456,Kinsey Block,Sydni Cassin,1,0.51,0.39,0.10,1,1
+457,Kinsey Block,Victoria Monahan,1,0.54,0.36,0.10,1,1
+458,Kinsey Block,Pamelia Labadie,1,0.46,0.44,0.10,1,1
+459,Kinsey Block,Kolton Leffler,-1,0.46,0.44,0.10,1,0
+460,Mr. Turner West II,Payton Doyle,-1,0.33,0.57,0.10,-1,1
+461,Mr. Turner West II,Clovis Hegmann,1,0.47,0.43,0.10,1,1
+462,Mr. Turner West II,Vernell Ebert,1,0.76,0.14,0.10,1,1
+463,Mr. Turner West II,Miss Sybilla Schumm MD,1,0.31,0.59,0.10,-1,0
+464,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+465,Mr. Turner West II,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+466,Mr. Turner West II,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+467,Mr. Turner West II,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+468,Mr. Turner West II,Victoria Monahan,-1,0.44,0.46,0.10,-1,1
+469,Mr. Turner West II,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+470,Mr. Turner West II,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+471,Payton Doyle,Clovis Hegmann,-1,0.64,0.26,0.10,1,0
+472,Payton Doyle,Vernell Ebert,-1,0.87,0.03,0.10,1,0
+473,Payton Doyle,Miss Sybilla Schumm MD,1,0.48,0.42,0.10,1,1
+474,Payton Doyle,Breanna Abshire,1,0.66,0.24,0.10,1,1
+475,Payton Doyle,Pierre Mann I,-1,0.60,0.30,0.10,1,0
+476,Payton Doyle,Dr. Dayna Kilback,1,0.54,0.36,0.10,1,1
+477,Payton Doyle,Sydni Cassin,-1,0.59,0.31,0.10,1,0
+478,Payton Doyle,Victoria Monahan,1,0.62,0.28,0.10,1,1
+479,Payton Doyle,Pamelia Labadie,1,0.54,0.36,0.10,1,1
+480,Payton Doyle,Kolton Leffler,-1,0.54,0.36,0.10,1,0
+481,Clovis Hegmann,Vernell Ebert,1,0.79,0.11,0.10,1,1
+482,Clovis Hegmann,Miss Sybilla Schumm MD,1,0.34,0.56,0.10,-1,0
+483,Clovis Hegmann,Breanna Abshire,-1,0.53,0.37,0.10,1,0
+484,Clovis Hegmann,Pierre Mann I,-1,0.46,0.44,0.10,1,0
+485,Clovis Hegmann,Dr. Dayna Kilback,1,0.40,0.50,0.10,-1,0
+486,Clovis Hegmann,Sydni Cassin,-1,0.45,0.45,0.10,1,0
+487,Clovis Hegmann,Victoria Monahan,1,0.48,0.42,0.10,1,1
+488,Clovis Hegmann,Pamelia Labadie,-1,0.40,0.50,0.10,-1,1
+489,Clovis Hegmann,Kolton Leffler,1,0.40,0.50,0.10,-1,0
+490,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.11,0.79,0.10,-1,1
+491,Vernell Ebert,Breanna Abshire,1,0.23,0.67,0.10,-1,0
+492,Vernell Ebert,Pierre Mann I,-1,0.18,0.72,0.10,-1,1
+493,Vernell Ebert,Dr. Dayna Kilback,-1,0.15,0.75,0.10,-1,1
+494,Vernell Ebert,Sydni Cassin,-1,0.18,0.72,0.10,-1,1
+495,Vernell Ebert,Victoria Monahan,-1,0.20,0.70,0.10,-1,1
+496,Vernell Ebert,Pamelia Labadie,-1,0.15,0.75,0.10,-1,1
+497,Vernell Ebert,Kolton Leffler,-1,0.15,0.75,0.10,-1,1
+498,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.68,0.22,0.10,1,0
+499,Miss Sybilla Schumm MD,Pierre Mann I,1,0.62,0.28,0.10,1,1
+500,Miss Sybilla Schumm MD,Dr. Dayna Kilback,1,0.56,0.34,0.10,1,1
+501,Miss Sybilla Schumm MD,Sydni Cassin,1,0.61,0.29,0.10,1,1
+502,Miss Sybilla Schumm MD,Victoria Monahan,-1,0.64,0.26,0.10,1,0
+503,Miss Sybilla Schumm MD,Pamelia Labadie,-1,0.56,0.34,0.10,1,0
+504,Miss Sybilla Schumm MD,Kolton Leffler,-1,0.56,0.34,0.10,1,0
+505,Breanna Abshire,Pierre Mann I,1,0.43,0.47,0.10,-1,0
+506,Breanna Abshire,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+507,Breanna Abshire,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+508,Breanna Abshire,Victoria Monahan,-1,0.45,0.45,0.10,-1,1
+509,Breanna Abshire,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+510,Breanna Abshire,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+511,Pierre Mann I,Dr. Dayna Kilback,-1,0.44,0.46,0.10,-1,1
+512,Pierre Mann I,Sydni Cassin,-1,0.49,0.41,0.10,1,0
+513,Pierre Mann I,Victoria Monahan,1,0.52,0.38,0.10,1,1
+514,Pierre Mann I,Pamelia Labadie,1,0.44,0.46,0.10,-1,0
+515,Pierre Mann I,Kolton Leffler,-1,0.44,0.46,0.10,-1,1
+516,Dr. Dayna Kilback,Sydni Cassin,-1,0.55,0.35,0.10,1,0
+517,Dr. Dayna Kilback,Victoria Monahan,1,0.58,0.32,0.10,1,1
+518,Dr. Dayna Kilback,Pamelia Labadie,1,0.50,0.40,0.10,1,1
+519,Dr. Dayna Kilback,Kolton Leffler,1,0.50,0.40,0.10,1,1
+520,Sydni Cassin,Victoria Monahan,-1,0.53,0.37,0.10,1,0
+521,Sydni Cassin,Pamelia Labadie,1,0.45,0.45,0.10,-1,0
+522,Sydni Cassin,Kolton Leffler,1,0.45,0.45,0.10,-1,0
+523,Victoria Monahan,Pamelia Labadie,1,0.42,0.48,0.10,-1,0
+524,Victoria Monahan,Kolton Leffler,-1,0.42,0.48,0.10,-1,1
+525,Pamelia Labadie,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+526,Horton Russel,Nannette Kemmer,1,0.89,0.01,0.10,1,1
+527,Horton Russel,Kinsey Block,1,0.67,0.23,0.10,1,1
+528,Horton Russel,Mr. Turner West II,-1,0.75,0.15,0.10,1,0
+529,Horton Russel,Payton Doyle,-1,0.60,0.30,0.10,1,0
+530,Horton Russel,Clovis Hegmann,1,0.73,0.17,0.10,1,1
+531,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+532,Horton Russel,Miss Sybilla Schumm MD,1,0.58,0.32,0.10,1,1
+533,Horton Russel,Breanna Abshire,1,0.75,0.15,0.10,1,1
+534,Horton Russel,Pierre Mann I,1,0.69,0.21,0.10,1,1
+535,Horton Russel,Dr. Dayna Kilback,-1,0.64,0.26,0.10,1,0
+536,Horton Russel,Sydni Cassin,-1,0.69,0.21,0.10,1,0
+537,Horton Russel,Victoria Monahan,1,0.71,0.19,0.10,1,1
+538,Horton Russel,Pamelia Labadie,1,0.64,0.26,0.10,1,1
+539,Horton Russel,Kolton Leffler,1,0.64,0.26,0.10,1,1
+540,Nannette Kemmer,Kinsey Block,-1,0.22,0.68,0.10,-1,1
+541,Nannette Kemmer,Mr. Turner West II,1,0.30,0.60,0.10,-1,0
+542,Nannette Kemmer,Payton Doyle,1,0.17,0.73,0.10,-1,0
+543,Nannette Kemmer,Clovis Hegmann,1,0.27,0.63,0.10,-1,0
+544,Nannette Kemmer,Vernell Ebert,-1,0.57,0.33,0.10,1,0
+545,Nannette Kemmer,Miss Sybilla Schumm MD,1,0.15,0.75,0.10,-1,0
+546,Nannette Kemmer,Breanna Abshire,-1,0.29,0.61,0.10,-1,1
+547,Nannette Kemmer,Pierre Mann I,1,0.24,0.66,0.10,-1,0
+548,Nannette Kemmer,Dr. Dayna Kilback,-1,0.19,0.71,0.10,-1,1
+549,Nannette Kemmer,Sydni Cassin,1,0.23,0.67,0.10,-1,0
+550,Nannette Kemmer,Victoria Monahan,-1,0.25,0.65,0.10,-1,1
+551,Nannette Kemmer,Pamelia Labadie,-1,0.19,0.71,0.10,-1,1
+552,Nannette Kemmer,Kolton Leffler,-1,0.19,0.71,0.10,-1,1
+553,Kinsey Block,Mr. Turner West II,-1,0.60,0.30,0.10,1,0
+554,Kinsey Block,Payton Doyle,1,0.42,0.48,0.10,-1,0
+555,Kinsey Block,Clovis Hegmann,-1,0.56,0.34,0.10,1,0
+556,Kinsey Block,Vernell Ebert,1,0.83,0.07,0.10,1,1
+557,Kinsey Block,Miss Sybilla Schumm MD,-1,0.40,0.50,0.10,-1,1
+558,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+559,Kinsey Block,Pierre Mann I,1,0.52,0.38,0.10,1,1
+560,Kinsey Block,Dr. Dayna Kilback,-1,0.46,0.44,0.10,1,0
+561,Kinsey Block,Sydni Cassin,1,0.51,0.39,0.10,1,1
+562,Kinsey Block,Victoria Monahan,1,0.54,0.36,0.10,1,1
+563,Kinsey Block,Pamelia Labadie,-1,0.46,0.44,0.10,1,0
+564,Kinsey Block,Kolton Leffler,-1,0.46,0.44,0.10,1,0
+565,Mr. Turner West II,Payton Doyle,1,0.33,0.57,0.10,-1,0
+566,Mr. Turner West II,Clovis Hegmann,-1,0.47,0.43,0.10,1,0
+567,Mr. Turner West II,Vernell Ebert,-1,0.76,0.14,0.10,1,0
+568,Mr. Turner West II,Miss Sybilla Schumm MD,1,0.31,0.59,0.10,-1,0
+569,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+570,Mr. Turner West II,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+571,Mr. Turner West II,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+572,Mr. Turner West II,Sydni Cassin,1,0.42,0.48,0.10,-1,0
+573,Mr. Turner West II,Victoria Monahan,1,0.44,0.46,0.10,-1,0
+574,Mr. Turner West II,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+575,Mr. Turner West II,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+576,Payton Doyle,Clovis Hegmann,1,0.64,0.26,0.10,1,1
+577,Payton Doyle,Vernell Ebert,-1,0.87,0.03,0.10,1,0
+578,Payton Doyle,Miss Sybilla Schumm MD,-1,0.48,0.42,0.10,1,0
+579,Payton Doyle,Breanna Abshire,-1,0.66,0.24,0.10,1,0
+580,Payton Doyle,Pierre Mann I,1,0.60,0.30,0.10,1,1
+581,Payton Doyle,Dr. Dayna Kilback,-1,0.54,0.36,0.10,1,0
+582,Payton Doyle,Sydni Cassin,-1,0.59,0.31,0.10,1,0
+583,Payton Doyle,Victoria Monahan,1,0.62,0.28,0.10,1,1
+584,Payton Doyle,Pamelia Labadie,1,0.54,0.36,0.10,1,1
+585,Payton Doyle,Kolton Leffler,-1,0.54,0.36,0.10,1,0
+586,Clovis Hegmann,Vernell Ebert,1,0.79,0.11,0.10,1,1
+587,Clovis Hegmann,Miss Sybilla Schumm MD,1,0.34,0.56,0.10,-1,0
+588,Clovis Hegmann,Breanna Abshire,1,0.53,0.37,0.10,1,1
+589,Clovis Hegmann,Pierre Mann I,1,0.46,0.44,0.10,1,1
+590,Clovis Hegmann,Dr. Dayna Kilback,-1,0.40,0.50,0.10,-1,1
+591,Clovis Hegmann,Sydni Cassin,-1,0.45,0.45,0.10,1,0
+592,Clovis Hegmann,Victoria Monahan,-1,0.48,0.42,0.10,1,0
+593,Clovis Hegmann,Pamelia Labadie,1,0.40,0.50,0.10,-1,0
+594,Clovis Hegmann,Kolton Leffler,-1,0.40,0.50,0.10,-1,1
+595,Vernell Ebert,Miss Sybilla Schumm MD,1,0.11,0.79,0.10,-1,0
+596,Vernell Ebert,Breanna Abshire,-1,0.23,0.67,0.10,-1,1
+597,Vernell Ebert,Pierre Mann I,-1,0.18,0.72,0.10,-1,1
+598,Vernell Ebert,Dr. Dayna Kilback,-1,0.15,0.75,0.10,-1,1
+599,Vernell Ebert,Sydni Cassin,1,0.18,0.72,0.10,-1,0
+600,Vernell Ebert,Victoria Monahan,-1,0.20,0.70,0.10,-1,1
+601,Vernell Ebert,Pamelia Labadie,1,0.15,0.75,0.10,-1,0
+602,Vernell Ebert,Kolton Leffler,-1,0.15,0.75,0.10,-1,1
+603,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.68,0.22,0.10,1,0
+604,Miss Sybilla Schumm MD,Pierre Mann I,-1,0.62,0.28,0.10,1,0
+605,Miss Sybilla Schumm MD,Dr. Dayna Kilback,-1,0.56,0.34,0.10,1,0
+606,Miss Sybilla Schumm MD,Sydni Cassin,1,0.61,0.29,0.10,1,1
+607,Miss Sybilla Schumm MD,Victoria Monahan,1,0.64,0.26,0.10,1,1
+608,Miss Sybilla Schumm MD,Pamelia Labadie,1,0.56,0.34,0.10,1,1
+609,Miss Sybilla Schumm MD,Kolton Leffler,-1,0.56,0.34,0.10,1,0
+610,Breanna Abshire,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+611,Breanna Abshire,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+612,Breanna Abshire,Sydni Cassin,1,0.42,0.48,0.10,-1,0
+613,Breanna Abshire,Victoria Monahan,-1,0.45,0.45,0.10,-1,1
+614,Breanna Abshire,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+615,Breanna Abshire,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+616,Pierre Mann I,Dr. Dayna Kilback,-1,0.44,0.46,0.10,-1,1
+617,Pierre Mann I,Sydni Cassin,-1,0.49,0.41,0.10,1,0
+618,Pierre Mann I,Victoria Monahan,1,0.52,0.38,0.10,1,1
+619,Pierre Mann I,Pamelia Labadie,-1,0.44,0.46,0.10,-1,1
+620,Pierre Mann I,Kolton Leffler,-1,0.44,0.46,0.10,-1,1
+621,Dr. Dayna Kilback,Sydni Cassin,1,0.55,0.35,0.10,1,1
+622,Dr. Dayna Kilback,Victoria Monahan,-1,0.58,0.32,0.10,1,0
+623,Dr. Dayna Kilback,Pamelia Labadie,1,0.50,0.40,0.10,1,1
+624,Dr. Dayna Kilback,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+625,Sydni Cassin,Victoria Monahan,1,0.53,0.37,0.10,1,1
+626,Sydni Cassin,Pamelia Labadie,1,0.45,0.45,0.10,-1,0
+627,Sydni Cassin,Kolton Leffler,-1,0.45,0.45,0.10,-1,1
+628,Victoria Monahan,Pamelia Labadie,-1,0.42,0.48,0.10,-1,1
+629,Victoria Monahan,Kolton Leffler,1,0.42,0.48,0.10,-1,0
+630,Pamelia Labadie,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+631,Horton Russel,Nannette Kemmer,1,0.89,0.01,0.10,1,1
+632,Horton Russel,Kinsey Block,1,0.67,0.23,0.10,1,1
+633,Horton Russel,Mr. Turner West II,-1,0.75,0.15,0.10,1,0
+634,Horton Russel,Payton Doyle,1,0.60,0.30,0.10,1,1
+635,Horton Russel,Clovis Hegmann,-1,0.73,0.17,0.10,1,0
+636,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+637,Horton Russel,Miss Sybilla Schumm MD,1,0.58,0.32,0.10,1,1
+638,Horton Russel,Breanna Abshire,-1,0.75,0.15,0.10,1,0
+639,Horton Russel,Pierre Mann I,-1,0.69,0.21,0.10,1,0
+640,Horton Russel,Dr. Dayna Kilback,1,0.64,0.26,0.10,1,1
+641,Horton Russel,Sydni Cassin,-1,0.69,0.21,0.10,1,0
+642,Horton Russel,Victoria Monahan,1,0.71,0.19,0.10,1,1
+643,Horton Russel,Pamelia Labadie,1,0.64,0.26,0.10,1,1
+644,Horton Russel,Kolton Leffler,-1,0.64,0.26,0.10,1,0
+645,Nannette Kemmer,Kinsey Block,1,0.22,0.68,0.10,-1,0
+646,Nannette Kemmer,Mr. Turner West II,-1,0.30,0.60,0.10,-1,1
+647,Nannette Kemmer,Payton Doyle,-1,0.17,0.73,0.10,-1,1
+648,Nannette Kemmer,Clovis Hegmann,1,0.27,0.63,0.10,-1,0
+649,Nannette Kemmer,Vernell Ebert,1,0.57,0.33,0.10,1,1
+650,Nannette Kemmer,Miss Sybilla Schumm MD,-1,0.15,0.75,0.10,-1,1
+651,Nannette Kemmer,Breanna Abshire,-1,0.29,0.61,0.10,-1,1
+652,Nannette Kemmer,Pierre Mann I,1,0.24,0.66,0.10,-1,0
+653,Nannette Kemmer,Dr. Dayna Kilback,1,0.19,0.71,0.10,-1,0
+654,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+655,Nannette Kemmer,Victoria Monahan,-1,0.25,0.65,0.10,-1,1
+656,Nannette Kemmer,Pamelia Labadie,1,0.19,0.71,0.10,-1,0
+657,Nannette Kemmer,Kolton Leffler,1,0.19,0.71,0.10,-1,0
+658,Kinsey Block,Mr. Turner West II,1,0.60,0.30,0.10,1,1
+659,Kinsey Block,Payton Doyle,1,0.42,0.48,0.10,-1,0
+660,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+661,Kinsey Block,Vernell Ebert,-1,0.83,0.07,0.10,1,0
+662,Kinsey Block,Miss Sybilla Schumm MD,-1,0.40,0.50,0.10,-1,1
+663,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+664,Kinsey Block,Pierre Mann I,1,0.52,0.38,0.10,1,1
+665,Kinsey Block,Dr. Dayna Kilback,1,0.46,0.44,0.10,1,1
+666,Kinsey Block,Sydni Cassin,1,0.51,0.39,0.10,1,1
+667,Kinsey Block,Victoria Monahan,1,0.54,0.36,0.10,1,1
+668,Kinsey Block,Pamelia Labadie,-1,0.46,0.44,0.10,1,0
+669,Kinsey Block,Kolton Leffler,1,0.46,0.44,0.10,1,1
+670,Mr. Turner West II,Payton Doyle,1,0.33,0.57,0.10,-1,0
+671,Mr. Turner West II,Clovis Hegmann,1,0.47,0.43,0.10,1,1
+672,Mr. Turner West II,Vernell Ebert,1,0.76,0.14,0.10,1,1
+673,Mr. Turner West II,Miss Sybilla Schumm MD,1,0.31,0.59,0.10,-1,0
+674,Mr. Turner West II,Breanna Abshire,-1,0.49,0.41,0.10,1,0
+675,Mr. Turner West II,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+676,Mr. Turner West II,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+677,Mr. Turner West II,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+678,Mr. Turner West II,Victoria Monahan,-1,0.44,0.46,0.10,-1,1
+679,Mr. Turner West II,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+680,Mr. Turner West II,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+681,Payton Doyle,Clovis Hegmann,-1,0.64,0.26,0.10,1,0
+682,Payton Doyle,Vernell Ebert,-1,0.87,0.03,0.10,1,0
+683,Payton Doyle,Miss Sybilla Schumm MD,-1,0.48,0.42,0.10,1,0
+684,Payton Doyle,Breanna Abshire,-1,0.66,0.24,0.10,1,0
+685,Payton Doyle,Pierre Mann I,1,0.60,0.30,0.10,1,1
+686,Payton Doyle,Dr. Dayna Kilback,1,0.54,0.36,0.10,1,1
+687,Payton Doyle,Sydni Cassin,1,0.59,0.31,0.10,1,1
+688,Payton Doyle,Victoria Monahan,-1,0.62,0.28,0.10,1,0
+689,Payton Doyle,Pamelia Labadie,-1,0.54,0.36,0.10,1,0
+690,Payton Doyle,Kolton Leffler,1,0.54,0.36,0.10,1,1
+691,Clovis Hegmann,Vernell Ebert,1,0.79,0.11,0.10,1,1
+692,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.34,0.56,0.10,-1,1
+693,Clovis Hegmann,Breanna Abshire,-1,0.53,0.37,0.10,1,0
+694,Clovis Hegmann,Pierre Mann I,-1,0.46,0.44,0.10,1,0
+695,Clovis Hegmann,Dr. Dayna Kilback,1,0.40,0.50,0.10,-1,0
+696,Clovis Hegmann,Sydni Cassin,-1,0.45,0.45,0.10,1,0
+697,Clovis Hegmann,Victoria Monahan,-1,0.48,0.42,0.10,1,0
+698,Clovis Hegmann,Pamelia Labadie,-1,0.40,0.50,0.10,-1,1
+699,Clovis Hegmann,Kolton Leffler,-1,0.40,0.50,0.10,-1,1
+700,Vernell Ebert,Miss Sybilla Schumm MD,1,0.11,0.79,0.10,-1,0
+701,Vernell Ebert,Breanna Abshire,1,0.23,0.67,0.10,-1,0
+702,Vernell Ebert,Pierre Mann I,1,0.18,0.72,0.10,-1,0
+703,Vernell Ebert,Dr. Dayna Kilback,1,0.15,0.75,0.10,-1,0
+704,Vernell Ebert,Sydni Cassin,1,0.18,0.72,0.10,-1,0
+705,Vernell Ebert,Victoria Monahan,1,0.20,0.70,0.10,-1,0
+706,Vernell Ebert,Pamelia Labadie,-1,0.15,0.75,0.10,-1,1
+707,Vernell Ebert,Kolton Leffler,-1,0.15,0.75,0.10,-1,1
+708,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.68,0.22,0.10,1,0
+709,Miss Sybilla Schumm MD,Pierre Mann I,1,0.62,0.28,0.10,1,1
+710,Miss Sybilla Schumm MD,Dr. Dayna Kilback,1,0.56,0.34,0.10,1,1
+711,Miss Sybilla Schumm MD,Sydni Cassin,1,0.61,0.29,0.10,1,1
+712,Miss Sybilla Schumm MD,Victoria Monahan,-1,0.64,0.26,0.10,1,0
+713,Miss Sybilla Schumm MD,Pamelia Labadie,1,0.56,0.34,0.10,1,1
+714,Miss Sybilla Schumm MD,Kolton Leffler,1,0.56,0.34,0.10,1,1
+715,Breanna Abshire,Pierre Mann I,1,0.43,0.47,0.10,-1,0
+716,Breanna Abshire,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+717,Breanna Abshire,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+718,Breanna Abshire,Victoria Monahan,1,0.45,0.45,0.10,-1,0
+719,Breanna Abshire,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+720,Breanna Abshire,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+721,Pierre Mann I,Dr. Dayna Kilback,-1,0.44,0.46,0.10,-1,1
+722,Pierre Mann I,Sydni Cassin,-1,0.49,0.41,0.10,1,0
+723,Pierre Mann I,Victoria Monahan,-1,0.52,0.38,0.10,1,0
+724,Pierre Mann I,Pamelia Labadie,1,0.44,0.46,0.10,-1,0
+725,Pierre Mann I,Kolton Leffler,-1,0.44,0.46,0.10,-1,1
+726,Dr. Dayna Kilback,Sydni Cassin,-1,0.55,0.35,0.10,1,0
+727,Dr. Dayna Kilback,Victoria Monahan,-1,0.58,0.32,0.10,1,0
+728,Dr. Dayna Kilback,Pamelia Labadie,-1,0.50,0.40,0.10,1,0
+729,Dr. Dayna Kilback,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+730,Sydni Cassin,Victoria Monahan,1,0.53,0.37,0.10,1,1
+731,Sydni Cassin,Pamelia Labadie,-1,0.45,0.45,0.10,-1,1
+732,Sydni Cassin,Kolton Leffler,1,0.45,0.45,0.10,-1,0
+733,Victoria Monahan,Pamelia Labadie,-1,0.42,0.48,0.10,-1,1
+734,Victoria Monahan,Kolton Leffler,-1,0.42,0.48,0.10,-1,1
+735,Pamelia Labadie,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+736,Horton Russel,Nannette Kemmer,-1,0.89,0.01,0.10,1,0
+737,Horton Russel,Kinsey Block,-1,0.67,0.23,0.10,1,0
+738,Horton Russel,Mr. Turner West II,-1,0.75,0.15,0.10,1,0
+739,Horton Russel,Payton Doyle,1,0.60,0.30,0.10,1,1
+740,Horton Russel,Clovis Hegmann,1,0.73,0.17,0.10,1,1
+741,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+742,Horton Russel,Miss Sybilla Schumm MD,-1,0.58,0.32,0.10,1,0
+743,Horton Russel,Breanna Abshire,-1,0.75,0.15,0.10,1,0
+744,Horton Russel,Pierre Mann I,-1,0.69,0.21,0.10,1,0
+745,Horton Russel,Dr. Dayna Kilback,1,0.64,0.26,0.10,1,1
+746,Horton Russel,Sydni Cassin,-1,0.69,0.21,0.10,1,0
+747,Horton Russel,Victoria Monahan,1,0.71,0.19,0.10,1,1
+748,Horton Russel,Pamelia Labadie,1,0.64,0.26,0.10,1,1
+749,Horton Russel,Kolton Leffler,1,0.64,0.26,0.10,1,1
+750,Nannette Kemmer,Kinsey Block,1,0.22,0.68,0.10,-1,0
+751,Nannette Kemmer,Mr. Turner West II,-1,0.30,0.60,0.10,-1,1
+752,Nannette Kemmer,Payton Doyle,-1,0.17,0.73,0.10,-1,1
+753,Nannette Kemmer,Clovis Hegmann,-1,0.27,0.63,0.10,-1,1
+754,Nannette Kemmer,Vernell Ebert,-1,0.57,0.33,0.10,1,0
+755,Nannette Kemmer,Miss Sybilla Schumm MD,1,0.15,0.75,0.10,-1,0
+756,Nannette Kemmer,Breanna Abshire,-1,0.29,0.61,0.10,-1,1
+757,Nannette Kemmer,Pierre Mann I,1,0.24,0.66,0.10,-1,0
+758,Nannette Kemmer,Dr. Dayna Kilback,1,0.19,0.71,0.10,-1,0
+759,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+760,Nannette Kemmer,Victoria Monahan,1,0.25,0.65,0.10,-1,0
+761,Nannette Kemmer,Pamelia Labadie,1,0.19,0.71,0.10,-1,0
+762,Nannette Kemmer,Kolton Leffler,-1,0.19,0.71,0.10,-1,1
+763,Kinsey Block,Mr. Turner West II,-1,0.60,0.30,0.10,1,0
+764,Kinsey Block,Payton Doyle,-1,0.42,0.48,0.10,-1,1
+765,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+766,Kinsey Block,Vernell Ebert,1,0.83,0.07,0.10,1,1
+767,Kinsey Block,Miss Sybilla Schumm MD,1,0.40,0.50,0.10,-1,0
+768,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+769,Kinsey Block,Pierre Mann I,-1,0.52,0.38,0.10,1,0
+770,Kinsey Block,Dr. Dayna Kilback,1,0.46,0.44,0.10,1,1
+771,Kinsey Block,Sydni Cassin,-1,0.51,0.39,0.10,1,0
+772,Kinsey Block,Victoria Monahan,-1,0.54,0.36,0.10,1,0
+773,Kinsey Block,Pamelia Labadie,-1,0.46,0.44,0.10,1,0
+774,Kinsey Block,Kolton Leffler,-1,0.46,0.44,0.10,1,0
+775,Mr. Turner West II,Payton Doyle,1,0.33,0.57,0.10,-1,0
+776,Mr. Turner West II,Clovis Hegmann,1,0.47,0.43,0.10,1,1
+777,Mr. Turner West II,Vernell Ebert,1,0.76,0.14,0.10,1,1
+778,Mr. Turner West II,Miss Sybilla Schumm MD,-1,0.31,0.59,0.10,-1,1
+779,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+780,Mr. Turner West II,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+781,Mr. Turner West II,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+782,Mr. Turner West II,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+783,Mr. Turner West II,Victoria Monahan,1,0.44,0.46,0.10,-1,0
+784,Mr. Turner West II,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+785,Mr. Turner West II,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+786,Payton Doyle,Clovis Hegmann,1,0.64,0.26,0.10,1,1
+787,Payton Doyle,Vernell Ebert,-1,0.87,0.03,0.10,1,0
+788,Payton Doyle,Miss Sybilla Schumm MD,-1,0.48,0.42,0.10,1,0
+789,Payton Doyle,Breanna Abshire,1,0.66,0.24,0.10,1,1
+790,Payton Doyle,Pierre Mann I,1,0.60,0.30,0.10,1,1
+791,Payton Doyle,Dr. Dayna Kilback,-1,0.54,0.36,0.10,1,0
+792,Payton Doyle,Sydni Cassin,-1,0.59,0.31,0.10,1,0
+793,Payton Doyle,Victoria Monahan,-1,0.62,0.28,0.10,1,0
+794,Payton Doyle,Pamelia Labadie,-1,0.54,0.36,0.10,1,0
+795,Payton Doyle,Kolton Leffler,1,0.54,0.36,0.10,1,1
+796,Clovis Hegmann,Vernell Ebert,1,0.79,0.11,0.10,1,1
+797,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.34,0.56,0.10,-1,1
+798,Clovis Hegmann,Breanna Abshire,-1,0.53,0.37,0.10,1,0
+799,Clovis Hegmann,Pierre Mann I,1,0.46,0.44,0.10,1,1
+800,Clovis Hegmann,Dr. Dayna Kilback,1,0.40,0.50,0.10,-1,0
+801,Clovis Hegmann,Sydni Cassin,1,0.45,0.45,0.10,1,1
+802,Clovis Hegmann,Victoria Monahan,1,0.48,0.42,0.10,1,1
+803,Clovis Hegmann,Pamelia Labadie,-1,0.40,0.50,0.10,-1,1
+804,Clovis Hegmann,Kolton Leffler,-1,0.40,0.50,0.10,-1,1
+805,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.11,0.79,0.10,-1,1
+806,Vernell Ebert,Breanna Abshire,-1,0.23,0.67,0.10,-1,1
+807,Vernell Ebert,Pierre Mann I,-1,0.18,0.72,0.10,-1,1
+808,Vernell Ebert,Dr. Dayna Kilback,1,0.15,0.75,0.10,-1,0
+809,Vernell Ebert,Sydni Cassin,-1,0.18,0.72,0.10,-1,1
+810,Vernell Ebert,Victoria Monahan,-1,0.20,0.70,0.10,-1,1
+811,Vernell Ebert,Pamelia Labadie,-1,0.15,0.75,0.10,-1,1
+812,Vernell Ebert,Kolton Leffler,-1,0.15,0.75,0.10,-1,1
+813,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.68,0.22,0.10,1,0
+814,Miss Sybilla Schumm MD,Pierre Mann I,-1,0.62,0.28,0.10,1,0
+815,Miss Sybilla Schumm MD,Dr. Dayna Kilback,1,0.56,0.34,0.10,1,1
+816,Miss Sybilla Schumm MD,Sydni Cassin,-1,0.61,0.29,0.10,1,0
+817,Miss Sybilla Schumm MD,Victoria Monahan,-1,0.64,0.26,0.10,1,0
+818,Miss Sybilla Schumm MD,Pamelia Labadie,1,0.56,0.34,0.10,1,1
+819,Miss Sybilla Schumm MD,Kolton Leffler,1,0.56,0.34,0.10,1,1
+820,Breanna Abshire,Pierre Mann I,1,0.43,0.47,0.10,-1,0
+821,Breanna Abshire,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+822,Breanna Abshire,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+823,Breanna Abshire,Victoria Monahan,-1,0.45,0.45,0.10,-1,1
+824,Breanna Abshire,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+825,Breanna Abshire,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+826,Pierre Mann I,Dr. Dayna Kilback,1,0.44,0.46,0.10,-1,0
+827,Pierre Mann I,Sydni Cassin,-1,0.49,0.41,0.10,1,0
+828,Pierre Mann I,Victoria Monahan,1,0.52,0.38,0.10,1,1
+829,Pierre Mann I,Pamelia Labadie,-1,0.44,0.46,0.10,-1,1
+830,Pierre Mann I,Kolton Leffler,1,0.44,0.46,0.10,-1,0
+831,Dr. Dayna Kilback,Sydni Cassin,1,0.55,0.35,0.10,1,1
+832,Dr. Dayna Kilback,Victoria Monahan,-1,0.58,0.32,0.10,1,0
+833,Dr. Dayna Kilback,Pamelia Labadie,1,0.50,0.40,0.10,1,1
+834,Dr. Dayna Kilback,Kolton Leffler,1,0.50,0.40,0.10,1,1
+835,Sydni Cassin,Victoria Monahan,1,0.53,0.37,0.10,1,1
+836,Sydni Cassin,Pamelia Labadie,1,0.45,0.45,0.10,-1,0
+837,Sydni Cassin,Kolton Leffler,-1,0.45,0.45,0.10,-1,1
+838,Victoria Monahan,Pamelia Labadie,-1,0.42,0.48,0.10,-1,1
+839,Victoria Monahan,Kolton Leffler,1,0.42,0.48,0.10,-1,0
+840,Pamelia Labadie,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+841,Horton Russel,Nannette Kemmer,-1,0.89,0.01,0.10,1,0
+842,Horton Russel,Kinsey Block,1,0.67,0.23,0.10,1,1
+843,Horton Russel,Mr. Turner West II,-1,0.75,0.15,0.10,1,0
+844,Horton Russel,Payton Doyle,-1,0.60,0.30,0.10,1,0
+845,Horton Russel,Clovis Hegmann,-1,0.73,0.17,0.10,1,0
+846,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+847,Horton Russel,Miss Sybilla Schumm MD,-1,0.58,0.32,0.10,1,0
+848,Horton Russel,Breanna Abshire,1,0.75,0.15,0.10,1,1
+849,Horton Russel,Pierre Mann I,-1,0.69,0.21,0.10,1,0
+850,Horton Russel,Dr. Dayna Kilback,-1,0.64,0.26,0.10,1,0
+851,Horton Russel,Sydni Cassin,1,0.69,0.21,0.10,1,1
+852,Horton Russel,Victoria Monahan,-1,0.71,0.19,0.10,1,0
+853,Horton Russel,Pamelia Labadie,-1,0.64,0.26,0.10,1,0
+854,Horton Russel,Kolton Leffler,1,0.64,0.26,0.10,1,1
+855,Nannette Kemmer,Kinsey Block,1,0.22,0.68,0.10,-1,0
+856,Nannette Kemmer,Mr. Turner West II,-1,0.30,0.60,0.10,-1,1
+857,Nannette Kemmer,Payton Doyle,-1,0.17,0.73,0.10,-1,1
+858,Nannette Kemmer,Clovis Hegmann,1,0.27,0.63,0.10,-1,0
+859,Nannette Kemmer,Vernell Ebert,1,0.57,0.33,0.10,1,1
+860,Nannette Kemmer,Miss Sybilla Schumm MD,-1,0.15,0.75,0.10,-1,1
+861,Nannette Kemmer,Breanna Abshire,-1,0.29,0.61,0.10,-1,1
+862,Nannette Kemmer,Pierre Mann I,1,0.24,0.66,0.10,-1,0
+863,Nannette Kemmer,Dr. Dayna Kilback,1,0.19,0.71,0.10,-1,0
+864,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+865,Nannette Kemmer,Victoria Monahan,-1,0.25,0.65,0.10,-1,1
+866,Nannette Kemmer,Pamelia Labadie,-1,0.19,0.71,0.10,-1,1
+867,Nannette Kemmer,Kolton Leffler,1,0.19,0.71,0.10,-1,0
+868,Kinsey Block,Mr. Turner West II,1,0.60,0.30,0.10,1,1
+869,Kinsey Block,Payton Doyle,1,0.42,0.48,0.10,-1,0
+870,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+871,Kinsey Block,Vernell Ebert,-1,0.83,0.07,0.10,1,0
+872,Kinsey Block,Miss Sybilla Schumm MD,-1,0.40,0.50,0.10,-1,1
+873,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+874,Kinsey Block,Pierre Mann I,-1,0.52,0.38,0.10,1,0
+875,Kinsey Block,Dr. Dayna Kilback,-1,0.46,0.44,0.10,1,0
+876,Kinsey Block,Sydni Cassin,1,0.51,0.39,0.10,1,1
+877,Kinsey Block,Victoria Monahan,-1,0.54,0.36,0.10,1,0
+878,Kinsey Block,Pamelia Labadie,-1,0.46,0.44,0.10,1,0
+879,Kinsey Block,Kolton Leffler,-1,0.46,0.44,0.10,1,0
+880,Mr. Turner West II,Payton Doyle,1,0.33,0.57,0.10,-1,0
+881,Mr. Turner West II,Clovis Hegmann,-1,0.47,0.43,0.10,1,0
+882,Mr. Turner West II,Vernell Ebert,1,0.76,0.14,0.10,1,1
+883,Mr. Turner West II,Miss Sybilla Schumm MD,-1,0.31,0.59,0.10,-1,1
+884,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+885,Mr. Turner West II,Pierre Mann I,-1,0.43,0.47,0.10,-1,1
+886,Mr. Turner West II,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+887,Mr. Turner West II,Sydni Cassin,1,0.42,0.48,0.10,-1,0
+888,Mr. Turner West II,Victoria Monahan,1,0.44,0.46,0.10,-1,0
+889,Mr. Turner West II,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+890,Mr. Turner West II,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+891,Payton Doyle,Clovis Hegmann,-1,0.64,0.26,0.10,1,0
+892,Payton Doyle,Vernell Ebert,1,0.87,0.03,0.10,1,1
+893,Payton Doyle,Miss Sybilla Schumm MD,1,0.48,0.42,0.10,1,1
+894,Payton Doyle,Breanna Abshire,-1,0.66,0.24,0.10,1,0
+895,Payton Doyle,Pierre Mann I,-1,0.60,0.30,0.10,1,0
+896,Payton Doyle,Dr. Dayna Kilback,1,0.54,0.36,0.10,1,1
+897,Payton Doyle,Sydni Cassin,-1,0.59,0.31,0.10,1,0
+898,Payton Doyle,Victoria Monahan,1,0.62,0.28,0.10,1,1
+899,Payton Doyle,Pamelia Labadie,-1,0.54,0.36,0.10,1,0
+900,Payton Doyle,Kolton Leffler,1,0.54,0.36,0.10,1,1
+901,Clovis Hegmann,Vernell Ebert,1,0.79,0.11,0.10,1,1
+902,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.34,0.56,0.10,-1,1
+903,Clovis Hegmann,Breanna Abshire,-1,0.53,0.37,0.10,1,0
+904,Clovis Hegmann,Pierre Mann I,1,0.46,0.44,0.10,1,1
+905,Clovis Hegmann,Dr. Dayna Kilback,-1,0.40,0.50,0.10,-1,1
+906,Clovis Hegmann,Sydni Cassin,-1,0.45,0.45,0.10,1,0
+907,Clovis Hegmann,Victoria Monahan,1,0.48,0.42,0.10,1,1
+908,Clovis Hegmann,Pamelia Labadie,-1,0.40,0.50,0.10,-1,1
+909,Clovis Hegmann,Kolton Leffler,-1,0.40,0.50,0.10,-1,1
+910,Vernell Ebert,Miss Sybilla Schumm MD,1,0.11,0.79,0.10,-1,0
+911,Vernell Ebert,Breanna Abshire,1,0.23,0.67,0.10,-1,0
+912,Vernell Ebert,Pierre Mann I,-1,0.18,0.72,0.10,-1,1
+913,Vernell Ebert,Dr. Dayna Kilback,1,0.15,0.75,0.10,-1,0
+914,Vernell Ebert,Sydni Cassin,1,0.18,0.72,0.10,-1,0
+915,Vernell Ebert,Victoria Monahan,-1,0.20,0.70,0.10,-1,1
+916,Vernell Ebert,Pamelia Labadie,-1,0.15,0.75,0.10,-1,1
+917,Vernell Ebert,Kolton Leffler,-1,0.15,0.75,0.10,-1,1
+918,Miss Sybilla Schumm MD,Breanna Abshire,1,0.68,0.22,0.10,1,1
+919,Miss Sybilla Schumm MD,Pierre Mann I,1,0.62,0.28,0.10,1,1
+920,Miss Sybilla Schumm MD,Dr. Dayna Kilback,1,0.56,0.34,0.10,1,1
+921,Miss Sybilla Schumm MD,Sydni Cassin,-1,0.61,0.29,0.10,1,0
+922,Miss Sybilla Schumm MD,Victoria Monahan,1,0.64,0.26,0.10,1,1
+923,Miss Sybilla Schumm MD,Pamelia Labadie,-1,0.56,0.34,0.10,1,0
+924,Miss Sybilla Schumm MD,Kolton Leffler,-1,0.56,0.34,0.10,1,0
+925,Breanna Abshire,Pierre Mann I,1,0.43,0.47,0.10,-1,0
+926,Breanna Abshire,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+927,Breanna Abshire,Sydni Cassin,1,0.42,0.48,0.10,-1,0
+928,Breanna Abshire,Victoria Monahan,1,0.45,0.45,0.10,-1,0
+929,Breanna Abshire,Pamelia Labadie,1,0.37,0.53,0.10,-1,0
+930,Breanna Abshire,Kolton Leffler,-1,0.37,0.53,0.10,-1,1
+931,Pierre Mann I,Dr. Dayna Kilback,1,0.44,0.46,0.10,-1,0
+932,Pierre Mann I,Sydni Cassin,-1,0.49,0.41,0.10,1,0
+933,Pierre Mann I,Victoria Monahan,1,0.52,0.38,0.10,1,1
+934,Pierre Mann I,Pamelia Labadie,1,0.44,0.46,0.10,-1,0
+935,Pierre Mann I,Kolton Leffler,1,0.44,0.46,0.10,-1,0
+936,Dr. Dayna Kilback,Sydni Cassin,-1,0.55,0.35,0.10,1,0
+937,Dr. Dayna Kilback,Victoria Monahan,1,0.58,0.32,0.10,1,1
+938,Dr. Dayna Kilback,Pamelia Labadie,1,0.50,0.40,0.10,1,1
+939,Dr. Dayna Kilback,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+940,Sydni Cassin,Victoria Monahan,1,0.53,0.37,0.10,1,1
+941,Sydni Cassin,Pamelia Labadie,1,0.45,0.45,0.10,-1,0
+942,Sydni Cassin,Kolton Leffler,1,0.45,0.45,0.10,-1,0
+943,Victoria Monahan,Pamelia Labadie,-1,0.42,0.48,0.10,-1,1
+944,Victoria Monahan,Kolton Leffler,1,0.42,0.48,0.10,-1,0
+945,Pamelia Labadie,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+946,Horton Russel,Nannette Kemmer,1,0.89,0.01,0.10,1,1
+947,Horton Russel,Kinsey Block,1,0.67,0.23,0.10,1,1
+948,Horton Russel,Mr. Turner West II,1,0.75,0.15,0.10,1,1
+949,Horton Russel,Payton Doyle,1,0.60,0.30,0.10,1,1
+950,Horton Russel,Clovis Hegmann,-1,0.73,0.17,0.10,1,0
+951,Horton Russel,Vernell Ebert,1,0.92,-0.02,0.10,1,1
+952,Horton Russel,Miss Sybilla Schumm MD,-1,0.58,0.32,0.10,1,0
+953,Horton Russel,Breanna Abshire,1,0.75,0.15,0.10,1,1
+954,Horton Russel,Pierre Mann I,-1,0.69,0.21,0.10,1,0
+955,Horton Russel,Dr. Dayna Kilback,1,0.64,0.26,0.10,1,1
+956,Horton Russel,Sydni Cassin,-1,0.69,0.21,0.10,1,0
+957,Horton Russel,Victoria Monahan,1,0.71,0.19,0.10,1,1
+958,Horton Russel,Pamelia Labadie,-1,0.64,0.26,0.10,1,0
+959,Horton Russel,Kolton Leffler,-1,0.64,0.26,0.10,1,0
+960,Nannette Kemmer,Kinsey Block,-1,0.22,0.68,0.10,-1,1
+961,Nannette Kemmer,Mr. Turner West II,1,0.30,0.60,0.10,-1,0
+962,Nannette Kemmer,Payton Doyle,1,0.17,0.73,0.10,-1,0
+963,Nannette Kemmer,Clovis Hegmann,-1,0.27,0.63,0.10,-1,1
+964,Nannette Kemmer,Vernell Ebert,1,0.57,0.33,0.10,1,1
+965,Nannette Kemmer,Miss Sybilla Schumm MD,-1,0.15,0.75,0.10,-1,1
+966,Nannette Kemmer,Breanna Abshire,-1,0.29,0.61,0.10,-1,1
+967,Nannette Kemmer,Pierre Mann I,-1,0.24,0.66,0.10,-1,1
+968,Nannette Kemmer,Dr. Dayna Kilback,-1,0.19,0.71,0.10,-1,1
+969,Nannette Kemmer,Sydni Cassin,-1,0.23,0.67,0.10,-1,1
+970,Nannette Kemmer,Victoria Monahan,-1,0.25,0.65,0.10,-1,1
+971,Nannette Kemmer,Pamelia Labadie,1,0.19,0.71,0.10,-1,0
+972,Nannette Kemmer,Kolton Leffler,1,0.19,0.71,0.10,-1,0
+973,Kinsey Block,Mr. Turner West II,1,0.60,0.30,0.10,1,1
+974,Kinsey Block,Payton Doyle,1,0.42,0.48,0.10,-1,0
+975,Kinsey Block,Clovis Hegmann,1,0.56,0.34,0.10,1,1
+976,Kinsey Block,Vernell Ebert,-1,0.83,0.07,0.10,1,0
+977,Kinsey Block,Miss Sybilla Schumm MD,-1,0.40,0.50,0.10,-1,1
+978,Kinsey Block,Breanna Abshire,1,0.59,0.31,0.10,1,1
+979,Kinsey Block,Pierre Mann I,1,0.52,0.38,0.10,1,1
+980,Kinsey Block,Dr. Dayna Kilback,1,0.46,0.44,0.10,1,1
+981,Kinsey Block,Sydni Cassin,-1,0.51,0.39,0.10,1,0
+982,Kinsey Block,Victoria Monahan,-1,0.54,0.36,0.10,1,0
+983,Kinsey Block,Pamelia Labadie,1,0.46,0.44,0.10,1,1
+984,Kinsey Block,Kolton Leffler,1,0.46,0.44,0.10,1,1
+985,Mr. Turner West II,Payton Doyle,1,0.33,0.57,0.10,-1,0
+986,Mr. Turner West II,Clovis Hegmann,-1,0.47,0.43,0.10,1,0
+987,Mr. Turner West II,Vernell Ebert,-1,0.76,0.14,0.10,1,0
+988,Mr. Turner West II,Miss Sybilla Schumm MD,-1,0.31,0.59,0.10,-1,1
+989,Mr. Turner West II,Breanna Abshire,1,0.49,0.41,0.10,1,1
+990,Mr. Turner West II,Pierre Mann I,1,0.43,0.47,0.10,-1,0
+991,Mr. Turner West II,Dr. Dayna Kilback,-1,0.37,0.53,0.10,-1,1
+992,Mr. Turner West II,Sydni Cassin,-1,0.42,0.48,0.10,-1,1
+993,Mr. Turner West II,Victoria Monahan,-1,0.44,0.46,0.10,-1,1
+994,Mr. Turner West II,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+995,Mr. Turner West II,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+996,Payton Doyle,Clovis Hegmann,1,0.64,0.26,0.10,1,1
+997,Payton Doyle,Vernell Ebert,1,0.87,0.03,0.10,1,1
+998,Payton Doyle,Miss Sybilla Schumm MD,1,0.48,0.42,0.10,1,1
+999,Payton Doyle,Breanna Abshire,1,0.66,0.24,0.10,1,1
+1000,Payton Doyle,Pierre Mann I,1,0.60,0.30,0.10,1,1
+1001,Payton Doyle,Dr. Dayna Kilback,1,0.54,0.36,0.10,1,1
+1002,Payton Doyle,Sydni Cassin,-1,0.59,0.31,0.10,1,0
+1003,Payton Doyle,Victoria Monahan,1,0.62,0.28,0.10,1,1
+1004,Payton Doyle,Pamelia Labadie,1,0.54,0.36,0.10,1,1
+1005,Payton Doyle,Kolton Leffler,-1,0.54,0.36,0.10,1,0
+1006,Clovis Hegmann,Vernell Ebert,1,0.79,0.11,0.10,1,1
+1007,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.34,0.56,0.10,-1,1
+1008,Clovis Hegmann,Breanna Abshire,1,0.53,0.37,0.10,1,1
+1009,Clovis Hegmann,Pierre Mann I,1,0.46,0.44,0.10,1,1
+1010,Clovis Hegmann,Dr. Dayna Kilback,1,0.40,0.50,0.10,-1,0
+1011,Clovis Hegmann,Sydni Cassin,-1,0.45,0.45,0.10,1,0
+1012,Clovis Hegmann,Victoria Monahan,1,0.48,0.42,0.10,1,1
+1013,Clovis Hegmann,Pamelia Labadie,1,0.40,0.50,0.10,-1,0
+1014,Clovis Hegmann,Kolton Leffler,1,0.40,0.50,0.10,-1,0
+1015,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.11,0.79,0.10,-1,1
+1016,Vernell Ebert,Breanna Abshire,1,0.23,0.67,0.10,-1,0
+1017,Vernell Ebert,Pierre Mann I,-1,0.18,0.72,0.10,-1,1
+1018,Vernell Ebert,Dr. Dayna Kilback,-1,0.15,0.75,0.10,-1,1
+1019,Vernell Ebert,Sydni Cassin,-1,0.18,0.72,0.10,-1,1
+1020,Vernell Ebert,Victoria Monahan,-1,0.20,0.70,0.10,-1,1
+1021,Vernell Ebert,Pamelia Labadie,1,0.15,0.75,0.10,-1,0
+1022,Vernell Ebert,Kolton Leffler,1,0.15,0.75,0.10,-1,0
+1023,Miss Sybilla Schumm MD,Breanna Abshire,1,0.68,0.22,0.10,1,1
+1024,Miss Sybilla Schumm MD,Pierre Mann I,1,0.62,0.28,0.10,1,1
+1025,Miss Sybilla Schumm MD,Dr. Dayna Kilback,1,0.56,0.34,0.10,1,1
+1026,Miss Sybilla Schumm MD,Sydni Cassin,1,0.61,0.29,0.10,1,1
+1027,Miss Sybilla Schumm MD,Victoria Monahan,1,0.64,0.26,0.10,1,1
+1028,Miss Sybilla Schumm MD,Pamelia Labadie,1,0.56,0.34,0.10,1,1
+1029,Miss Sybilla Schumm MD,Kolton Leffler,1,0.56,0.34,0.10,1,1
+1030,Breanna Abshire,Pierre Mann I,1,0.43,0.47,0.10,-1,0
+1031,Breanna Abshire,Dr. Dayna Kilback,1,0.37,0.53,0.10,-1,0
+1032,Breanna Abshire,Sydni Cassin,1,0.42,0.48,0.10,-1,0
+1033,Breanna Abshire,Victoria Monahan,-1,0.45,0.45,0.10,-1,1
+1034,Breanna Abshire,Pamelia Labadie,-1,0.37,0.53,0.10,-1,1
+1035,Breanna Abshire,Kolton Leffler,1,0.37,0.53,0.10,-1,0
+1036,Pierre Mann I,Dr. Dayna Kilback,1,0.44,0.46,0.10,-1,0
+1037,Pierre Mann I,Sydni Cassin,1,0.49,0.41,0.10,1,1
+1038,Pierre Mann I,Victoria Monahan,-1,0.52,0.38,0.10,1,0
+1039,Pierre Mann I,Pamelia Labadie,1,0.44,0.46,0.10,-1,0
+1040,Pierre Mann I,Kolton Leffler,1,0.44,0.46,0.10,-1,0
+1041,Dr. Dayna Kilback,Sydni Cassin,1,0.55,0.35,0.10,1,1
+1042,Dr. Dayna Kilback,Victoria Monahan,-1,0.58,0.32,0.10,1,0
+1043,Dr. Dayna Kilback,Pamelia Labadie,-1,0.50,0.40,0.10,1,0
+1044,Dr. Dayna Kilback,Kolton Leffler,-1,0.50,0.40,0.10,1,0
+1045,Sydni Cassin,Victoria Monahan,1,0.53,0.37,0.10,1,1
+1046,Sydni Cassin,Pamelia Labadie,1,0.45,0.45,0.10,-1,0
+1047,Sydni Cassin,Kolton Leffler,-1,0.45,0.45,0.10,-1,1
+1048,Victoria Monahan,Pamelia Labadie,-1,0.42,0.48,0.10,-1,1
+1049,Victoria Monahan,Kolton Leffler,1,0.42,0.48,0.10,-1,0
+1050,Pamelia Labadie,Kolton Leffler,1,0.50,0.40,0.10,1,1

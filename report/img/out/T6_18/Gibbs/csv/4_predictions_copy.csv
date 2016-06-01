@@ -1,0 +1,10 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Akhisar Belediyespor,Konyaspor,-1,0.40,0.32,0.27,1,0
+2,Galatasaray,Sivasspor,1,0.49,0.29,0.22,1,1
+3,Kasimpasa,Gaziantepspor,-1,0.42,0.32,0.26,1,0
+4,Kayserispor,Osmanlispor,1,0.38,0.33,0.30,1,1
+5,Antalyaspor,Buyuksehyr,-1,0.33,0.39,0.28,-1,1
+6,Bursaspor,Trabzonspor,1,0.27,0.54,0.19,-1,0
+7,Rizespor,Genclerbirligi,-1,0.51,0.29,0.20,1,0
+8,Eskisehirspor,Fenerbahce,-1,0.14,0.78,0.08,-1,1
+9,Konyaspor,Kayserispor,1,0.37,0.33,0.30,1,1

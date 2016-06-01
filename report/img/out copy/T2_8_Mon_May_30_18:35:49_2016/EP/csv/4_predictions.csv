@@ -1,0 +1,101 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Grove Waters,Willia Jacobi,-1,0.29,0.61,0.10,-1,1
+2,Grove Waters,Mordechai Dicki,-1,0.20,0.70,0.10,-1,1
+3,Grove Waters,Ms. Dorinda Glover DDS,-1,0.36,0.54,0.10,-1,1
+4,Grove Waters,Zandra Lynch MD,-1,0.37,0.53,0.10,-1,1
+5,Willia Jacobi,Mordechai Dicki,1,0.38,0.52,0.10,-1,0
+6,Willia Jacobi,Ms. Dorinda Glover DDS,1,0.58,0.32,0.10,1,1
+7,Willia Jacobi,Zandra Lynch MD,-1,0.59,0.31,0.10,1,0
+8,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+9,Mordechai Dicki,Zandra Lynch MD,1,0.70,0.20,0.10,1,1
+10,Ms. Dorinda Glover DDS,Zandra Lynch MD,-1,0.51,0.39,0.10,1,0
+11,Grove Waters,Willia Jacobi,1,0.29,0.61,0.10,-1,0
+12,Grove Waters,Mordechai Dicki,-1,0.20,0.70,0.10,-1,1
+13,Grove Waters,Ms. Dorinda Glover DDS,-1,0.36,0.54,0.10,-1,1
+14,Grove Waters,Zandra Lynch MD,-1,0.37,0.53,0.10,-1,1
+15,Willia Jacobi,Mordechai Dicki,1,0.38,0.52,0.10,-1,0
+16,Willia Jacobi,Ms. Dorinda Glover DDS,1,0.58,0.32,0.10,1,1
+17,Willia Jacobi,Zandra Lynch MD,1,0.59,0.31,0.10,1,1
+18,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+19,Mordechai Dicki,Zandra Lynch MD,1,0.70,0.20,0.10,1,1
+20,Ms. Dorinda Glover DDS,Zandra Lynch MD,-1,0.51,0.39,0.10,1,0
+21,Grove Waters,Willia Jacobi,1,0.29,0.61,0.10,-1,0
+22,Grove Waters,Mordechai Dicki,-1,0.20,0.70,0.10,-1,1
+23,Grove Waters,Ms. Dorinda Glover DDS,-1,0.36,0.54,0.10,-1,1
+24,Grove Waters,Zandra Lynch MD,-1,0.37,0.53,0.10,-1,1
+25,Willia Jacobi,Mordechai Dicki,-1,0.38,0.52,0.10,-1,1
+26,Willia Jacobi,Ms. Dorinda Glover DDS,1,0.58,0.32,0.10,1,1
+27,Willia Jacobi,Zandra Lynch MD,-1,0.59,0.31,0.10,1,0
+28,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+29,Mordechai Dicki,Zandra Lynch MD,-1,0.70,0.20,0.10,1,0
+30,Ms. Dorinda Glover DDS,Zandra Lynch MD,-1,0.51,0.39,0.10,1,0
+31,Grove Waters,Willia Jacobi,-1,0.29,0.61,0.10,-1,1
+32,Grove Waters,Mordechai Dicki,1,0.20,0.70,0.10,-1,0
+33,Grove Waters,Ms. Dorinda Glover DDS,-1,0.36,0.54,0.10,-1,1
+34,Grove Waters,Zandra Lynch MD,-1,0.37,0.53,0.10,-1,1
+35,Willia Jacobi,Mordechai Dicki,-1,0.38,0.52,0.10,-1,1
+36,Willia Jacobi,Ms. Dorinda Glover DDS,1,0.58,0.32,0.10,1,1
+37,Willia Jacobi,Zandra Lynch MD,1,0.59,0.31,0.10,1,1
+38,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+39,Mordechai Dicki,Zandra Lynch MD,-1,0.70,0.20,0.10,1,0
+40,Ms. Dorinda Glover DDS,Zandra Lynch MD,-1,0.51,0.39,0.10,1,0
+41,Grove Waters,Willia Jacobi,1,0.29,0.61,0.10,-1,0
+42,Grove Waters,Mordechai Dicki,1,0.20,0.70,0.10,-1,0
+43,Grove Waters,Ms. Dorinda Glover DDS,-1,0.36,0.54,0.10,-1,1
+44,Grove Waters,Zandra Lynch MD,-1,0.37,0.53,0.10,-1,1
+45,Willia Jacobi,Mordechai Dicki,-1,0.38,0.52,0.10,-1,1
+46,Willia Jacobi,Ms. Dorinda Glover DDS,1,0.58,0.32,0.10,1,1
+47,Willia Jacobi,Zandra Lynch MD,1,0.59,0.31,0.10,1,1
+48,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+49,Mordechai Dicki,Zandra Lynch MD,-1,0.70,0.20,0.10,1,0
+50,Ms. Dorinda Glover DDS,Zandra Lynch MD,1,0.51,0.39,0.10,1,1
+51,Grove Waters,Willia Jacobi,1,0.29,0.61,0.10,-1,0
+52,Grove Waters,Mordechai Dicki,-1,0.20,0.70,0.10,-1,1
+53,Grove Waters,Ms. Dorinda Glover DDS,-1,0.36,0.54,0.10,-1,1
+54,Grove Waters,Zandra Lynch MD,1,0.37,0.53,0.10,-1,0
+55,Willia Jacobi,Mordechai Dicki,1,0.38,0.52,0.10,-1,0
+56,Willia Jacobi,Ms. Dorinda Glover DDS,-1,0.58,0.32,0.10,1,0
+57,Willia Jacobi,Zandra Lynch MD,-1,0.59,0.31,0.10,1,0
+58,Mordechai Dicki,Ms. Dorinda Glover DDS,-1,0.69,0.21,0.10,1,0
+59,Mordechai Dicki,Zandra Lynch MD,1,0.70,0.20,0.10,1,1
+60,Ms. Dorinda Glover DDS,Zandra Lynch MD,-1,0.51,0.39,0.10,1,0
+61,Grove Waters,Willia Jacobi,-1,0.29,0.61,0.10,-1,1
+62,Grove Waters,Mordechai Dicki,1,0.20,0.70,0.10,-1,0
+63,Grove Waters,Ms. Dorinda Glover DDS,1,0.36,0.54,0.10,-1,0
+64,Grove Waters,Zandra Lynch MD,1,0.37,0.53,0.10,-1,0
+65,Willia Jacobi,Mordechai Dicki,-1,0.38,0.52,0.10,-1,1
+66,Willia Jacobi,Ms. Dorinda Glover DDS,1,0.58,0.32,0.10,1,1
+67,Willia Jacobi,Zandra Lynch MD,1,0.59,0.31,0.10,1,1
+68,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+69,Mordechai Dicki,Zandra Lynch MD,1,0.70,0.20,0.10,1,1
+70,Ms. Dorinda Glover DDS,Zandra Lynch MD,1,0.51,0.39,0.10,1,1
+71,Grove Waters,Willia Jacobi,-1,0.29,0.61,0.10,-1,1
+72,Grove Waters,Mordechai Dicki,-1,0.20,0.70,0.10,-1,1
+73,Grove Waters,Ms. Dorinda Glover DDS,-1,0.36,0.54,0.10,-1,1
+74,Grove Waters,Zandra Lynch MD,1,0.37,0.53,0.10,-1,0
+75,Willia Jacobi,Mordechai Dicki,1,0.38,0.52,0.10,-1,0
+76,Willia Jacobi,Ms. Dorinda Glover DDS,-1,0.58,0.32,0.10,1,0
+77,Willia Jacobi,Zandra Lynch MD,1,0.59,0.31,0.10,1,1
+78,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+79,Mordechai Dicki,Zandra Lynch MD,-1,0.70,0.20,0.10,1,0
+80,Ms. Dorinda Glover DDS,Zandra Lynch MD,1,0.51,0.39,0.10,1,1
+81,Grove Waters,Willia Jacobi,1,0.29,0.61,0.10,-1,0
+82,Grove Waters,Mordechai Dicki,-1,0.20,0.70,0.10,-1,1
+83,Grove Waters,Ms. Dorinda Glover DDS,1,0.36,0.54,0.10,-1,0
+84,Grove Waters,Zandra Lynch MD,-1,0.37,0.53,0.10,-1,1
+85,Willia Jacobi,Mordechai Dicki,1,0.38,0.52,0.10,-1,0
+86,Willia Jacobi,Ms. Dorinda Glover DDS,-1,0.58,0.32,0.10,1,0
+87,Willia Jacobi,Zandra Lynch MD,1,0.59,0.31,0.10,1,1
+88,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+89,Mordechai Dicki,Zandra Lynch MD,1,0.70,0.20,0.10,1,1
+90,Ms. Dorinda Glover DDS,Zandra Lynch MD,-1,0.51,0.39,0.10,1,0
+91,Grove Waters,Willia Jacobi,-1,0.29,0.61,0.10,-1,1
+92,Grove Waters,Mordechai Dicki,1,0.20,0.70,0.10,-1,0
+93,Grove Waters,Ms. Dorinda Glover DDS,-1,0.36,0.54,0.10,-1,1
+94,Grove Waters,Zandra Lynch MD,-1,0.37,0.53,0.10,-1,1
+95,Willia Jacobi,Mordechai Dicki,-1,0.38,0.52,0.10,-1,1
+96,Willia Jacobi,Ms. Dorinda Glover DDS,1,0.58,0.32,0.10,1,1
+97,Willia Jacobi,Zandra Lynch MD,1,0.59,0.31,0.10,1,1
+98,Mordechai Dicki,Ms. Dorinda Glover DDS,1,0.69,0.21,0.10,1,1
+99,Mordechai Dicki,Zandra Lynch MD,1,0.70,0.20,0.10,1,1
+100,Ms. Dorinda Glover DDS,Zandra Lynch MD,1,0.51,0.39,0.10,1,1

@@ -1,0 +1,11 @@
+Date,T5_15_Mon_May_30_18:56:44_2016
+Algorithm,Gibbs
+Dataset,Tennis
+Number of matches,491
+Number of players,182
+Number of teams,182
+Number of iterations,4000
+Elapsed time,292
+Variance of proposal,None
+Proposals accepted,None
+Proposals rejected,None

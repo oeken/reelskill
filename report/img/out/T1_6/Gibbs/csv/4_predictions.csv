@@ -1,0 +1,101 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Monika Durgan,Tyrel Jacobi MD,-1,0.28,0.52,0.20,-1,1
+2,Monika Durgan,Margo Krajcik,1,0.23,0.64,0.14,-1,0
+3,Monika Durgan,Merrily Crooks,-1,0.16,0.74,0.09,-1,1
+4,Monika Durgan,Sherlyn Beahan,-1,0.15,0.76,0.09,-1,1
+5,Tyrel Jacobi MD,Margo Krajcik,-1,0.30,0.47,0.23,-1,1
+6,Tyrel Jacobi MD,Merrily Crooks,-1,0.24,0.60,0.15,-1,1
+7,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+8,Margo Krajcik,Merrily Crooks,-1,0.30,0.48,0.22,-1,1
+9,Margo Krajcik,Sherlyn Beahan,-1,0.29,0.50,0.21,-1,1
+10,Merrily Crooks,Sherlyn Beahan,-1,0.33,0.36,0.31,-1,1
+11,Monika Durgan,Tyrel Jacobi MD,0,0.28,0.52,0.20,-1,0
+12,Monika Durgan,Margo Krajcik,-1,0.23,0.64,0.14,-1,1
+13,Monika Durgan,Merrily Crooks,-1,0.16,0.74,0.09,-1,1
+14,Monika Durgan,Sherlyn Beahan,1,0.15,0.76,0.09,-1,0
+15,Tyrel Jacobi MD,Margo Krajcik,1,0.30,0.47,0.23,-1,0
+16,Tyrel Jacobi MD,Merrily Crooks,-1,0.24,0.60,0.15,-1,1
+17,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+18,Margo Krajcik,Merrily Crooks,1,0.30,0.48,0.22,-1,0
+19,Margo Krajcik,Sherlyn Beahan,-1,0.29,0.50,0.21,-1,1
+20,Merrily Crooks,Sherlyn Beahan,0,0.33,0.36,0.31,-1,0
+21,Monika Durgan,Tyrel Jacobi MD,-1,0.28,0.52,0.20,-1,1
+22,Monika Durgan,Margo Krajcik,-1,0.23,0.64,0.14,-1,1
+23,Monika Durgan,Merrily Crooks,1,0.16,0.74,0.09,-1,0
+24,Monika Durgan,Sherlyn Beahan,-1,0.15,0.76,0.09,-1,1
+25,Tyrel Jacobi MD,Margo Krajcik,-1,0.30,0.47,0.23,-1,1
+26,Tyrel Jacobi MD,Merrily Crooks,-1,0.24,0.60,0.15,-1,1
+27,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+28,Margo Krajcik,Merrily Crooks,-1,0.30,0.48,0.22,-1,1
+29,Margo Krajcik,Sherlyn Beahan,-1,0.29,0.50,0.21,-1,1
+30,Merrily Crooks,Sherlyn Beahan,-1,0.33,0.36,0.31,-1,1
+31,Monika Durgan,Tyrel Jacobi MD,-1,0.28,0.52,0.20,-1,1
+32,Monika Durgan,Margo Krajcik,-1,0.23,0.64,0.14,-1,1
+33,Monika Durgan,Merrily Crooks,-1,0.16,0.74,0.09,-1,1
+34,Monika Durgan,Sherlyn Beahan,-1,0.15,0.76,0.09,-1,1
+35,Tyrel Jacobi MD,Margo Krajcik,0,0.30,0.47,0.23,-1,0
+36,Tyrel Jacobi MD,Merrily Crooks,-1,0.24,0.60,0.15,-1,1
+37,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+38,Margo Krajcik,Merrily Crooks,-1,0.30,0.48,0.22,-1,1
+39,Margo Krajcik,Sherlyn Beahan,0,0.29,0.50,0.21,-1,0
+40,Merrily Crooks,Sherlyn Beahan,-1,0.33,0.36,0.31,-1,1
+41,Monika Durgan,Tyrel Jacobi MD,-1,0.28,0.52,0.20,-1,1
+42,Monika Durgan,Margo Krajcik,1,0.23,0.64,0.14,-1,0
+43,Monika Durgan,Merrily Crooks,-1,0.16,0.74,0.09,-1,1
+44,Monika Durgan,Sherlyn Beahan,-1,0.15,0.76,0.09,-1,1
+45,Tyrel Jacobi MD,Margo Krajcik,1,0.30,0.47,0.23,-1,0
+46,Tyrel Jacobi MD,Merrily Crooks,-1,0.24,0.60,0.15,-1,1
+47,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+48,Margo Krajcik,Merrily Crooks,-1,0.30,0.48,0.22,-1,1
+49,Margo Krajcik,Sherlyn Beahan,0,0.29,0.50,0.21,-1,0
+50,Merrily Crooks,Sherlyn Beahan,-1,0.33,0.36,0.31,-1,1
+51,Monika Durgan,Tyrel Jacobi MD,-1,0.28,0.52,0.20,-1,1
+52,Monika Durgan,Margo Krajcik,1,0.23,0.64,0.14,-1,0
+53,Monika Durgan,Merrily Crooks,1,0.16,0.74,0.09,-1,0
+54,Monika Durgan,Sherlyn Beahan,1,0.15,0.76,0.09,-1,0
+55,Tyrel Jacobi MD,Margo Krajcik,1,0.30,0.47,0.23,-1,0
+56,Tyrel Jacobi MD,Merrily Crooks,1,0.24,0.60,0.15,-1,0
+57,Tyrel Jacobi MD,Sherlyn Beahan,1,0.23,0.62,0.14,-1,0
+58,Margo Krajcik,Merrily Crooks,-1,0.30,0.48,0.22,-1,1
+59,Margo Krajcik,Sherlyn Beahan,1,0.29,0.50,0.21,-1,0
+60,Merrily Crooks,Sherlyn Beahan,-1,0.33,0.36,0.31,-1,1
+61,Monika Durgan,Tyrel Jacobi MD,-1,0.28,0.52,0.20,-1,1
+62,Monika Durgan,Margo Krajcik,0,0.23,0.64,0.14,-1,0
+63,Monika Durgan,Merrily Crooks,-1,0.16,0.74,0.09,-1,1
+64,Monika Durgan,Sherlyn Beahan,-1,0.15,0.76,0.09,-1,1
+65,Tyrel Jacobi MD,Margo Krajcik,-1,0.30,0.47,0.23,-1,1
+66,Tyrel Jacobi MD,Merrily Crooks,-1,0.24,0.60,0.15,-1,1
+67,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+68,Margo Krajcik,Merrily Crooks,-1,0.30,0.48,0.22,-1,1
+69,Margo Krajcik,Sherlyn Beahan,1,0.29,0.50,0.21,-1,0
+70,Merrily Crooks,Sherlyn Beahan,-1,0.33,0.36,0.31,-1,1
+71,Monika Durgan,Tyrel Jacobi MD,-1,0.28,0.52,0.20,-1,1
+72,Monika Durgan,Margo Krajcik,-1,0.23,0.64,0.14,-1,1
+73,Monika Durgan,Merrily Crooks,-1,0.16,0.74,0.09,-1,1
+74,Monika Durgan,Sherlyn Beahan,-1,0.15,0.76,0.09,-1,1
+75,Tyrel Jacobi MD,Margo Krajcik,-1,0.30,0.47,0.23,-1,1
+76,Tyrel Jacobi MD,Merrily Crooks,-1,0.24,0.60,0.15,-1,1
+77,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+78,Margo Krajcik,Merrily Crooks,-1,0.30,0.48,0.22,-1,1
+79,Margo Krajcik,Sherlyn Beahan,-1,0.29,0.50,0.21,-1,1
+80,Merrily Crooks,Sherlyn Beahan,-1,0.33,0.36,0.31,-1,1
+81,Monika Durgan,Tyrel Jacobi MD,-1,0.28,0.52,0.20,-1,1
+82,Monika Durgan,Margo Krajcik,-1,0.23,0.64,0.14,-1,1
+83,Monika Durgan,Merrily Crooks,1,0.16,0.74,0.09,-1,0
+84,Monika Durgan,Sherlyn Beahan,-1,0.15,0.76,0.09,-1,1
+85,Tyrel Jacobi MD,Margo Krajcik,1,0.30,0.47,0.23,-1,0
+86,Tyrel Jacobi MD,Merrily Crooks,0,0.24,0.60,0.15,-1,0
+87,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+88,Margo Krajcik,Merrily Crooks,-1,0.30,0.48,0.22,-1,1
+89,Margo Krajcik,Sherlyn Beahan,-1,0.29,0.50,0.21,-1,1
+90,Merrily Crooks,Sherlyn Beahan,0,0.33,0.36,0.31,-1,0
+91,Monika Durgan,Tyrel Jacobi MD,1,0.28,0.52,0.20,-1,0
+92,Monika Durgan,Margo Krajcik,-1,0.23,0.64,0.14,-1,1
+93,Monika Durgan,Merrily Crooks,-1,0.16,0.74,0.09,-1,1
+94,Monika Durgan,Sherlyn Beahan,-1,0.15,0.76,0.09,-1,1
+95,Tyrel Jacobi MD,Margo Krajcik,-1,0.30,0.47,0.23,-1,1
+96,Tyrel Jacobi MD,Merrily Crooks,-1,0.24,0.60,0.15,-1,1
+97,Tyrel Jacobi MD,Sherlyn Beahan,-1,0.23,0.62,0.14,-1,1
+98,Margo Krajcik,Merrily Crooks,0,0.30,0.48,0.22,-1,0
+99,Margo Krajcik,Sherlyn Beahan,-1,0.29,0.50,0.21,-1,1
+100,Merrily Crooks,Sherlyn Beahan,1,0.33,0.36,0.31,-1,0

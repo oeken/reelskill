@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Introduction \& Motivation}{3}{section.1}
+\contentsline {section}{\numberline {2}State of the Art}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Elo}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Glicko \& TrueSkill}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}Methods}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Model}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Inference}{11}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Markov Chain Monte Carlo}{11}{subsubsection.3.2.1}
+\contentsline {paragraph}{Metropolis-Hastings Algorithm}{12}{section*.14}
+\contentsline {paragraph}{Gibbs Sampler}{12}{section*.16}
+\contentsline {subsubsection}{\numberline {3.2.2}Expectation Propagation}{14}{subsubsection.3.2.2}
+\contentsline {paragraph}{Factor Graphs and Belief Propagation}{14}{section*.19}
+\contentsline {section}{\numberline {4}Results}{16}{section.4}
+\contentsline {paragraph}{Synthetic Data}{16}{section*.21}
+\contentsline {paragraph}{Real-World Data}{16}{section*.22}
+\contentsline {section}{\numberline {5}Conclusion \& Discussion}{61}{section.5}
+\contentsline {section}{\numberline {6}Future Work}{61}{section.6}
+\contentsline {section}{\numberline {7}All Tests}{62}{section.7}
+\contentsline {section}{\numberline {8}Appendices}{62}{section.8}

@@ -1,0 +1,191 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Arsenal,Newcastle,1,0.77,0.15,0.08,1,1
+2,Leicester,Bournemouth,0,0.62,0.23,0.15,1,0
+3,Man United,Swansea,1,0.45,0.31,0.24,1,1
+4,Norwich,Southampton,1,0.41,0.32,0.27,1,1
+5,Sunderland,Aston Villa,1,0.33,0.34,0.33,-1,0
+6,Watford,Man City,-1,0.30,0.49,0.22,-1,1
+7,West Brom,Stoke,1,0.31,0.45,0.24,-1,0
+8,West Ham,Liverpool,1,0.32,0.43,0.26,-1,0
+9,Crystal Palace,Chelsea,-1,0.45,0.31,0.24,1,0
+10,Everton,Tottenham,0,0.31,0.45,0.24,-1,0
+11,Aston Villa,Crystal Palace,1,0.20,0.68,0.12,-1,0
+12,Bournemouth,West Ham,-1,0.33,0.38,0.29,-1,1
+13,Newcastle,Man United,0,0.25,0.58,0.17,-1,0
+14,Chelsea,West Brom,0,0.33,0.37,0.30,-1,0
+15,Liverpool,Arsenal,0,0.27,0.54,0.19,-1,0
+16,Man City,Everton,0,0.46,0.30,0.23,1,0
+17,Southampton,Watford,1,0.31,0.44,0.25,-1,0
+18,Stoke,Norwich,1,0.43,0.32,0.26,1,1
+19,Swansea,Sunderland,-1,0.58,0.25,0.16,1,0
+20,Tottenham,Leicester,-1,0.32,0.42,0.26,-1,1
+21,Aston Villa,Leicester,0,0.12,0.81,0.07,-1,0
+22,Bournemouth,Norwich,1,0.33,0.37,0.30,-1,0
+23,Chelsea,Everton,0,0.31,0.45,0.24,-1,0
+24,Man City,Crystal Palace,1,0.47,0.30,0.23,1,1
+25,Newcastle,West Ham,1,0.27,0.54,0.19,-1,0
+26,Southampton,West Brom,1,0.33,0.39,0.28,-1,0
+27,Tottenham,Sunderland,1,0.76,0.15,0.09,1,1
+28,Liverpool,Man United,-1,0.38,0.33,0.29,1,0
+29,Stoke,Arsenal,0,0.27,0.55,0.18,-1,0
+30,Swansea,Watford,1,0.32,0.43,0.26,-1,0
+31,Crystal Palace,Tottenham,-1,0.31,0.45,0.24,-1,1
+32,Leicester,Stoke,1,0.50,0.29,0.21,1,1
+33,Man United,Southampton,-1,0.47,0.30,0.23,1,0
+34,Norwich,Liverpool,-1,0.31,0.44,0.25,-1,1
+35,Sunderland,Bournemouth,0,0.24,0.60,0.15,-1,0
+36,Watford,Newcastle,1,0.56,0.26,0.18,1,1
+37,West Brom,Aston Villa,0,0.62,0.24,0.15,1,0
+38,West Ham,Man City,0,0.29,0.51,0.20,-1,0
+39,Arsenal,Chelsea,-1,0.67,0.20,0.12,1,0
+40,Everton,Swansea,-1,0.45,0.31,0.24,1,0
+41,Arsenal,Southampton,0,0.69,0.20,0.12,1,0
+42,Crystal Palace,Bournemouth,-1,0.43,0.32,0.26,1,0
+43,Leicester,Liverpool,1,0.49,0.29,0.21,1,1
+44,Man United,Stoke,1,0.33,0.37,0.30,-1,0
+45,Norwich,Tottenham,-1,0.29,0.51,0.20,-1,1
+46,Sunderland,Man City,-1,0.15,0.77,0.08,-1,1
+47,West Brom,Swansea,0,0.38,0.33,0.29,1,0
+48,West Ham,Aston Villa,1,0.64,0.22,0.14,1,1
+49,Everton,Newcastle,1,0.58,0.25,0.17,1,1
+50,Watford,Chelsea,0,0.43,0.32,0.26,1,0
+51,Aston Villa,Norwich,1,0.23,0.63,0.14,-1,0
+52,Liverpool,Sunderland,0,0.71,0.18,0.11,1,0
+53,Man City,Leicester,-1,0.32,0.41,0.27,-1,1
+54,Newcastle,West Brom,1,0.29,0.51,0.20,-1,0
+55,Southampton,West Ham,1,0.32,0.42,0.26,-1,0
+56,Stoke,Everton,-1,0.37,0.33,0.30,1,0
+57,Swansea,Crystal Palace,0,0.31,0.45,0.24,-1,0
+58,Tottenham,Watford,1,0.48,0.30,0.22,1,1
+59,Bournemouth,Arsenal,-1,0.21,0.66,0.13,-1,1
+60,Chelsea,Man United,0,0.31,0.45,0.24,-1,0
+61,Bournemouth,Stoke,-1,0.30,0.46,0.23,-1,1
+62,Chelsea,Newcastle,1,0.47,0.30,0.23,1,1
+63,Crystal Palace,Watford,-1,0.36,0.33,0.31,1,0
+64,Everton,West Brom,-1,0.41,0.32,0.27,1,0
+65,Norwich,West Ham,0,0.33,0.35,0.32,-1,0
+66,Sunderland,Man United,1,0.20,0.68,0.12,-1,0
+67,Swansea,Southampton,-1,0.35,0.33,0.32,1,0
+68,Arsenal,Leicester,1,0.38,0.33,0.29,1,1
+69,Aston Villa,Liverpool,-1,0.18,0.71,0.11,-1,1
+70,Man City,Tottenham,-1,0.35,0.33,0.32,1,0
+71,Leicester,Norwich,1,0.59,0.25,0.16,1,1
+72,Southampton,Chelsea,-1,0.33,0.35,0.31,-1,1
+73,Stoke,Aston Villa,1,0.70,0.19,0.11,1,1
+74,Watford,Bournemouth,0,0.40,0.32,0.27,1,0
+75,West Brom,Crystal Palace,1,0.32,0.41,0.27,-1,0
+76,West Ham,Sunderland,1,0.64,0.22,0.14,1,1
+77,Tottenham,Swansea,1,0.57,0.26,0.17,1,1
+78,Man United,Arsenal,1,0.26,0.58,0.17,-1,0
+79,Aston Villa,Everton,-1,0.20,0.68,0.12,-1,1
+80,Bournemouth,Southampton,1,0.37,0.33,0.30,1,1
+81,Leicester,West Brom,0,0.60,0.24,0.15,1,0
+82,Norwich,Chelsea,-1,0.39,0.33,0.28,1,0
+83,Sunderland,Crystal Palace,0,0.20,0.68,0.12,-1,0
+84,Arsenal,Swansea,-1,0.68,0.20,0.12,1,0
+85,Liverpool,Man City,1,0.32,0.42,0.26,-1,0
+86,Man United,Watford,1,0.36,0.33,0.31,1,1
+87,Stoke,Newcastle,1,0.61,0.24,0.15,1,1
+88,West Ham,Tottenham,1,0.29,0.50,0.21,-1,0
+89,Chelsea,Stoke,0,0.30,0.48,0.22,-1,0
+90,Everton,West Ham,-1,0.38,0.33,0.29,1,0
+91,Man City,Aston Villa,1,0.77,0.15,0.08,1,1
+92,Newcastle,Bournemouth,-1,0.29,0.49,0.21,-1,1
+93,Southampton,Sunderland,0,0.57,0.26,0.17,1,0
+94,Swansea,Norwich,1,0.33,0.39,0.28,-1,0
+95,Tottenham,Arsenal,0,0.30,0.47,0.23,-1,0
+96,Watford,Leicester,-1,0.27,0.56,0.18,-1,1
+97,Crystal Palace,Liverpool,-1,0.33,0.38,0.29,-1,1
+98,West Brom,Man United,1,0.32,0.41,0.27,-1,0
+99,Bournemouth,Swansea,1,0.36,0.33,0.31,1,1
+100,Norwich,Man City,0,0.28,0.52,0.20,-1,0
+101,Stoke,Southampton,-1,0.50,0.29,0.21,1,0
+102,Aston Villa,Tottenham,-1,0.15,0.76,0.09,-1,1
+103,Leicester,Newcastle,1,0.74,0.17,0.10,1,1
+104,Chelsea,West Ham,0,0.32,0.40,0.28,-1,0
+105,Crystal Palace,Leicester,-1,0.28,0.54,0.19,-1,1
+106,Everton,Arsenal,-1,0.26,0.58,0.17,-1,1
+107,Swansea,Aston Villa,1,0.58,0.25,0.17,1,1
+108,Watford,Stoke,-1,0.33,0.39,0.28,-1,1
+109,West Brom,Norwich,-1,0.33,0.35,0.32,-1,1
+110,Man City,Man United,-1,0.46,0.30,0.23,1,0
+111,Newcastle,Sunderland,0,0.46,0.31,0.24,1,0
+112,Southampton,Liverpool,1,0.29,0.51,0.20,-1,0
+113,Tottenham,Bournemouth,1,0.54,0.27,0.19,1,1
+114,Arsenal,Watford,1,0.60,0.24,0.16,1,1
+115,Aston Villa,Chelsea,-1,0.25,0.58,0.16,-1,1
+116,Bournemouth,Man City,-1,0.27,0.55,0.18,-1,1
+117,Liverpool,Tottenham,0,0.32,0.41,0.27,-1,0
+118,Norwich,Newcastle,1,0.52,0.28,0.20,1,1
+119,Stoke,Swansea,0,0.49,0.30,0.22,1,0
+120,Sunderland,West Brom,0,0.23,0.62,0.15,-1,0
+121,West Ham,Crystal Palace,0,0.33,0.38,0.29,-1,0
+122,Leicester,Southampton,1,0.65,0.22,0.13,1,1
+123,Man United,Everton,1,0.34,0.33,0.33,1,1
+124,Aston Villa,Bournemouth,-1,0.24,0.60,0.16,-1,1
+125,Crystal Palace,Norwich,1,0.39,0.32,0.28,1,1
+126,Man City,West Brom,1,0.54,0.27,0.19,1,1
+127,Southampton,Newcastle,1,0.45,0.31,0.24,1,1
+128,Swansea,Chelsea,1,0.33,0.34,0.33,-1,0
+129,Watford,Everton,0,0.33,0.36,0.31,-1,0
+130,West Ham,Arsenal,0,0.23,0.62,0.15,-1,0
+131,Liverpool,Stoke,1,0.34,0.33,0.32,1,1
+132,Sunderland,Leicester,-1,0.12,0.81,0.07,-1,1
+133,Tottenham,Man United,1,0.45,0.31,0.24,1,1
+134,Crystal Palace,Everton,0,0.33,0.34,0.33,-1,0
+135,Chelsea,Man City,-1,0.26,0.57,0.17,-1,1
+136,Everton,Southampton,0,0.47,0.30,0.23,1,0
+137,Man United,Aston Villa,1,0.68,0.20,0.12,1,1
+138,Newcastle,Swansea,1,0.30,0.47,0.23,-1,0
+139,Norwich,Sunderland,-1,0.63,0.23,0.14,1,0
+140,West Brom,Watford,-1,0.33,0.39,0.29,-1,1
+141,Arsenal,Crystal Palace,0,0.58,0.25,0.17,1,0
+142,Bournemouth,Liverpool,-1,0.30,0.47,0.23,-1,1
+143,Leicester,West Ham,0,0.58,0.26,0.17,1,0
+144,Stoke,Tottenham,-1,0.32,0.42,0.26,-1,1
+145,Newcastle,Man City,0,0.20,0.69,0.12,-1,0
+146,Liverpool,Everton,1,0.38,0.33,0.29,1,1
+147,Man United,Crystal Palace,1,0.34,0.33,0.33,1,1
+148,West Ham,Watford,1,0.33,0.36,0.31,-1,0
+149,Arsenal,West Brom,1,0.64,0.22,0.14,1,1
+150,Aston Villa,Southampton,-1,0.26,0.57,0.17,-1,1
+151,Bournemouth,Chelsea,-1,0.36,0.33,0.31,1,0
+152,Liverpool,Newcastle,0,0.62,0.23,0.15,1,0
+153,Man City,Stoke,1,0.43,0.32,0.25,1,1
+154,Leicester,Swansea,1,0.64,0.22,0.14,1,1
+155,Sunderland,Arsenal,0,0.11,0.83,0.06,-1,0
+156,Tottenham,West Brom,0,0.53,0.28,0.19,1,0
+157,Arsenal,Norwich,1,0.63,0.23,0.14,1,1
+158,Everton,Bournemouth,1,0.43,0.32,0.25,1,1
+159,Newcastle,Crystal Palace,1,0.25,0.58,0.17,-1,0
+160,Stoke,Sunderland,0,0.70,0.19,0.11,1,0
+161,Watford,Aston Villa,1,0.66,0.21,0.13,1,1
+162,West Brom,West Ham,-1,0.33,0.36,0.31,-1,1
+163,Man United,Leicester,0,0.28,0.53,0.19,-1,0
+164,Southampton,Man City,1,0.25,0.59,0.16,-1,0
+165,Swansea,Liverpool,1,0.29,0.50,0.21,-1,0
+166,Chelsea,Tottenham,0,0.26,0.56,0.18,-1,0
+167,Aston Villa,Newcastle,0,0.31,0.45,0.24,-1,0
+168,Bournemouth,West Brom,0,0.33,0.35,0.31,-1,0
+169,Crystal Palace,Stoke,1,0.33,0.37,0.30,-1,0
+170,Leicester,Everton,1,0.53,0.28,0.19,1,1
+171,Norwich,Man United,-1,0.32,0.40,0.28,-1,1
+172,Sunderland,Chelsea,1,0.25,0.58,0.16,-1,0
+173,West Ham,Swansea,-1,0.40,0.32,0.27,1,0
+174,Liverpool,Watford,1,0.40,0.32,0.27,1,1
+175,Man City,Arsenal,0,0.31,0.45,0.24,-1,0
+176,Tottenham,Southampton,-1,0.58,0.25,0.17,1,0
+177,West Ham,Man United,1,0.33,0.39,0.29,-1,0
+178,Liverpool,Chelsea,0,0.49,0.29,0.21,1,0
+179,Norwich,Watford,1,0.33,0.37,0.30,-1,0
+180,Sunderland,Everton,1,0.20,0.68,0.12,-1,0
+181,Arsenal,Aston Villa,1,0.83,0.11,0.06,1,1
+182,Chelsea,Leicester,0,0.23,0.64,0.14,-1,0
+183,Everton,Norwich,1,0.40,0.32,0.28,1,1
+184,Newcastle,Tottenham,1,0.20,0.68,0.12,-1,0
+185,Southampton,Crystal Palace,1,0.30,0.47,0.23,-1,0
+186,Stoke,West Ham,1,0.42,0.32,0.26,1,1
+187,Swansea,Man City,0,0.26,0.58,0.17,-1,0
+188,Watford,Sunderland,0,0.66,0.21,0.13,1,0
+189,West Brom,Liverpool,0,0.31,0.45,0.24,-1,0
+190,Man United,Bournemouth,1,0.43,0.32,0.25,1,1
