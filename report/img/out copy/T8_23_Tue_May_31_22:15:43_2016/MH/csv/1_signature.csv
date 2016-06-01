@@ -1,0 +1,11 @@
+Date,T8_23_Tue_May_31_22:15:43_2016
+Algorithm,MH
+Dataset,Synthetic
+Number of matches,10
+Number of players,2
+Number of teams,2
+Number of iterations,5000
+Elapsed time,1
+Variance of proposal,1.0
+Proposals accepted,4747.0
+Proposals rejected,253.0

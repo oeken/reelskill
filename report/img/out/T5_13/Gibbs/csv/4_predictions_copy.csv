@@ -1,0 +1,11 @@
+#,P1,P2,Result,P(W),P(L),P(D),Prediction,Correct
+1,Becker,Murray,-1,0.21,0.79,0.00,-1,1
+2,Ward,Lu,-1,0.43,0.57,0.00,-1,1
+3,Mahut,Hajek,1,0.50,0.50,0.00,-1,0
+4,Robredo,Bogomolov,1,0.74,0.26,0.00,1,1
+5,Haase,Youzhny,-1,0.35,0.65,0.00,-1,1
+6,Gicquel,Pospisil,-1,0.36,0.64,0.00,-1,1
+7,Kuznetsov,Montanes,1,0.39,0.61,0.00,-1,0
+8,Tipsarevic,Troicki,-1,0.36,0.64,0.00,-1,1
+9,Baghdatis,Cilic,-1,0.30,0.70,0.00,-1,1
+10,DeSchepper,Lorenzi,1,0.61,0.39,0.00,1,1

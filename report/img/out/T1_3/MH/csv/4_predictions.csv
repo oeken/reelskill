@@ -1,0 +1,31 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Dr. Dayna Kilback,Sydni Cassin,1,0.35,0.33,0.32,1,1
+2,Dr. Dayna Kilback,Victoria Monahan,1,0.26,0.58,0.17,-1,0
+3,Dr. Dayna Kilback,Pamelia Labadie,-1,0.09,0.86,0.05,-1,1
+4,Dr. Dayna Kilback,Kolton Leffler,-1,0.11,0.83,0.06,-1,1
+5,Sydni Cassin,Victoria Monahan,-1,0.25,0.59,0.16,-1,1
+6,Sydni Cassin,Pamelia Labadie,1,0.09,0.86,0.05,-1,0
+7,Sydni Cassin,Kolton Leffler,-1,0.11,0.83,0.06,-1,1
+8,Victoria Monahan,Pamelia Labadie,1,0.17,0.72,0.10,-1,0
+9,Victoria Monahan,Kolton Leffler,1,0.20,0.68,0.12,-1,0
+10,Pamelia Labadie,Kolton Leffler,-1,0.40,0.32,0.27,1,0
+11,Dr. Dayna Kilback,Sydni Cassin,1,0.35,0.33,0.32,1,1
+12,Dr. Dayna Kilback,Victoria Monahan,-1,0.26,0.58,0.17,-1,1
+13,Dr. Dayna Kilback,Pamelia Labadie,-1,0.09,0.86,0.05,-1,1
+14,Dr. Dayna Kilback,Kolton Leffler,-1,0.11,0.83,0.06,-1,1
+15,Sydni Cassin,Victoria Monahan,1,0.25,0.59,0.16,-1,0
+16,Sydni Cassin,Pamelia Labadie,-1,0.09,0.86,0.05,-1,1
+17,Sydni Cassin,Kolton Leffler,-1,0.11,0.83,0.06,-1,1
+18,Victoria Monahan,Pamelia Labadie,1,0.17,0.72,0.10,-1,0
+19,Victoria Monahan,Kolton Leffler,1,0.20,0.68,0.12,-1,0
+20,Pamelia Labadie,Kolton Leffler,1,0.40,0.32,0.27,1,1
+21,Dr. Dayna Kilback,Sydni Cassin,1,0.35,0.33,0.32,1,1
+22,Dr. Dayna Kilback,Victoria Monahan,-1,0.26,0.58,0.17,-1,1
+23,Dr. Dayna Kilback,Pamelia Labadie,-1,0.09,0.86,0.05,-1,1
+24,Dr. Dayna Kilback,Kolton Leffler,-1,0.11,0.83,0.06,-1,1
+25,Sydni Cassin,Victoria Monahan,1,0.25,0.59,0.16,-1,0
+26,Sydni Cassin,Pamelia Labadie,0,0.09,0.86,0.05,-1,0
+27,Sydni Cassin,Kolton Leffler,-1,0.11,0.83,0.06,-1,1
+28,Victoria Monahan,Pamelia Labadie,-1,0.17,0.72,0.10,-1,1
+29,Victoria Monahan,Kolton Leffler,0,0.20,0.68,0.12,-1,0
+30,Pamelia Labadie,Kolton Leffler,1,0.40,0.32,0.27,1,1

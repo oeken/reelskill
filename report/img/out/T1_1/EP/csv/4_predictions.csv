@@ -1,0 +1,31 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Horton Russel,Nannette Kemmer,1,0.36,0.54,0.10,-1,0
+2,Horton Russel,Kinsey Block,1,0.07,0.83,0.10,-1,0
+3,Horton Russel,Mr. Turner West II,-1,0.14,0.76,0.10,-1,1
+4,Horton Russel,Payton Doyle,-1,0.04,0.86,0.10,-1,1
+5,Nannette Kemmer,Kinsey Block,1,0.14,0.76,0.10,-1,0
+6,Nannette Kemmer,Mr. Turner West II,-1,0.23,0.67,0.10,-1,1
+7,Nannette Kemmer,Payton Doyle,-1,0.08,0.82,0.10,-1,1
+8,Kinsey Block,Mr. Turner West II,-1,0.64,0.26,0.10,1,0
+9,Kinsey Block,Payton Doyle,-1,0.38,0.52,0.10,-1,1
+10,Mr. Turner West II,Payton Doyle,-1,0.26,0.64,0.10,-1,1
+11,Horton Russel,Nannette Kemmer,1,0.36,0.54,0.10,-1,0
+12,Horton Russel,Kinsey Block,-1,0.07,0.83,0.10,-1,1
+13,Horton Russel,Mr. Turner West II,-1,0.14,0.76,0.10,-1,1
+14,Horton Russel,Payton Doyle,-1,0.04,0.86,0.10,-1,1
+15,Nannette Kemmer,Kinsey Block,-1,0.14,0.76,0.10,-1,1
+16,Nannette Kemmer,Mr. Turner West II,-1,0.23,0.67,0.10,-1,1
+17,Nannette Kemmer,Payton Doyle,1,0.08,0.82,0.10,-1,0
+18,Kinsey Block,Mr. Turner West II,-1,0.64,0.26,0.10,1,0
+19,Kinsey Block,Payton Doyle,1,0.38,0.52,0.10,-1,0
+20,Mr. Turner West II,Payton Doyle,1,0.26,0.64,0.10,-1,0
+21,Horton Russel,Nannette Kemmer,1,0.36,0.54,0.10,-1,0
+22,Horton Russel,Kinsey Block,1,0.07,0.83,0.10,-1,0
+23,Horton Russel,Mr. Turner West II,1,0.14,0.76,0.10,-1,0
+24,Horton Russel,Payton Doyle,-1,0.04,0.86,0.10,-1,1
+25,Nannette Kemmer,Kinsey Block,1,0.14,0.76,0.10,-1,0
+26,Nannette Kemmer,Mr. Turner West II,-1,0.23,0.67,0.10,-1,1
+27,Nannette Kemmer,Payton Doyle,-1,0.08,0.82,0.10,-1,1
+28,Kinsey Block,Mr. Turner West II,-1,0.64,0.26,0.10,1,0
+29,Kinsey Block,Payton Doyle,-1,0.38,0.52,0.10,-1,1
+30,Mr. Turner West II,Payton Doyle,-1,0.26,0.64,0.10,-1,1

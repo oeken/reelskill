@@ -1,0 +1,191 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Sevilla,Malaga,1,0.36,0.33,0.31,1,1
+2,Sociedad,La Coruna,0,0.31,0.45,0.24,-1,0
+3,Villarreal,Betis,0,0.56,0.26,0.18,1,0
+4,Barcelona,Ath Bilbao,1,0.60,0.25,0.16,1,1
+5,Getafe,Espanol,1,0.39,0.33,0.29,1,1
+6,Las Palmas,Ath Madrid,-1,0.20,0.68,0.12,-1,1
+7,Real Madrid,Sp Gijon,1,0.68,0.20,0.12,1,1
+8,Valencia,Vallecano,0,0.49,0.29,0.21,1,0
+9,Eibar,Granada,1,0.51,0.29,0.20,1,1
+10,Sp Gijon,Sociedad,1,0.32,0.41,0.27,-1,0
+11,Espanol,Villarreal,0,0.24,0.60,0.16,-1,0
+12,Granada,Getafe,1,0.32,0.41,0.27,-1,0
+13,Malaga,Barcelona,-1,0.24,0.61,0.15,-1,1
+14,Vallecano,Celta,1,0.27,0.55,0.18,-1,0
+15,Ath Bilbao,Eibar,1,0.33,0.38,0.29,-1,0
+16,Ath Madrid,Sevilla,0,0.61,0.24,0.15,1,0
+17,Betis,Real Madrid,0,0.25,0.59,0.16,-1,0
+18,La Coruna,Valencia,0,0.36,0.33,0.31,1,0
+19,Levante,Las Palmas,1,0.32,0.41,0.27,-1,0
+20,Barcelona,Ath Madrid,1,0.33,0.36,0.31,-1,0
+21,Eibar,Malaga,-1,0.40,0.32,0.28,1,0
+22,Getafe,Ath Bilbao,-1,0.33,0.39,0.29,-1,1
+23,Sociedad,Betis,1,0.33,0.38,0.30,-1,0
+24,Villarreal,Granada,1,0.62,0.23,0.15,1,1
+25,Las Palmas,Celta,1,0.31,0.45,0.24,-1,0
+26,Sevilla,Levante,1,0.49,0.29,0.21,1,1
+27,Valencia,Sp Gijon,-1,0.49,0.29,0.21,1,0
+28,Real Madrid,Espanol,1,0.63,0.23,0.14,1,1
+29,La Coruna,Vallecano,0,0.52,0.28,0.20,1,0
+30,Malaga,Getafe,1,0.37,0.33,0.30,1,1
+31,Ath Bilbao,Villarreal,0,0.29,0.51,0.21,-1,0
+32,Ath Madrid,Eibar,1,0.58,0.26,0.17,1,1
+33,Sp Gijon,La Coruna,0,0.28,0.52,0.20,-1,0
+34,Vallecano,Las Palmas,1,0.31,0.43,0.25,-1,0
+35,Betis,Valencia,1,0.33,0.38,0.29,-1,0
+36,Celta,Sevilla,0,0.37,0.33,0.30,1,0
+37,Levante,Barcelona,-1,0.18,0.71,0.11,-1,1
+38,Granada,Real Madrid,-1,0.22,0.65,0.13,-1,1
+39,Espanol,Sociedad,-1,0.33,0.34,0.33,-1,1
+40,Sp Gijon,Vallecano,0,0.34,0.33,0.33,1,0
+41,La Coruna,Betis,0,0.41,0.32,0.27,1,0
+42,Real Madrid,Ath Bilbao,1,0.54,0.27,0.19,1,1
+43,Valencia,Espanol,1,0.43,0.32,0.26,1,1
+44,Villarreal,Malaga,1,0.52,0.28,0.20,1,1
+45,Eibar,Levante,1,0.53,0.28,0.19,1,1
+46,Getafe,Ath Madrid,-1,0.21,0.66,0.13,-1,1
+47,Sevilla,Las Palmas,1,0.42,0.32,0.26,1,1
+48,Sociedad,Granada,1,0.36,0.33,0.31,1,1
+49,Barcelona,Celta,1,0.55,0.27,0.18,1,1
+50,Sp Gijon,Barcelona,-1,0.17,0.73,0.10,-1,1
+51,Levante,Getafe,1,0.32,0.43,0.26,-1,0
+52,Betis,Sp Gijon,0,0.45,0.31,0.24,1,0
+53,Celta,Eibar,1,0.33,0.34,0.33,-1,0
+54,Espanol,La Coruna,1,0.31,0.46,0.24,-1,0
+55,Las Palmas,Barcelona,-1,0.22,0.65,0.13,-1,1
+56,Ath Bilbao,Sociedad,-1,0.43,0.31,0.25,1,0
+57,Granada,Valencia,-1,0.31,0.45,0.24,-1,1
+58,Malaga,Real Madrid,0,0.27,0.55,0.18,-1,0
+59,Vallecano,Sevilla,0,0.28,0.52,0.20,-1,0
+60,Ath Madrid,Villarreal,0,0.46,0.31,0.23,1,0
+61,Eibar,Las Palmas,-1,0.45,0.31,0.24,1,0
+62,Betis,Vallecano,0,0.45,0.31,0.24,1,0
+63,Getafe,Celta,-1,0.31,0.44,0.25,-1,1
+64,Real Madrid,Ath Madrid,-1,0.32,0.43,0.26,-1,1
+65,Sociedad,Malaga,0,0.32,0.42,0.26,-1,0
+66,Sp Gijon,Espanol,-1,0.32,0.40,0.28,-1,1
+67,La Coruna,Granada,-1,0.48,0.30,0.22,1,0
+68,Valencia,Ath Bilbao,-1,0.33,0.35,0.32,-1,1
+69,Villarreal,Levante,1,0.64,0.23,0.14,1,1
+70,Barcelona,Sevilla,1,0.58,0.25,0.17,1,1
+71,Ath Madrid,Sociedad,1,0.70,0.19,0.11,1,1
+72,Las Palmas,Getafe,1,0.33,0.35,0.31,-1,0
+73,Ath Bilbao,La Coruna,1,0.33,0.35,0.31,-1,0
+74,Celta,Villarreal,0,0.31,0.46,0.24,-1,0
+75,Levante,Real Madrid,-1,0.21,0.66,0.13,-1,1
+76,Malaga,Valencia,-1,0.33,0.34,0.33,-1,1
+77,Sevilla,Eibar,1,0.33,0.37,0.30,-1,0
+78,Espanol,Betis,-1,0.33,0.38,0.29,-1,1
+79,Granada,Sp Gijon,1,0.38,0.33,0.29,1,1
+80,Vallecano,Barcelona,-1,0.17,0.73,0.10,-1,1
+81,Getafe,Sevilla,0,0.32,0.40,0.27,-1,0
+82,La Coruna,Malaga,0,0.37,0.33,0.30,1,0
+83,Real Madrid,Celta,1,0.49,0.29,0.21,1,1
+84,Villarreal,Las Palmas,-1,0.57,0.26,0.17,1,0
+85,Betis,Granada,1,0.40,0.32,0.27,1,1
+86,Eibar,Barcelona,-1,0.27,0.55,0.18,-1,1
+87,Sociedad,Levante,0,0.38,0.33,0.29,1,0
+88,Sp Gijon,Ath Bilbao,-1,0.29,0.50,0.21,-1,1
+89,Valencia,Ath Madrid,-1,0.23,0.63,0.14,-1,1
+90,Espanol,Vallecano,1,0.40,0.32,0.28,1,1
+91,Malaga,Sp Gijon,1,0.49,0.29,0.22,1,1
+92,Ath Madrid,La Coruna,1,0.60,0.24,0.15,1,1
+93,Barcelona,Getafe,1,0.64,0.22,0.14,1,1
+94,Celta,Sociedad,1,0.48,0.30,0.22,1,1
+95,Vallecano,Eibar,0,0.27,0.55,0.18,-1,0
+96,Ath Bilbao,Betis,1,0.39,0.33,0.28,1,1
+97,Levante,Valencia,1,0.30,0.47,0.23,-1,0
+98,Sevilla,Villarreal,1,0.29,0.49,0.21,-1,0
+99,Las Palmas,Real Madrid,-1,0.24,0.60,0.15,-1,1
+100,Granada,Espanol,0,0.33,0.36,0.31,-1,0
+101,Getafe,Eibar,0,0.31,0.44,0.25,-1,0
+102,Betis,Malaga,-1,0.33,0.38,0.29,-1,1
+103,Granada,Vallecano,0,0.38,0.33,0.29,1,0
+104,La Coruna,Levante,1,0.50,0.29,0.21,1,1
+105,Sociedad,Las Palmas,-1,0.33,0.36,0.31,-1,1
+106,Sp Gijon,Ath Madrid,1,0.16,0.75,0.09,-1,0
+107,Espanol,Ath Bilbao,1,0.31,0.44,0.25,-1,0
+108,Real Madrid,Sevilla,1,0.52,0.28,0.20,1,1
+109,Valencia,Celta,-1,0.32,0.39,0.28,-1,1
+110,Villarreal,Barcelona,0,0.31,0.43,0.25,-1,0
+111,Vallecano,Getafe,1,0.31,0.45,0.24,-1,0
+112,Ath Madrid,Betis,1,0.67,0.21,0.13,1,1
+113,Barcelona,Real Madrid,-1,0.40,0.32,0.28,1,0
+114,Celta,La Coruna,0,0.37,0.33,0.30,1,0
+115,Las Palmas,Valencia,1,0.32,0.39,0.28,-1,0
+116,Ath Bilbao,Granada,0,0.46,0.31,0.23,1,0
+117,Eibar,Villarreal,-1,0.31,0.46,0.24,-1,1
+118,Malaga,Espanol,0,0.43,0.32,0.26,1,0
+119,Sevilla,Sociedad,-1,0.45,0.31,0.24,1,0
+120,Levante,Sp Gijon,0,0.36,0.33,0.31,1,0
+121,Granada,Malaga,0,0.31,0.45,0.24,-1,0
+122,Betis,Levante,1,0.42,0.32,0.26,1,1
+123,Espanol,Ath Madrid,-1,0.19,0.70,0.11,-1,1
+124,Real Madrid,Eibar,1,0.49,0.29,0.21,1,1
+125,Sociedad,Barcelona,1,0.20,0.68,0.12,-1,0
+126,Ath Bilbao,Vallecano,1,0.50,0.29,0.21,1,1
+127,Sp Gijon,Celta,-1,0.27,0.55,0.18,-1,1
+128,Valencia,Sevilla,1,0.33,0.36,0.31,-1,0
+129,Villarreal,Getafe,1,0.56,0.27,0.18,1,1
+130,La Coruna,Las Palmas,-1,0.42,0.32,0.26,1,0
+131,Levante,Espanol,1,0.33,0.38,0.30,-1,0
+132,Celta,Betis,0,0.44,0.31,0.25,1,0
+133,Eibar,Sociedad,1,0.48,0.30,0.22,1,1
+134,Getafe,Real Madrid,-1,0.25,0.59,0.16,-1,1
+135,Las Palmas,Sp Gijon,0,0.43,0.31,0.25,1,0
+136,Ath Madrid,Granada,1,0.72,0.18,0.10,1,1
+137,Barcelona,Valencia,-1,0.60,0.24,0.15,1,0
+138,Malaga,Ath Bilbao,-1,0.33,0.35,0.32,-1,1
+139,Sevilla,La Coruna,0,0.33,0.34,0.33,-1,0
+140,Vallecano,Villarreal,1,0.21,0.66,0.13,-1,0
+141,Betis,Las Palmas,1,0.35,0.33,0.32,1,1
+142,Espanol,Celta,0,0.30,0.49,0.22,-1,0
+143,Ath Bilbao,Ath Madrid,-1,0.23,0.62,0.15,-1,1
+144,La Coruna,Barcelona,-1,0.25,0.58,0.17,-1,1
+145,Malaga,Vallecano,0,0.49,0.29,0.22,1,0
+146,Real Madrid,Villarreal,1,0.37,0.33,0.30,1,1
+147,Sp Gijon,Sevilla,1,0.28,0.52,0.20,-1,0
+148,Valencia,Eibar,1,0.32,0.39,0.28,-1,0
+149,Granada,Levante,1,0.35,0.33,0.31,1,1
+150,Sociedad,Getafe,-1,0.33,0.38,0.29,-1,1
+151,Las Palmas,Espanol,1,0.37,0.33,0.30,1,1
+152,Ath Madrid,Malaga,1,0.63,0.23,0.14,1,1
+153,Barcelona,Sp Gijon,1,0.73,0.17,0.10,1,1
+154,Eibar,La Coruna,0,0.37,0.33,0.30,1,0
+155,Vallecano,Real Madrid,-1,0.20,0.68,0.12,-1,1
+156,Getafe,Valencia,0,0.33,0.38,0.29,-1,0
+157,Levante,Ath Bilbao,0,0.30,0.48,0.22,-1,0
+158,Sevilla,Betis,1,0.41,0.32,0.27,1,1
+159,Villarreal,Sociedad,0,0.60,0.25,0.16,1,0
+160,Celta,Granada,1,0.51,0.29,0.20,1,1
+161,Sp Gijon,Eibar,1,0.27,0.55,0.18,-1,0
+162,Ath Madrid,Vallecano,1,0.75,0.16,0.09,1,1
+163,Betis,Barcelona,-1,0.22,0.64,0.14,-1,1
+164,Granada,Las Palmas,1,0.33,0.39,0.28,-1,0
+165,Sociedad,Real Madrid,-1,0.23,0.63,0.14,-1,1
+166,Ath Bilbao,Celta,1,0.33,0.38,0.29,-1,0
+167,Espanol,Sevilla,1,0.31,0.45,0.24,-1,0
+168,La Coruna,Getafe,-1,0.41,0.32,0.27,1,0
+169,Valencia,Villarreal,-1,0.28,0.52,0.20,-1,1
+170,Malaga,Levante,1,0.47,0.30,0.23,1,1
+171,Barcelona,Espanol,1,0.68,0.20,0.12,1,1
+172,Celta,Malaga,1,0.40,0.32,0.28,1,1
+173,Eibar,Betis,0,0.44,0.31,0.25,1,0
+174,Getafe,Sp Gijon,0,0.45,0.31,0.24,1,0
+175,Las Palmas,Ath Bilbao,0,0.32,0.41,0.27,-1,0
+176,Levante,Ath Madrid,1,0.17,0.73,0.10,-1,0
+177,Real Madrid,Valencia,1,0.55,0.27,0.18,1,1
+178,Sevilla,Granada,-1,0.48,0.30,0.22,1,0
+179,Sociedad,Vallecano,1,0.41,0.32,0.27,1,1
+180,Villarreal,La Coruna,-1,0.49,0.29,0.22,1,0
+181,Valencia,Sociedad,-1,0.42,0.32,0.26,1,0
+182,Ath Bilbao,Sevilla,1,0.33,0.35,0.32,-1,0
+183,Ath Madrid,Celta,1,0.58,0.26,0.17,1,1
+184,Granada,Barcelona,-1,0.19,0.70,0.11,-1,1
+185,La Coruna,Real Madrid,-1,0.28,0.52,0.20,-1,1
+186,Betis,Getafe,1,0.33,0.34,0.33,-1,0
+187,Espanol,Eibar,1,0.30,0.49,0.22,-1,0
+188,Malaga,Las Palmas,1,0.39,0.33,0.28,1,1
+189,Sp Gijon,Villarreal,1,0.21,0.66,0.13,-1,0
+190,Vallecano,Levante,1,0.33,0.36,0.31,-1,0

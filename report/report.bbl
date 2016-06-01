@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{elo1978chess}
+Arpad~E Elo.
+\newblock {\em The rating of chessplayers, past and present}.
+\newblock Arco Pub., 1978.
+
+\bibitem{glickman1999parameter}
+Mark~E Glickman.
+\newblock Parameter estimation in large dynamic paired comparison experiments.
+\newblock {\em Applied Statistics}, pages 377--394, 1999.
+
+\bibitem{minka2006trueskilll}
+Ralf Herbrich, Tom Minka, and Thore Graepel.
+\newblock Trueskill™: A bayesian skill rating system.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  569--576, 2006.
+
+\bibitem{loeliger2001factor}
+Frank~R Kschischang, Brendan~J Frey, and Hans-Andrea Loeliger.
+\newblock Factor graphs and the sum-product algorithm.
+\newblock {\em Information Theory, IEEE Transactions on}, 47(2):498--519, 2001.
+
+\bibitem{minka2001ep}
+Thomas~P Minka.
+\newblock Expectation propagation for approximate bayesian inference.
+\newblock In {\em Proceedings of the Seventeenth conference on Uncertainty in
+  artificial intelligence}, pages 362--369. Morgan Kaufmann Publishers Inc.,
+  2001.
+
+\bibitem{minka2001family}
+Thomas~P Minka.
+\newblock {\em A family of algorithms for approximate Bayesian inference}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2001.
+
+\bibitem{cemgil2009notes}
+Ali~Taylan Cemgil.
+\newblock A tutorial introduction to monte carlo methods, markov chain monte
+  carlo and particle filtering, 2009.
+
+\end{thebibliography}

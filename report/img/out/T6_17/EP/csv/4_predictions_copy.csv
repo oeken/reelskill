@@ -1,0 +1,11 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Hamburg,Bayern Munich,-1,0.07,0.83,0.10,-1,1
+2,FC Koln,Stuttgart,-1,0.65,0.25,0.10,1,0
+3,Hannover,Darmstadt,-1,0.44,0.46,0.10,-1,1
+4,Hertha,Augsburg,0,0.75,0.15,0.10,1,0
+5,Hoffenheim,Leverkusen,0,0.33,0.57,0.10,-1,0
+6,Ingolstadt,Mainz,1,0.51,0.39,0.10,1,1
+7,M'gladbach,Dortmund,-1,0.34,0.56,0.10,-1,1
+8,Ein Frankfurt,Wolfsburg,1,0.39,0.51,0.10,-1,0
+9,Schalke 04,Werder Bremen,-1,0.73,0.17,0.10,1,0
+10,Mainz,M'gladbach,1,0.37,0.53,0.10,-1,0

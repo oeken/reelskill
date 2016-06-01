@@ -1,0 +1,190 @@
+Sevilla,Malaga,1
+Sociedad,La Coruna,0
+Villarreal,Betis,0
+Barcelona,Ath Bilbao,1
+Getafe,Espanol,1
+Las Palmas,Ath Madrid,-1
+Real Madrid,Sp Gijon,1
+Valencia,Vallecano,0
+Eibar,Granada,1
+Sp Gijon,Sociedad,1
+Espanol,Villarreal,0
+Granada,Getafe,1
+Malaga,Barcelona,-1
+Vallecano,Celta,1
+Ath Bilbao,Eibar,1
+Ath Madrid,Sevilla,0
+Betis,Real Madrid,0
+La Coruna,Valencia,0
+Levante,Las Palmas,1
+Barcelona,Ath Madrid,1
+Eibar,Malaga,-1
+Getafe,Ath Bilbao,-1
+Sociedad,Betis,1
+Villarreal,Granada,1
+Las Palmas,Celta,1
+Sevilla,Levante,1
+Valencia,Sp Gijon,-1
+Real Madrid,Espanol,1
+La Coruna,Vallecano,0
+Malaga,Getafe,1
+Ath Bilbao,Villarreal,0
+Ath Madrid,Eibar,1
+Sp Gijon,La Coruna,0
+Vallecano,Las Palmas,1
+Betis,Valencia,1
+Celta,Sevilla,0
+Levante,Barcelona,-1
+Granada,Real Madrid,-1
+Espanol,Sociedad,-1
+Sp Gijon,Vallecano,0
+La Coruna,Betis,0
+Real Madrid,Ath Bilbao,1
+Valencia,Espanol,1
+Villarreal,Malaga,1
+Eibar,Levante,1
+Getafe,Ath Madrid,-1
+Sevilla,Las Palmas,1
+Sociedad,Granada,1
+Barcelona,Celta,1
+Sp Gijon,Barcelona,-1
+Levante,Getafe,1
+Betis,Sp Gijon,0
+Celta,Eibar,1
+Espanol,La Coruna,1
+Las Palmas,Barcelona,-1
+Ath Bilbao,Sociedad,-1
+Granada,Valencia,-1
+Malaga,Real Madrid,0
+Vallecano,Sevilla,0
+Ath Madrid,Villarreal,0
+Eibar,Las Palmas,-1
+Betis,Vallecano,0
+Getafe,Celta,-1
+Real Madrid,Ath Madrid,-1
+Sociedad,Malaga,0
+Sp Gijon,Espanol,-1
+La Coruna,Granada,-1
+Valencia,Ath Bilbao,-1
+Villarreal,Levante,1
+Barcelona,Sevilla,1
+Ath Madrid,Sociedad,1
+Las Palmas,Getafe,1
+Ath Bilbao,La Coruna,1
+Celta,Villarreal,0
+Levante,Real Madrid,-1
+Malaga,Valencia,-1
+Sevilla,Eibar,1
+Espanol,Betis,-1
+Granada,Sp Gijon,1
+Vallecano,Barcelona,-1
+Getafe,Sevilla,0
+La Coruna,Malaga,0
+Real Madrid,Celta,1
+Villarreal,Las Palmas,-1
+Betis,Granada,1
+Eibar,Barcelona,-1
+Sociedad,Levante,0
+Sp Gijon,Ath Bilbao,-1
+Valencia,Ath Madrid,-1
+Espanol,Vallecano,1
+Malaga,Sp Gijon,1
+Ath Madrid,La Coruna,1
+Barcelona,Getafe,1
+Celta,Sociedad,1
+Vallecano,Eibar,0
+Ath Bilbao,Betis,1
+Levante,Valencia,1
+Sevilla,Villarreal,1
+Las Palmas,Real Madrid,-1
+Granada,Espanol,0
+Getafe,Eibar,0
+Betis,Malaga,-1
+Granada,Vallecano,0
+La Coruna,Levante,1
+Sociedad,Las Palmas,-1
+Sp Gijon,Ath Madrid,1
+Espanol,Ath Bilbao,1
+Real Madrid,Sevilla,1
+Valencia,Celta,-1
+Villarreal,Barcelona,0
+Vallecano,Getafe,1
+Ath Madrid,Betis,1
+Barcelona,Real Madrid,-1
+Celta,La Coruna,0
+Las Palmas,Valencia,1
+Ath Bilbao,Granada,0
+Eibar,Villarreal,-1
+Malaga,Espanol,0
+Sevilla,Sociedad,-1
+Levante,Sp Gijon,0
+Granada,Malaga,0
+Betis,Levante,1
+Espanol,Ath Madrid,-1
+Real Madrid,Eibar,1
+Sociedad,Barcelona,1
+Ath Bilbao,Vallecano,1
+Sp Gijon,Celta,-1
+Valencia,Sevilla,1
+Villarreal,Getafe,1
+La Coruna,Las Palmas,-1
+Levante,Espanol,1
+Celta,Betis,0
+Eibar,Sociedad,1
+Getafe,Real Madrid,-1
+Las Palmas,Sp Gijon,0
+Ath Madrid,Granada,1
+Barcelona,Valencia,-1
+Malaga,Ath Bilbao,-1
+Sevilla,La Coruna,0
+Vallecano,Villarreal,1
+Betis,Las Palmas,1
+Espanol,Celta,0
+Ath Bilbao,Ath Madrid,-1
+La Coruna,Barcelona,-1
+Malaga,Vallecano,0
+Real Madrid,Villarreal,1
+Sp Gijon,Sevilla,1
+Valencia,Eibar,1
+Granada,Levante,1
+Sociedad,Getafe,-1
+Las Palmas,Espanol,1
+Ath Madrid,Malaga,1
+Barcelona,Sp Gijon,1
+Eibar,La Coruna,0
+Vallecano,Real Madrid,-1
+Getafe,Valencia,0
+Levante,Ath Bilbao,0
+Sevilla,Betis,1
+Villarreal,Sociedad,0
+Celta,Granada,1
+Sp Gijon,Eibar,1
+Ath Madrid,Vallecano,1
+Betis,Barcelona,-1
+Granada,Las Palmas,1
+Sociedad,Real Madrid,-1
+Ath Bilbao,Celta,1
+Espanol,Sevilla,1
+La Coruna,Getafe,-1
+Valencia,Villarreal,-1
+Malaga,Levante,1
+Barcelona,Espanol,1
+Celta,Malaga,1
+Eibar,Betis,0
+Getafe,Sp Gijon,0
+Las Palmas,Ath Bilbao,0
+Levante,Ath Madrid,1
+Real Madrid,Valencia,1
+Sevilla,Granada,-1
+Sociedad,Vallecano,1
+Villarreal,La Coruna,-1
+Valencia,Sociedad,-1
+Ath Bilbao,Sevilla,1
+Ath Madrid,Celta,1
+Granada,Barcelona,-1
+La Coruna,Real Madrid,-1
+Betis,Getafe,1
+Espanol,Eibar,1
+Malaga,Las Palmas,1
+Sp Gijon,Villarreal,1
+Vallecano,Levante,1

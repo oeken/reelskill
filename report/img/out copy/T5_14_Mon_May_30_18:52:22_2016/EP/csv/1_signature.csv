@@ -1,0 +1,11 @@
+Date,T5_14_Mon_May_30_18:52:22_2016
+Algorithm,EP
+Dataset,Tennis
+Number of matches,365
+Number of players,182
+Number of teams,182
+Number of iterations,None
+Elapsed time,1
+Variance of proposal,None
+Proposals accepted,None
+Proposals rejected,None

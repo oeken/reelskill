@@ -1,0 +1,101 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Orvil Quigley,Antione Mertz,-1,0.20,0.70,0.10,-1,1
+2,Orvil Quigley,Elbert Mraz,1,0.25,0.65,0.10,-1,0
+3,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+4,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+5,Antione Mertz,Elbert Mraz,-1,0.57,0.33,0.10,1,0
+6,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+7,Antione Mertz,Mr. Brandan Dickinson,-1,0.25,0.65,0.10,-1,1
+8,Elbert Mraz,Noemi Mante,1,0.18,0.72,0.10,-1,0
+9,Elbert Mraz,Mr. Brandan Dickinson,-1,0.19,0.71,0.10,-1,1
+10,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0
+11,Orvil Quigley,Antione Mertz,-1,0.20,0.70,0.10,-1,1
+12,Orvil Quigley,Elbert Mraz,-1,0.25,0.65,0.10,-1,1
+13,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+14,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+15,Antione Mertz,Elbert Mraz,-1,0.57,0.33,0.10,1,0
+16,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+17,Antione Mertz,Mr. Brandan Dickinson,-1,0.25,0.65,0.10,-1,1
+18,Elbert Mraz,Noemi Mante,-1,0.18,0.72,0.10,-1,1
+19,Elbert Mraz,Mr. Brandan Dickinson,-1,0.19,0.71,0.10,-1,1
+20,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0
+21,Orvil Quigley,Antione Mertz,1,0.20,0.70,0.10,-1,0
+22,Orvil Quigley,Elbert Mraz,-1,0.25,0.65,0.10,-1,1
+23,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+24,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+25,Antione Mertz,Elbert Mraz,-1,0.57,0.33,0.10,1,0
+26,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+27,Antione Mertz,Mr. Brandan Dickinson,-1,0.25,0.65,0.10,-1,1
+28,Elbert Mraz,Noemi Mante,1,0.18,0.72,0.10,-1,0
+29,Elbert Mraz,Mr. Brandan Dickinson,1,0.19,0.71,0.10,-1,0
+30,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0
+31,Orvil Quigley,Antione Mertz,1,0.20,0.70,0.10,-1,0
+32,Orvil Quigley,Elbert Mraz,-1,0.25,0.65,0.10,-1,1
+33,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+34,Orvil Quigley,Mr. Brandan Dickinson,1,0.06,0.84,0.10,-1,0
+35,Antione Mertz,Elbert Mraz,1,0.57,0.33,0.10,1,1
+36,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+37,Antione Mertz,Mr. Brandan Dickinson,0,0.25,0.65,0.10,-1,0
+38,Elbert Mraz,Noemi Mante,-1,0.18,0.72,0.10,-1,1
+39,Elbert Mraz,Mr. Brandan Dickinson,-1,0.19,0.71,0.10,-1,1
+40,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0
+41,Orvil Quigley,Antione Mertz,1,0.20,0.70,0.10,-1,0
+42,Orvil Quigley,Elbert Mraz,-1,0.25,0.65,0.10,-1,1
+43,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+44,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+45,Antione Mertz,Elbert Mraz,-1,0.57,0.33,0.10,1,0
+46,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+47,Antione Mertz,Mr. Brandan Dickinson,-1,0.25,0.65,0.10,-1,1
+48,Elbert Mraz,Noemi Mante,-1,0.18,0.72,0.10,-1,1
+49,Elbert Mraz,Mr. Brandan Dickinson,1,0.19,0.71,0.10,-1,0
+50,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0
+51,Orvil Quigley,Antione Mertz,1,0.20,0.70,0.10,-1,0
+52,Orvil Quigley,Elbert Mraz,1,0.25,0.65,0.10,-1,0
+53,Orvil Quigley,Noemi Mante,1,0.06,0.84,0.10,-1,0
+54,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+55,Antione Mertz,Elbert Mraz,-1,0.57,0.33,0.10,1,0
+56,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+57,Antione Mertz,Mr. Brandan Dickinson,1,0.25,0.65,0.10,-1,0
+58,Elbert Mraz,Noemi Mante,1,0.18,0.72,0.10,-1,0
+59,Elbert Mraz,Mr. Brandan Dickinson,0,0.19,0.71,0.10,-1,0
+60,Noemi Mante,Mr. Brandan Dickinson,1,0.51,0.39,0.10,1,1
+61,Orvil Quigley,Antione Mertz,-1,0.20,0.70,0.10,-1,1
+62,Orvil Quigley,Elbert Mraz,-1,0.25,0.65,0.10,-1,1
+63,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+64,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+65,Antione Mertz,Elbert Mraz,-1,0.57,0.33,0.10,1,0
+66,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+67,Antione Mertz,Mr. Brandan Dickinson,-1,0.25,0.65,0.10,-1,1
+68,Elbert Mraz,Noemi Mante,-1,0.18,0.72,0.10,-1,1
+69,Elbert Mraz,Mr. Brandan Dickinson,-1,0.19,0.71,0.10,-1,1
+70,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0
+71,Orvil Quigley,Antione Mertz,-1,0.20,0.70,0.10,-1,1
+72,Orvil Quigley,Elbert Mraz,-1,0.25,0.65,0.10,-1,1
+73,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+74,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+75,Antione Mertz,Elbert Mraz,0,0.57,0.33,0.10,1,0
+76,Antione Mertz,Noemi Mante,1,0.24,0.66,0.10,-1,0
+77,Antione Mertz,Mr. Brandan Dickinson,-1,0.25,0.65,0.10,-1,1
+78,Elbert Mraz,Noemi Mante,1,0.18,0.72,0.10,-1,0
+79,Elbert Mraz,Mr. Brandan Dickinson,-1,0.19,0.71,0.10,-1,1
+80,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0
+81,Orvil Quigley,Antione Mertz,1,0.20,0.70,0.10,-1,0
+82,Orvil Quigley,Elbert Mraz,-1,0.25,0.65,0.10,-1,1
+83,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+84,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+85,Antione Mertz,Elbert Mraz,-1,0.57,0.33,0.10,1,0
+86,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+87,Antione Mertz,Mr. Brandan Dickinson,1,0.25,0.65,0.10,-1,0
+88,Elbert Mraz,Noemi Mante,1,0.18,0.72,0.10,-1,0
+89,Elbert Mraz,Mr. Brandan Dickinson,1,0.19,0.71,0.10,-1,0
+90,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0
+91,Orvil Quigley,Antione Mertz,1,0.20,0.70,0.10,-1,0
+92,Orvil Quigley,Elbert Mraz,1,0.25,0.65,0.10,-1,0
+93,Orvil Quigley,Noemi Mante,-1,0.06,0.84,0.10,-1,1
+94,Orvil Quigley,Mr. Brandan Dickinson,-1,0.06,0.84,0.10,-1,1
+95,Antione Mertz,Elbert Mraz,-1,0.57,0.33,0.10,1,0
+96,Antione Mertz,Noemi Mante,-1,0.24,0.66,0.10,-1,1
+97,Antione Mertz,Mr. Brandan Dickinson,-1,0.25,0.65,0.10,-1,1
+98,Elbert Mraz,Noemi Mante,1,0.18,0.72,0.10,-1,0
+99,Elbert Mraz,Mr. Brandan Dickinson,-1,0.19,0.71,0.10,-1,1
+100,Noemi Mante,Mr. Brandan Dickinson,-1,0.51,0.39,0.10,1,0

@@ -1,0 +1,301 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+2,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+3,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+4,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+5,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+6,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+7,Nannette Kemmer,Payton Doyle,1,0.29,0.71,0.00,-1,0
+8,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+9,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+10,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+11,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+12,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+13,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+14,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+15,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+16,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+17,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+18,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+19,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+20,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+21,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+22,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+23,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+24,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+25,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+26,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+27,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+28,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+29,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+30,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+31,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+32,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+33,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+34,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+35,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+36,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+37,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+38,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+39,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+40,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+41,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+42,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+43,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+44,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+45,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+46,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+47,Nannette Kemmer,Payton Doyle,1,0.29,0.71,0.00,-1,0
+48,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+49,Kinsey Block,Payton Doyle,1,0.22,0.78,0.00,-1,0
+50,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+51,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+52,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+53,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+54,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+55,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+56,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+57,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+58,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+59,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+60,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+61,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+62,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+63,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+64,Horton Russel,Payton Doyle,1,0.24,0.76,0.00,-1,0
+65,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+66,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+67,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+68,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+69,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+70,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+71,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+72,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+73,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+74,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+75,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+76,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+77,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+78,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+79,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+80,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+81,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+82,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+83,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+84,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+85,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+86,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+87,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+88,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+89,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+90,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+91,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+92,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+93,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+94,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+95,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+96,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+97,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+98,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+99,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+100,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+101,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+102,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+103,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+104,Horton Russel,Payton Doyle,1,0.24,0.76,0.00,-1,0
+105,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+106,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+107,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+108,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+109,Kinsey Block,Payton Doyle,1,0.22,0.78,0.00,-1,0
+110,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+111,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+112,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+113,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+114,Horton Russel,Payton Doyle,1,0.24,0.76,0.00,-1,0
+115,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+116,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+117,Nannette Kemmer,Payton Doyle,1,0.29,0.71,0.00,-1,0
+118,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+119,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+120,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+121,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+122,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+123,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+124,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+125,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+126,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+127,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+128,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+129,Kinsey Block,Payton Doyle,1,0.22,0.78,0.00,-1,0
+130,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+131,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+132,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+133,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+134,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+135,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+136,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+137,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+138,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+139,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+140,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+141,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+142,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+143,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+144,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+145,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+146,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+147,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+148,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+149,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+150,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+151,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+152,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+153,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+154,Horton Russel,Payton Doyle,1,0.24,0.76,0.00,-1,0
+155,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+156,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+157,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+158,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+159,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+160,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+161,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+162,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+163,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+164,Horton Russel,Payton Doyle,1,0.24,0.76,0.00,-1,0
+165,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+166,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+167,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+168,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+169,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+170,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+171,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+172,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+173,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+174,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+175,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+176,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+177,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+178,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+179,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+180,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+181,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+182,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+183,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+184,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+185,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+186,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+187,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+188,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+189,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+190,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+191,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+192,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+193,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+194,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+195,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+196,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+197,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+198,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+199,Kinsey Block,Payton Doyle,1,0.22,0.78,0.00,-1,0
+200,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+201,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+202,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+203,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+204,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+205,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+206,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+207,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+208,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+209,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+210,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+211,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+212,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+213,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+214,Horton Russel,Payton Doyle,1,0.24,0.76,0.00,-1,0
+215,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+216,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+217,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+218,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+219,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+220,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+221,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+222,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+223,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+224,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+225,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+226,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+227,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+228,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+229,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+230,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+231,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+232,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+233,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+234,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+235,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+236,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+237,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+238,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+239,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+240,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+241,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+242,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+243,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+244,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+245,Nannette Kemmer,Kinsey Block,-1,0.59,0.41,0.00,1,0
+246,Nannette Kemmer,Mr. Turner West II,-1,0.55,0.45,0.00,1,0
+247,Nannette Kemmer,Payton Doyle,1,0.29,0.71,0.00,-1,0
+248,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+249,Kinsey Block,Payton Doyle,1,0.22,0.78,0.00,-1,0
+250,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+251,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+252,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+253,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+254,Horton Russel,Payton Doyle,1,0.24,0.76,0.00,-1,0
+255,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+256,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+257,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+258,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+259,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+260,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+261,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+262,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+263,Horton Russel,Mr. Turner West II,-1,0.49,0.51,0.00,-1,1
+264,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+265,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+266,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+267,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+268,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+269,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+270,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+271,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+272,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+273,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+274,Horton Russel,Payton Doyle,1,0.24,0.76,0.00,-1,0
+275,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+276,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+277,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+278,Kinsey Block,Mr. Turner West II,1,0.47,0.53,0.00,-1,0
+279,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+280,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1
+281,Horton Russel,Nannette Kemmer,1,0.44,0.56,0.00,-1,0
+282,Horton Russel,Kinsey Block,1,0.53,0.47,0.00,1,1
+283,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+284,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+285,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+286,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+287,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+288,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+289,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+290,Mr. Turner West II,Payton Doyle,1,0.25,0.75,0.00,-1,0
+291,Horton Russel,Nannette Kemmer,-1,0.44,0.56,0.00,-1,1
+292,Horton Russel,Kinsey Block,-1,0.53,0.47,0.00,1,0
+293,Horton Russel,Mr. Turner West II,1,0.49,0.51,0.00,-1,0
+294,Horton Russel,Payton Doyle,-1,0.24,0.76,0.00,-1,1
+295,Nannette Kemmer,Kinsey Block,1,0.59,0.41,0.00,1,1
+296,Nannette Kemmer,Mr. Turner West II,1,0.55,0.45,0.00,1,1
+297,Nannette Kemmer,Payton Doyle,-1,0.29,0.71,0.00,-1,1
+298,Kinsey Block,Mr. Turner West II,-1,0.47,0.53,0.00,-1,1
+299,Kinsey Block,Payton Doyle,-1,0.22,0.78,0.00,-1,1
+300,Mr. Turner West II,Payton Doyle,-1,0.25,0.75,0.00,-1,1

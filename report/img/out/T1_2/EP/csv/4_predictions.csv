@@ -1,0 +1,31 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Clovis Hegmann,Vernell Ebert,-1,0.54,0.36,0.10,1,0
+2,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.42,0.48,0.10,-1,1
+3,Clovis Hegmann,Breanna Abshire,-1,0.15,0.75,0.10,-1,1
+4,Clovis Hegmann,Pierre Mann I,-1,0.07,0.83,0.10,-1,1
+5,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.38,0.52,0.10,-1,1
+6,Vernell Ebert,Breanna Abshire,-1,0.13,0.77,0.10,-1,1
+7,Vernell Ebert,Pierre Mann I,-1,0.06,0.84,0.10,-1,1
+8,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.20,0.70,0.10,-1,1
+9,Miss Sybilla Schumm MD,Pierre Mann I,1,0.10,0.80,0.10,-1,0
+10,Breanna Abshire,Pierre Mann I,-1,0.33,0.57,0.10,-1,1
+11,Clovis Hegmann,Vernell Ebert,-1,0.54,0.36,0.10,1,0
+12,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.42,0.48,0.10,-1,1
+13,Clovis Hegmann,Breanna Abshire,-1,0.15,0.75,0.10,-1,1
+14,Clovis Hegmann,Pierre Mann I,-1,0.07,0.83,0.10,-1,1
+15,Vernell Ebert,Miss Sybilla Schumm MD,0,0.38,0.52,0.10,-1,0
+16,Vernell Ebert,Breanna Abshire,-1,0.13,0.77,0.10,-1,1
+17,Vernell Ebert,Pierre Mann I,-1,0.06,0.84,0.10,-1,1
+18,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.20,0.70,0.10,-1,1
+19,Miss Sybilla Schumm MD,Pierre Mann I,1,0.10,0.80,0.10,-1,0
+20,Breanna Abshire,Pierre Mann I,1,0.33,0.57,0.10,-1,0
+21,Clovis Hegmann,Vernell Ebert,-1,0.54,0.36,0.10,1,0
+22,Clovis Hegmann,Miss Sybilla Schumm MD,-1,0.42,0.48,0.10,-1,1
+23,Clovis Hegmann,Breanna Abshire,-1,0.15,0.75,0.10,-1,1
+24,Clovis Hegmann,Pierre Mann I,-1,0.07,0.83,0.10,-1,1
+25,Vernell Ebert,Miss Sybilla Schumm MD,-1,0.38,0.52,0.10,-1,1
+26,Vernell Ebert,Breanna Abshire,1,0.13,0.77,0.10,-1,0
+27,Vernell Ebert,Pierre Mann I,-1,0.06,0.84,0.10,-1,1
+28,Miss Sybilla Schumm MD,Breanna Abshire,-1,0.20,0.70,0.10,-1,1
+29,Miss Sybilla Schumm MD,Pierre Mann I,-1,0.10,0.80,0.10,-1,1
+30,Breanna Abshire,Pierre Mann I,-1,0.33,0.57,0.10,-1,1

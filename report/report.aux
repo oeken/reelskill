@@ -1,0 +1,140 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{minka2006trueskill}
+\citation{elo1978chess}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction \& Motivation}{3}{section.1}}
+\citation{glickman1999parameter}
+\citation{minka2006trueskilll}
+\@writefile{toc}{\contentsline {section}{\numberline {2}State of the Art}{4}{section.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Elo}{4}{subsection.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Glicko \& TrueSkill}{4}{subsection.2.2}}
+\citation{loeliger2001factor}
+\citation{minka2001ep}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Factor graph representation of \textit  {TrueSkill} model for a particular match where $k = 3$, $A_1 = \{1\}$, $A_2 = \{2,3\}$, $A_3 = \{4\}$, $r = (1,2,2)$ i.e. team 1 won, team 2 and 3 draw.\relax }}{5}{figure.caption.2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{factor_graph}{{1}{5}{Factor graph representation of \textit {TrueSkill} model for a particular match where $k = 3$, $A_1 = \{1\}$, $A_2 = \{2,3\}$, $A_3 = \{4\}$, $r = (1,2,2)$ i.e. team 1 won, team 2 and 3 draw.\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Function $V$ \textit  {i.e. mean update}. x-axis represents the skill difference between winning team and losing team.\relax }}{6}{figure.caption.3}}
+\newlabel{comp_fact_1}{{2}{6}{Function $V$ \textit {i.e. mean update}. x-axis represents the skill difference between winning team and losing team.\relax }{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Function $W$ \textit  {i.e. uncertainty update}. x-axis represents the skill difference between winning team and losing team.\relax }}{6}{figure.caption.4}}
+\newlabel{comp_fact_2}{{3}{6}{Function $W$ \textit {i.e. uncertainty update}. x-axis represents the skill difference between winning team and losing team.\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{6}{section.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Model}{6}{subsection.3.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces An example how matches with more than 2 competitors/teams is collapsed down to it's components.\relax }}{7}{table.caption.5}}
+\newlabel{collapse_1}{{1}{7}{An example how matches with more than 2 competitors/teams is collapsed down to it's components.\relax }{table.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces An example how matches with more than 2 competitors/teams is collapsed down to it's components.\relax }}{7}{table.caption.6}}
+\newlabel{collapse_2}{{2}{7}{An example how matches with more than 2 competitors/teams is collapsed down to it's components.\relax }{table.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Definition of the win/lose/draw model\relax }}{8}{figure.caption.7}}
+\newlabel{model1}{{4}{8}{Definition of the win/lose/draw model\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces $p(r = 0 | w_1, w_2)$ with parameters, $c_1 = 0.33$, $c_2 = 0.05$\relax }}{8}{figure.caption.8}}
+\newlabel{bi_exp}{{5}{8}{$p(r = 0 | w_1, w_2)$ with parameters, $c_1 = 0.33$, $c_2 = 0.05$\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces $\sigma (x, c_3) = \frac  {1}{1+ \qopname  \relax o{exp}(-c_3 x)}$ with parameter, $c_3 = 0.06$. Also when $c_1 = 0$, $p(r = 1 | w_1, w_2)$ collapses down to sigmoid\relax }}{9}{figure.caption.9}}
+\newlabel{sigmo}{{6}{9}{$\sigma (x, c_3) = \frac {1}{1+ \exp (-c_3 x)}$ with parameter, $c_3 = 0.06$. Also when $c_1 = 0$, $p(r = 1 | w_1, w_2)$ collapses down to sigmoid\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces $p(r = 1 | w_1, w_2)$ with parameters, $c_1 = 0.33$, $c_2 = 0.05$, $c_3 = 0.06$.\relax }}{9}{figure.caption.10}}
+\newlabel{sigmo_2}{{7}{9}{$p(r = 1 | w_1, w_2)$ with parameters, $c_1 = 0.33$, $c_2 = 0.05$, $c_3 = 0.06$.\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces An example visual representation of a match with 3 teams each having 2 members. Notice that this match contains more than 2 competitors. See Figure \ref  {baynet_2} for decomposed version.\relax }}{10}{figure.caption.11}}
+\newlabel{baynet_1}{{8}{10}{An example visual representation of a match with 3 teams each having 2 members. Notice that this match contains more than 2 competitors. See Figure \ref {baynet_2} for decomposed version.\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Decomposed version of the Bayesian network shown in Figure \ref  {baynet_1}. Note that we perform decomposition in order to allow simple probability distribution functions for outcomes, i.e. \relax }}{10}{figure.caption.12}}
+\newlabel{baynet_2}{{9}{10}{Decomposed version of the Bayesian network shown in Figure \ref {baynet_1}. Note that we perform decomposition in order to allow simple probability distribution functions for outcomes, i.e. \relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Example network with instanciated variables.\relax }}{10}{figure.caption.13}}
+\newlabel{baynet_3}{{10}{10}{Example network with instanciated variables.\relax }{figure.caption.13}{}}
+\citation{minka2001family}
+\citation{minka2006trueskilll}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Inference}{11}{subsection.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Markov Chain Monte Carlo}{11}{subsubsection.3.2.1}}
+\@writefile{toc}{\contentsline {paragraph}{Metropolis-Hastings Algorithm}{12}{section*.14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Metropolis-Hastings algorithm.\relax }}{12}{figure.caption.15}}
+\newlabel{mh}{{11}{12}{Metropolis-Hastings algorithm.\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {paragraph}{Gibbs Sampler}{12}{section*.16}}
+\citation{cemgil2009notes}
+\citation{cemgil2009notes}
+\citation{loeliger2001factor}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Multinomial resampling. Taken from \cite  {cemgil2009notes}\relax }}{13}{figure.caption.17}}
+\newlabel{multinom}{{12}{13}{Multinomial resampling. Taken from \cite {cemgil2009notes}\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Gibbs sampler\relax }}{13}{figure.caption.18}}
+\newlabel{gibbs}{{13}{13}{Gibbs sampler\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Expectation Propagation}{14}{subsubsection.3.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{Factor Graphs and Belief Propagation}{14}{section*.19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces An example factor graph. $G(x_1, x_2, x_3, x_4) = A(x_1, x_2) B(x_2, x_3, x_4) C(x_4)$\relax }}{14}{figure.caption.20}}
+\newlabel{fg}{{14}{14}{An example factor graph. $G(x_1, x_2, x_3, x_4) = A(x_1, x_2) B(x_2, x_3, x_4) C(x_4)$\relax }{figure.caption.20}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Assumed Density Filtering\relax }}{15}{algocf.1}}
+\newlabel{adf}{{1}{15}{Factor Graphs and Belief Propagation}{algocf.1}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Expectation Propagation\relax }}{15}{algocf.2}}
+\newlabel{ep}{{2}{15}{Factor Graphs and Belief Propagation}{algocf.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{15}{section.4}}
+\@writefile{toc}{\contentsline {paragraph}{Synthetic Data}{15}{section*.21}}
+\@writefile{toc}{\contentsline {paragraph}{Real-World Data}{16}{section*.22}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Form of the ready data (csv)\relax }}{16}{table.caption.23}}
+\newlabel{data_form}{{3}{16}{Form of the ready data (csv)\relax }{table.caption.23}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion \& Discussion}{16}{section.5}}
+\bibdata{refs}
+\bibcite{elo1978chess}{1}
+\bibcite{glickman1999parameter}{2}
+\bibcite{minka2006trueskilll}{3}
+\bibcite{loeliger2001factor}{4}
+\bibcite{minka2001ep}{5}
+\bibcite{minka2001family}{6}
+\bibcite{cemgil2009notes}{7}
+\bibstyle{unsrt}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Future Work}{17}{section.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Tests}{18}{section.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces First 100 samples from Metropolis-Hastings algorithm (above), and Gibbs Sampler (below)\relax }}{18}{figure.caption.25}}
+\newlabel{dma\IeC {\c c}sd}{{15}{18}{First 100 samples from Metropolis-Hastings algorithm (above), and Gibbs Sampler (below)\relax }{figure.caption.25}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces \textbf  {Test 0}: MH. Good Acceptance/Rejection ratio. Space is explored well.\relax }}{19}{table.caption.26}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces \textbf  {Test 0:} Gibbs sampler. Accurate result.\relax }}{20}{table.caption.27}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces \textbf  {Test 0:} EP\relax }}{21}{table.caption.28}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces \textbf  {Test 1.1}: MH. Large number of matches result in accurate predictions.\relax }}{22}{table.caption.29}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces \textbf  {Test 1.1}\relax }}{23}{table.caption.30}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces \textbf  {Test 1.1}\relax }}{24}{table.caption.31}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces \textbf  {Test 1.2}\relax }}{25}{table.caption.32}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces \textbf  {Test 1.2}\relax }}{26}{table.caption.33}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces \textbf  {Test 1.2}\relax }}{27}{table.caption.34}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces \textbf  {Test 2}\relax }}{28}{table.caption.35}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces \textbf  {Test 2}\relax }}{29}{table.caption.36}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces \textbf  {Test 2}\relax }}{30}{table.caption.37}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces \textbf  {Test 3.1}\relax }}{31}{table.caption.38}}
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces \textbf  {Test 3.1}. As described in Section 5. There is no pivoting reel skills (close to 0 or 50) in this setup. Therefore there are uniques solutions. We observe shifted distributions.\relax }}{32}{table.caption.39}}
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces \textbf  {Test 4}\relax }}{33}{table.caption.40}}
+\@writefile{lot}{\contentsline {table}{\numberline {19}{\ignorespaces \textbf  {Test 4}\relax }}{34}{table.caption.41}}
+\@writefile{lot}{\contentsline {table}{\numberline {20}{\ignorespaces \textbf  {Test 5.1}\relax }}{35}{table.caption.42}}
+\@writefile{lot}{\contentsline {table}{\numberline {21}{\ignorespaces \textbf  {Test 5.1}\relax }}{36}{table.caption.43}}
+\@writefile{lot}{\contentsline {table}{\numberline {22}{\ignorespaces \textbf  {Test 5.1}\relax }}{37}{table.caption.44}}
+\@writefile{lot}{\contentsline {table}{\numberline {23}{\ignorespaces \textbf  {Test 5.2}\relax }}{38}{table.caption.45}}
+\@writefile{lot}{\contentsline {table}{\numberline {24}{\ignorespaces \textbf  {Test 5.2}\relax }}{39}{table.caption.46}}
+\@writefile{lot}{\contentsline {table}{\numberline {25}{\ignorespaces \textbf  {Test 5.2}\relax }}{40}{table.caption.47}}
+\@writefile{lot}{\contentsline {table}{\numberline {26}{\ignorespaces \textbf  {Test 6.1}\relax }}{41}{table.caption.48}}
+\@writefile{lot}{\contentsline {table}{\numberline {27}{\ignorespaces \textbf  {Test 6.1}\relax }}{42}{table.caption.49}}
+\@writefile{lot}{\contentsline {table}{\numberline {28}{\ignorespaces \textbf  {Test 6.1}\relax }}{43}{table.caption.50}}
+\@writefile{lot}{\contentsline {table}{\numberline {29}{\ignorespaces \textbf  {Test 6.2}\relax }}{44}{table.caption.51}}
+\@writefile{lot}{\contentsline {table}{\numberline {30}{\ignorespaces \textbf  {Test 6.2}\relax }}{45}{table.caption.52}}
+\@writefile{lot}{\contentsline {table}{\numberline {31}{\ignorespaces \textbf  {Test 6.2}\relax }}{46}{table.caption.53}}
+\@writefile{lot}{\contentsline {table}{\numberline {32}{\ignorespaces \textbf  {Test 6.3}\relax }}{47}{table.caption.54}}
+\@writefile{lot}{\contentsline {table}{\numberline {33}{\ignorespaces \textbf  {Test 6.3}\relax }}{48}{table.caption.55}}
+\@writefile{lot}{\contentsline {table}{\numberline {34}{\ignorespaces \textbf  {Test 6.3}\relax }}{49}{table.caption.56}}
+\@writefile{lot}{\contentsline {table}{\numberline {35}{\ignorespaces \textbf  {Test 6.4}\relax }}{50}{table.caption.57}}
+\@writefile{lot}{\contentsline {table}{\numberline {36}{\ignorespaces \textbf  {Test 6.4}\relax }}{51}{table.caption.58}}
+\@writefile{lot}{\contentsline {table}{\numberline {37}{\ignorespaces \textbf  {Test 6.4}\relax }}{52}{table.caption.59}}
+\@writefile{lot}{\contentsline {table}{\numberline {38}{\ignorespaces \textbf  {Test 6.5}\relax }}{53}{table.caption.60}}
+\@writefile{lot}{\contentsline {table}{\numberline {39}{\ignorespaces \textbf  {Test 6.5}\relax }}{54}{table.caption.61}}
+\@writefile{lot}{\contentsline {table}{\numberline {40}{\ignorespaces \textbf  {Test 6.5}\relax }}{55}{table.caption.62}}
+\@writefile{lot}{\contentsline {table}{\numberline {41}{\ignorespaces \textbf  {Test 7.1}\relax }}{56}{table.caption.63}}
+\@writefile{lot}{\contentsline {table}{\numberline {42}{\ignorespaces \textbf  {Test 7.1}\relax }}{57}{table.caption.64}}
+\@writefile{lot}{\contentsline {table}{\numberline {43}{\ignorespaces \textbf  {Test 7.1}\relax }}{58}{table.caption.65}}
+\@writefile{lot}{\contentsline {table}{\numberline {44}{\ignorespaces \textbf  {Test 7.2}\relax }}{59}{table.caption.66}}
+\@writefile{lot}{\contentsline {table}{\numberline {45}{\ignorespaces \textbf  {Test 7.2}\relax }}{60}{table.caption.67}}
+\@writefile{lot}{\contentsline {table}{\numberline {46}{\ignorespaces \textbf  {Test 7.2}\relax }}{61}{table.caption.68}}

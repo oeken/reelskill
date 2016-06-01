@@ -1,0 +1,11 @@
+Date,T1_3_Mon_May_30_18:32:40_2016
+Algorithm,Gibbs
+Dataset,Synthetic
+Number of matches,30
+Number of players,5
+Number of teams,5
+Number of iterations,4000
+Elapsed time,13
+Variance of proposal,None
+Proposals accepted,None
+Proposals rejected,None

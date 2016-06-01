@@ -1,0 +1,31 @@
+#,P1,P2,Result,P(Win P1),P(Loss P1),P(Draw),Prediction,Correct
+1,Delwin Botsford,Lorenzo Casper,1,0.56,0.44,0.00,1,1
+2,Delwin Botsford,Vergil Jacobs,-1,0.70,0.30,0.00,1,0
+3,Delwin Botsford,Josiephine Heaney,-1,0.45,0.55,0.00,-1,1
+4,Delwin Botsford,Mr. Khalid Friesen Sr.,1,0.63,0.37,0.00,1,1
+5,Lorenzo Casper,Vergil Jacobs,1,0.65,0.35,0.00,1,1
+6,Lorenzo Casper,Josiephine Heaney,-1,0.39,0.61,0.00,-1,1
+7,Lorenzo Casper,Mr. Khalid Friesen Sr.,1,0.58,0.42,0.00,1,1
+8,Vergil Jacobs,Josiephine Heaney,-1,0.26,0.74,0.00,-1,1
+9,Vergil Jacobs,Mr. Khalid Friesen Sr.,-1,0.42,0.58,0.00,-1,1
+10,Josiephine Heaney,Mr. Khalid Friesen Sr.,1,0.68,0.32,0.00,1,1
+11,Delwin Botsford,Lorenzo Casper,1,0.56,0.44,0.00,1,1
+12,Delwin Botsford,Vergil Jacobs,1,0.70,0.30,0.00,1,1
+13,Delwin Botsford,Josiephine Heaney,-1,0.45,0.55,0.00,-1,1
+14,Delwin Botsford,Mr. Khalid Friesen Sr.,-1,0.63,0.37,0.00,1,0
+15,Lorenzo Casper,Vergil Jacobs,1,0.65,0.35,0.00,1,1
+16,Lorenzo Casper,Josiephine Heaney,-1,0.39,0.61,0.00,-1,1
+17,Lorenzo Casper,Mr. Khalid Friesen Sr.,1,0.58,0.42,0.00,1,1
+18,Vergil Jacobs,Josiephine Heaney,-1,0.26,0.74,0.00,-1,1
+19,Vergil Jacobs,Mr. Khalid Friesen Sr.,1,0.42,0.58,0.00,-1,0
+20,Josiephine Heaney,Mr. Khalid Friesen Sr.,1,0.68,0.32,0.00,1,1
+21,Delwin Botsford,Lorenzo Casper,1,0.56,0.44,0.00,1,1
+22,Delwin Botsford,Vergil Jacobs,1,0.70,0.30,0.00,1,1
+23,Delwin Botsford,Josiephine Heaney,-1,0.45,0.55,0.00,-1,1
+24,Delwin Botsford,Mr. Khalid Friesen Sr.,-1,0.63,0.37,0.00,1,0
+25,Lorenzo Casper,Vergil Jacobs,1,0.65,0.35,0.00,1,1
+26,Lorenzo Casper,Josiephine Heaney,1,0.39,0.61,0.00,-1,0
+27,Lorenzo Casper,Mr. Khalid Friesen Sr.,-1,0.58,0.42,0.00,1,0
+28,Vergil Jacobs,Josiephine Heaney,-1,0.26,0.74,0.00,-1,1
+29,Vergil Jacobs,Mr. Khalid Friesen Sr.,-1,0.42,0.58,0.00,-1,1
+30,Josiephine Heaney,Mr. Khalid Friesen Sr.,-1,0.68,0.32,0.00,1,0
